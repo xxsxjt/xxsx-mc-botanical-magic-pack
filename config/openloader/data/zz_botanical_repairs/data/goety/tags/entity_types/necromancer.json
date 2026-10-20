@@ -1,0 +1,13 @@
+{
+  "replace": true,
+  "values": [
+    "goety:necromancer",
+    "goety:cairn_necromancer",
+    "goety:mossy_necromancer",
+    "goety:cairn_necromancer_servant",
+    "goety:necromancer_servant",
+    "goety:mossy_necromancer_servant",
+    "irons_spellbooks:necromancer",
+    "goetyiron:ironspell_necromancer_servant"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "technomancy_path"
+	group: "4953534641544853"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:redstone"
+	id: "48267B4EBDF1F6FD"
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "7E923DC8A40D5DA3"
+			invisible: true
+			rewards: [{
+				command: "/spellranks set @p technomancy 4"
+				elevate_perms: true
+				icon: "minecraft:redstone"
+				id: "412B4970405621BD"
+				silent: true
+				title: "机术之道四阶"
+				type: "command"
+			}]
+			subtitle: "欢迎来到机术之道"
+			tasks: [{
+				icon: "minecraft:redstone"
+				id: "2E253251B57912D0"
+				title: "机术"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E923DC8A40D5DA3"]
+			id: "00005445434D5234"
+			rewards: [{
+				command: "/spellranks set @p technomancy 3"
+				elevate_perms: true
+				icon: "minecraft:redstone"
+				id: "143B068480F6A06E"
+				silent: true
+				title: "机术之道三阶"
+				type: "command"
+			}]
+			subtitle: "机术之道精通四阶"
+			title: "精通四阶"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5234"]
+			id: "00005445434D5233"
+			rewards: [{
+				command: "/spellranks set @p technomancy 2"
+				elevate_perms: true
+				icon: "minecraft:redstone"
+				id: "36BDE01A819AAEB1"
+				silent: true
+				title: "机术之道二阶"
+				type: "command"
+			}]
+			subtitle: "机术之道精通三阶"
+			title: "精通三阶"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5233"]
+			id: "00005445434D5232"
+			rewards: [{
+				command: "/spellranks set @p technomancy 1"
+				elevate_perms: true
+				icon: "minecraft:redstone"
+				id: "0F032FDEB48C5828"
+				silent: true
+				title: "机术之道一阶"
+				type: "command"
+			}]
+			subtitle: "机术之道精通二阶"
+			title: "精通二阶"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5232"]
+			id: "00005445434D5231"
+			rewards: [{
+				command: "/spellranks set @p technomancy 0"
+				elevate_perms: true
+				icon: "minecraft:redstone"
+				id: "67E45BD8A1DE0146"
+				silent: true
+				title: "机术之道零阶"
+				type: "command"
+			}]
+			subtitle: "机术之道精通一阶"
+			title: "精通一阶"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00005445434D5231"]
+			id: "00005445434D5230"
+			subtitle: "机术之道精通零阶"
+			title: "精通零阶"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "机术之道"
+}

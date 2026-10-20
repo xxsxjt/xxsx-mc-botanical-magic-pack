@@ -1,0 +1,421 @@
+{
+  "root_strength": {
+    "title": "力量之源",
+    "description": "+5% 攻击伤害 / +8% 生命值",
+    "icon": { "type": "item", "data": { "item": "minecraft:netherite_sword" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_damage", "value": 0.05, "operation": "multiply_total" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.max_health", "value": 0.08, "operation": "multiply_total" } }
+    ]
+  },
+  "root_vitality": {
+    "title": "生命之源",
+    "description": "+10% 生命值",
+    "icon": { "type": "item", "data": { "item": "minecraft:golden_apple" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.max_health", "value": 0.10, "operation": "multiply_total" } }
+    ]
+  },
+
+  "attack_1": {
+    "title": "锐锋 I",
+    "description": "+5% 攻击伤害",
+    "icon": { "type": "item", "data": { "item": "minecraft:iron_sword" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_damage", "value": 0.05, "operation": "multiply_total" } }
+    ]
+  },
+  "attack_2": {
+    "title": "锐锋 II",
+    "description": "+8% 攻击伤害",
+    "icon": { "type": "item", "data": { "item": "minecraft:diamond_sword" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_damage", "value": 0.08, "operation": "multiply_total" } }
+    ]
+  },
+  "attack_3": {
+    "title": "锐锋 III",
+    "description": "+12% 攻击伤害",
+    "icon": { "type": "item", "data": { "item": "cataclysm:ignitium_ingot" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_damage", "value": 0.12, "operation": "multiply_total" } }
+    ]
+  },
+  "attack_4": {
+    "title": "锐锋 IV",
+    "description": "+16% 攻击伤害",
+    "icon": { "type": "item", "data": { "item": "cataclysm:ignitium_ingot" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_damage", "value": 0.16, "operation": "multiply_total" } }
+    ]
+  },
+  "attack_5": {
+    "title": "锐锋 V",
+    "description": "+22% 攻击伤害",
+    "icon": { "type": "item", "data": { "item": "avaritia:infinity_ingot" } },
+    "frame": { "type": "advancement", "data": { "frame": "challenge" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_damage", "value": 0.22, "operation": "multiply_total" } }
+    ]
+  },
+
+  "melee_dmg_1": {
+    "title": "近战精通 I",
+    "description": "+8% 近战伤害",
+    "icon": { "type": "item", "data": { "item": "minecraft:diamond_axe" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.melee_damage", "value": 0.08, "operation": "multiply_total" } }
+    ]
+  },
+  "melee_dmg_2": {
+    "title": "近战精通 II",
+    "description": "+14% 近战伤害",
+    "icon": { "type": "item", "data": { "item": "minecraft:netherite_axe" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.melee_damage", "value": 0.14, "operation": "multiply_total" } }
+    ]
+  },
+  "melee_dmg_3": {
+    "title": "近战精通 III",
+    "description": "+22% 近战伤害",
+    "icon": { "type": "item", "data": { "item": "cataclysm:monstrous_horn" } },
+    "frame": { "type": "advancement", "data": { "frame": "challenge" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.melee_damage", "value": 0.22, "operation": "multiply_total" } }
+    ]
+  },
+
+  "ranged_dmg_1": {
+    "title": "射手之道 I",
+    "description": "+8% 远程伤害",
+    "icon": { "type": "item", "data": { "item": "minecraft:bow" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.ranged_damage", "value": 0.08, "operation": "multiply_total" } }
+    ]
+  },
+  "bow_speed_1": {
+    "title": "速射",
+    "description": "+15% 箭矢速度",
+    "icon": { "type": "item", "data": { "item": "minecraft:arrow" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:bow_projectile_speed", "value": 0.15, "operation": "addition" } }
+    ]
+  },
+
+  "sword_dmg_1": {
+    "title": "剑术精修 I",
+    "description": "+8% 剑伤害",
+    "icon": { "type": "item", "data": { "item": "minecraft:iron_sword" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sword_damage", "value": 0.08, "operation": "multiply_total" } }
+    ]
+  },
+  "sword_dmg_2": {
+    "title": "剑术精修 II",
+    "description": "+14% 剑伤害",
+    "icon": { "type": "item", "data": { "item": "botania:terra_sword" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:sword_damage", "value": 0.14, "operation": "multiply_total" } }
+    ]
+  },
+  "crit_boost": {
+    "title": "暴君之眼",
+    "description": "+25% 暴击伤害 / +1 护甲穿透",
+    "icon": { "type": "item", "data": { "item": "minecraft:dragon_head" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:melee_resistance_shred", "value": 25, "operation": "addition" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:armor_shred", "value": 1, "operation": "addition" } }
+    ]
+  },
+
+  "health_1": {
+    "title": "坚韧体魄 I",
+    "description": "+8% 生命值",
+    "icon": { "type": "item", "data": { "item": "minecraft:enchanted_golden_apple" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.max_health", "value": 0.08, "operation": "multiply_total" } }
+    ]
+  },
+  "health_2": {
+    "title": "坚韧体魄 II",
+    "description": "+14% 生命值",
+    "icon": { "type": "item", "data": { "item": "minecraft:totem_of_undying" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.max_health", "value": 0.14, "operation": "multiply_total" } }
+    ]
+  },
+  "health_3": {
+    "title": "坚韧体魄 III",
+    "description": "+22% 生命值",
+    "icon": { "type": "item", "data": { "item": "cataclysm:lava_power_cell" } },
+    "frame": { "type": "advancement", "data": { "frame": "challenge" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.max_health", "value": 0.22, "operation": "multiply_total" } }
+    ]
+  },
+
+  "armor_1": {
+    "title": "钢铁之躯 I",
+    "description": "+10% 护甲值",
+    "icon": { "type": "item", "data": { "item": "minecraft:diamond_chestplate" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.10, "operation": "multiply_total" } }
+    ]
+  },
+  "armor_2": {
+    "title": "钢铁之躯 II",
+    "description": "+15% 护甲值 / +10% 盔甲韧性",
+    "icon": { "type": "item", "data": { "item": "minecraft:netherite_chestplate" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor", "value": 0.15, "operation": "multiply_total" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor_toughness", "value": 0.10, "operation": "multiply_total" } }
+    ]
+  },
+  "toughness_1": {
+    "title": "不屈之魂",
+    "description": "+20% 盔甲韧性 / +20% 击退抗性",
+    "icon": { "type": "item", "data": { "item": "minecraft:obsidian" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.armor_toughness", "value": 0.20, "operation": "multiply_total" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.knockback_resistance", "value": 0.20, "operation": "multiply_total" } }
+    ]
+  },
+
+  "armor_shred_1": {
+    "title": "破甲 I",
+    "description": "+1 护甲穿透",
+    "icon": { "type": "item", "data": { "item": "minecraft:diamond_pickaxe" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:armor_shred", "value": 1, "operation": "addition" } }
+    ]
+  },
+  "armor_shred_2": {
+    "title": "破甲 II",
+    "description": "+2 护甲穿透",
+    "icon": { "type": "item", "data": { "item": "minecraft:netherite_pickaxe" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:armor_shred", "value": 2, "operation": "addition" } }
+    ]
+  },
+  "armor_pierce_1": {
+    "title": "穿甲 I",
+    "description": "+1 抗性穿透",
+    "icon": { "type": "item", "data": { "item": "minecraft:arrow" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:resistance_shred", "value": 1, "operation": "addition" } }
+    ]
+  },
+  "armor_pierce_2": {
+    "title": "穿甲 II",
+    "description": "+2 抗性穿透",
+    "icon": { "type": "item", "data": { "item": "cataclysm:monstrous_horn" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:resistance_shred", "value": 2, "operation": "addition" } }
+    ]
+  },
+
+  "life_steal_1": {
+    "title": "嗜血 I",
+    "description": "+0.5 生命偷取",
+    "icon": { "type": "item", "data": { "item": "bloodmagic:weakbloodorb" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:life_steal", "value": 0.5, "operation": "addition" } }
+    ]
+  },
+  "life_steal_2": {
+    "title": "嗜血 II",
+    "description": "+1 生命偷取",
+    "icon": { "type": "item", "data": { "item": "bloodmagic:apprenticebloodorb" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:life_steal", "value": 1, "operation": "addition" } }
+    ]
+  },
+  "life_steal_3": {
+    "title": "嗜血 III",
+    "description": "+2 生命偷取",
+    "icon": { "type": "item", "data": { "item": "bloodmagic:magicianbloodorb" } },
+    "frame": { "type": "advancement", "data": { "frame": "challenge" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:life_steal", "value": 2, "operation": "addition" } }
+    ]
+  },
+
+  "natural_regen_1": {
+    "title": "自然恢复 I",
+    "description": "+25% 生命恢复",
+    "icon": { "type": "item", "data": { "item": "minecraft:glistering_melon_slice" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.natural_regeneration", "value": 0.25, "operation": "multiply_total" } }
+    ]
+  },
+  "natural_regen_2": {
+    "title": "自然恢复 II",
+    "description": "+40% 生命恢复",
+    "icon": { "type": "item", "data": { "item": "irons_spellbooks:holy_upgrade_orb" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.natural_regeneration", "value": 0.40, "operation": "multiply_total" } }
+    ]
+  },
+
+  "stamina_1": {
+    "title": "耐力训练 I",
+    "description": "+1 耐力 / +5% 移速",
+    "icon": { "type": "item", "data": { "item": "minecraft:rabbit_foot" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.stamina", "value": 1, "operation": "addition" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.movement_speed", "value": 0.05, "operation": "multiply_total" } }
+    ]
+  },
+  "stamina_2": {
+    "title": "耐力训练 II",
+    "description": "+2 耐力 / +10% 移速",
+    "icon": { "type": "item", "data": { "item": "mowziesmobs:sol_visage" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.stamina", "value": 2, "operation": "addition" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.movement_speed", "value": 0.10, "operation": "multiply_total" } }
+    ]
+  },
+
+  "dmg_reflect_1": {
+    "title": "荆棘之握 I",
+    "description": "+10% 伤害反射",
+    "icon": { "type": "item", "data": { "item": "minecraft:cactus" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.damage_reflection", "value": 0.10, "operation": "addition" } }
+    ]
+  },
+  "dmg_reflect_2": {
+    "title": "荆棘之握 II",
+    "description": "+20% 伤害反射",
+    "icon": { "type": "item", "data": { "item": "goety:ectoplasm" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.damage_reflection", "value": 0.20, "operation": "addition" } }
+    ]
+  },
+
+  "magic_resist_1": {
+    "title": "魔法抗性 I",
+    "description": "+5% 法术抗性",
+    "icon": { "type": "item", "data": { "item": "irons_spellbooks:heavy_chain_necklace" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.magic_resistance", "value": 0.05, "operation": "addition" } }
+    ]
+  },
+  "magic_resist_2": {
+    "title": "魔法抗性 II",
+    "description": "+10% 法术抗性",
+    "icon": { "type": "item", "data": { "item": "irons_spellbooks:protection_upgrade_orb" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.magic_resistance", "value": 0.10, "operation": "addition" } }
+    ]
+  },
+
+  "speed_1": {
+    "title": "猎手步伐 I",
+    "description": "+10% 移动速度",
+    "icon": { "type": "item", "data": { "item": "minecraft:leather_boots" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.movement_speed", "value": 0.10, "operation": "multiply_total" } }
+    ]
+  },
+  "speed_2": {
+    "title": "猎手步伐 II",
+    "description": "+15% 移动速度",
+    "icon": { "type": "item", "data": { "item": "cataclysm:gauntlet_of_guard" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.movement_speed", "value": 0.15, "operation": "multiply_total" } }
+    ]
+  },
+
+  "attack_spd_1": {
+    "title": "疾风击 I",
+    "description": "+15% 攻击速度",
+    "icon": { "type": "item", "data": { "item": "minecraft:golden_sword" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_speed", "value": 0.15, "operation": "multiply_total" } }
+    ]
+  },
+  "attack_spd_2": {
+    "title": "疾风击 II",
+    "description": "+25% 攻击速度",
+    "icon": { "type": "item", "data": { "item": "cataclysm:gauntlet_of_guard" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_speed", "value": 0.25, "operation": "multiply_total" } }
+    ]
+  },
+
+  "dodge_1": {
+    "title": "闪避本能",
+    "description": "+1 耐力 — 身法灵动",
+    "icon": { "type": "item", "data": { "item": "minecraft:feather" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.stamina", "value": 1, "operation": "addition" } }
+    ]
+  },
+
+  "knockback_1": {
+    "title": "粉碎击 I",
+    "description": "+2 击退距离",
+    "icon": { "type": "item", "data": { "item": "minecraft:piston" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.knockback", "value": 2, "operation": "addition" } }
+    ]
+  },
+  "knockback_2": {
+    "title": "粉碎击 II",
+    "description": "+4 击退距离",
+    "icon": { "type": "item", "data": { "item": "minecraft:sticky_piston" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.knockback", "value": 4, "operation": "addition" } }
+    ]
+  },
+
+  "luck_1": {
+    "title": "掠夺者本能",
+    "description": "+2 幸运",
+    "icon": { "type": "item", "data": { "item": "minecraft:emerald" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.luck", "value": 2, "operation": "addition" } }
+    ]
+  },
+  "luck_2": {
+    "title": "命运眷顾",
+    "description": "+3 幸运",
+    "icon": { "type": "item", "data": { "item": "minecraft:emerald_block" } },
+    "frame": { "type": "advancement", "data": { "frame": "goal" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.luck", "value": 3, "operation": "addition" } }
+    ]
+  },
+
+  "doom_master": {
+    "title": "终焉之主",
+    "description": "+30% 攻击 / +25% 生命 / +20% 近战 / +5 幸运 / +2 生命偷取",
+    "icon": { "type": "item", "data": { "item": "cataclysm:monstrous_horn" } },
+    "frame": { "type": "advancement", "data": { "frame": "challenge" } },
+    "rewards": [
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.attack_damage", "value": 0.30, "operation": "multiply_total" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.max_health", "value": 0.25, "operation": "multiply_total" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:player.melee_damage", "value": 0.20, "operation": "multiply_total" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "minecraft:generic.luck", "value": 5, "operation": "addition" } },
+      { "type": "puffish_skills:attribute", "data": { "attribute": "puffish_attributes:life_steal", "value": 2, "operation": "addition" } }
+    ]
+  }
+}

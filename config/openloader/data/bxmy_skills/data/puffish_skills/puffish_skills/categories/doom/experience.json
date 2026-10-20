@@ -1,0 +1,25 @@
+{
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "1"
+    }
+  },
+  "level_limit": 60,
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "max_hp": {
+            "operations": [
+              { "type": "get_killed_living_entity" },
+              { "type": "get_max_health" }
+            ]
+          }
+        },
+        "experience": "0"
+      }
+    }
+  ]
+}

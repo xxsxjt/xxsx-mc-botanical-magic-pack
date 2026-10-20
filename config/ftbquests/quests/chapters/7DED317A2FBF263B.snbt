@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7DED317A2FBF263B"
+	group: ""
+	id: "7DED317A2FBF263B"
+	order_index: 0
+	quest_links: [{
+		id: "5C45E1897CF49005"
+		linked_quest: "55F55229002B152E"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [{
+		description: [
+			"&e设计理念主要是多游玩各种模组的各个仪式和各种合成方式，合成配方基本上只加不减。"
+			""
+			"可能比较繁琐，但是不会卡你原版基础材料的获取，反而有大量更好的获取方式。"
+			"&3也做纯粹冒险打怪、打boss，就能用掉落物合成各种材料的路径。"
+			""
+			"&a然后如名字所示，以植物魔法为核心，主要是大量魔力池的物品转换和便携获取。"
+			""
+			"战斗上是法术书、拔刀剑"
+			"以及比较高兼容的tetra。"
+			""
+			"&6同时也有很多的维度探索和各种boss。"
+		]
+		id: "192ADE0787F682A8"
+		rewards: [{
+			id: "32483C1593A55954"
+			item: {
+				Count: 1
+				id: "enigmaticlegacy:mining_charm"
+				tag: { }
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "719B0AB68A305552"
+			title: "一些想法"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -2.0d
+	}]
+	title: "介绍"
+}

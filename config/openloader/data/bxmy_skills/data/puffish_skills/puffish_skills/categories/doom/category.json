@@ -1,0 +1,10 @@
+{
+  "unlocked_by_default": true,
+  "title": "终焉",
+  "description": "击杀Boss获取经验 — 每击杀一个Boss +1级 = +1技能点",
+  "extra_description": "共49个技能节点 · 57个Boss · 最终上限60级",
+  "icon": { "type": "item", "data": { "item": "minecraft:wither_skeleton_skull" } },
+  "background": "textures/gui/advancements/backgrounds/stone.png",
+  "starting_points": 0,
+  "spent_points_limit": 55
+}

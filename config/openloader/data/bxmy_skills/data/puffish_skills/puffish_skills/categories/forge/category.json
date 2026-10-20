@@ -1,0 +1,13 @@
+{
+  "unlocked_by_default": true,
+  "title": "锻造",
+  "description": "通过合成和附魔提升技艺",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/stone.png",
+  "starting_points": 0
+}

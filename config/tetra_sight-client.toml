@@ -1,0 +1,5 @@
+#Tooltip color (HEX格式或Minecraft颜色名称，如#FF00FF或green)/n(HEX format or Minecraft color names such as #FF00FF or green)
+tooltipColor = "green"
+#提示文本格式，使用%s作为类别占位符/nPrompt text formatting, using %s as the category placeholder
+tooltipFormat = "As %s for Tetra"
+

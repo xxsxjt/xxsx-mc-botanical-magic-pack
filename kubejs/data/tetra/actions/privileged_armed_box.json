@@ -1,0 +1,12 @@
+[
+    {
+        "key": "open_privileged_armed_box",
+        "requirement": {
+            "items": [ "kubejs:privileged_armed_box" ]
+        },
+        "requiredTools": {
+            "hammer_dig": "minecraft:diamond"
+        },
+        "lootTable": "tetra:actions/privileged_armed_box"
+    }
+]

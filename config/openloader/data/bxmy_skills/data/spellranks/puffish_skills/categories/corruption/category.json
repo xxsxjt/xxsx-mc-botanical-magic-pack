@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": false,
+  "title": "腐化",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "traveloptics:archive_of_abyssal_secrets"
+    }
+  },
+  "background": "spellranks:textures/gui/advancements/backgrounds/corruption.png"
+}

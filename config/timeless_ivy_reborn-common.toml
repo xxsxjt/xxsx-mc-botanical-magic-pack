@@ -1,0 +1,17 @@
+
+#Timeless Ivy settings
+[common]
+	#Set the Mana cost per point of durability.(default: 200)
+	#Range: > 0
+	mana_cost_per_damage = 200
+	#Set the experience cost for attaching Timeless Ivy to an item.(default: 10)
+	#Range: > 0
+	timeless_ivy_exp_cost = 10
+	#Set whether to attempt full durability repair each time.(default: true)
+	try_repair_to_full = true
+	#Set whether to only attempt to repair equipped items. (Default: true)
+	only_repair_equipments = false
+	#Set the number of ticks between repair attempts. (Default: 1)
+	#Range: > 1
+	repair_tick = 1
+

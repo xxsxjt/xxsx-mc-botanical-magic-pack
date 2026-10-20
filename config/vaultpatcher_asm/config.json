@@ -1,0 +1,14 @@
+{
+  "modules": [],
+  "default_language": "en_us",
+  "class_patch": false,
+  "load_all_modules": false,
+  "debug_mode": {
+    "is_enable": false,
+    "output_mode": 0,
+    "output_node_debug": false,
+    "pairs_hide_limit": 7,
+    "export_class": false,
+    "use_cache": true
+  }
+}

@@ -1,0 +1,1665 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "boss_codex"
+	group: "02425CA86B834E06"
+	icon: "minecraft:wither_skeleton_skull"
+	id: "54E246EEB62C9319"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7这一页收录的是所有可以挑战的 Boss。",
+				"&7每一层的 Boss 都要从上一层「毕业」之后再去，",
+				"&7否则用前期装备硬闯很容易被秒。",
+				"",
+				"&eBoss 掉落物&r 是终局链条的材料来源——",
+				"&7别把它们只当收藏品，拿去 &5虚空终局&r 章节看看能换什么。"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "7A3F000000000000"
+			tasks: [{
+				id: "0529ED2896C194BF"
+				title: "开始挑战"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["7A3F000000000000"]
+		description: ["击败远古守卫者"]
+			icon: "minecraft:prismarine_shard"
+			id: "37070EFF7DBBC7E9"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "04CE99E6BC00D903"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "03631110CE8D7EBF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "远古守卫者"
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["37070EFF7DBBC7E9"]
+		description: ["击败米诺菇"]
+			icon: "twilightforest:meef_stroganoff"
+			id: "49FE1EE987477900"
+			rewards: [
+				{
+					command: "/puffish_skills experience add @p doom 1"
+					elevate_perms: true
+					id: "1AE4B03BDAFC3EA0"
+					title: "终焉等级+1"
+					type: "command"
+				}
+				{
+					count: 2
+					id: "2C2544C5B93FC4A3"
+					item: "twilightforest:meef_stroganoff"
+					type: "item"
+				}
+				{
+					id: "06B340CC91CBC879"
+					item: {
+						Count: 1
+						id: "twilightforest:diamond_minotaur_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "5D88CE27ABE53D1D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "米诺菇"
+			x: 1.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["49FE1EE987477900"]
+		description: ["击败雪怪首领"]
+			icon: "twilightforest:alpha_yeti_fur"
+			id: "7839F3D95866EBBF"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "28EBABBC8D985784"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "25318198382F9613"
+				type: "kill"
+				value: 1L
+			}]
+			title: "雪怪首领"
+			x: 3.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["7839F3D95866EBBF"]
+		description: ["击败铁锻骑士"]
+			icon: "mowziesmobs:wrought_axe"
+			id: "7EF4E04C52CCCD8C"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "607D4AB248328596"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "1ED71B612C9C5CB7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "铁锻骑士"
+			x: 4.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["7EF4E04C52CCCD8C"]
+		description: ["击败遗忘守卫者"]
+			icon: "undergarden:forgotten_nugget"
+			id: "6F7E4ED53FEB88CD"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "753AE0606CF21445"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "3AAE78BFA069C72D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "遗忘守卫者"
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["6F7E4ED53FEB88CD"]
+		description: ["击败燃烧亡魂"]
+			icon: "cataclysm:burning_ashes"
+			id: "7EFCF5A0C061D515"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "5D690CB624F5B760"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "1B281E0285EB75F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "燃烧亡魂"
+			x: 7.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["7EFCF5A0C061D515"]
+		description: ["击败远古残骸"]
+			icon: "cataclysm:remnant_skull"
+			id: "1BB5BDD6D47AD926"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "50E7CB8E7036F3DA"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "7BB7FE8F9B93E7B6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "远古残骸"
+			x: 9.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["1BB5BDD6D47AD926"]
+		description: ["击败紫水晶蟹"]
+			icon: "cataclysm:amethyst_crab_shell"
+			id: "4DFAB79988C7EE1D"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "4650813D0A2BF362"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "482C49DC8A17119F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "紫水晶蟹"
+			x: 10.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["4DFAB79988C7EE1D"]
+		description: ["击败科博角斗士"]
+			icon: "cataclysm:kobolediator_skull"
+			id: "3F4A374F13584665"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "6329E02BC9691981"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "cataclysm:kobolediator"
+				id: "3A954A72ACA7DEF1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "科博角斗士"
+			x: 12.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["3F4A374F13584665"]
+		description: ["击败瓦吉特"]
+			icon: "cataclysm:ancient_metal_ingot"
+			id: "3352B427D7F664DC"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "4796EFD55F217C2F"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 1 - 入门"
+			tasks: [{
+				entity: "cataclysm:wadjet"
+				id: "1861847532A850D5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "瓦吉特"
+			x: 13.5d
+			y: 0.0d
+		},
+		{
+			dependencies: ["7EFCF5A0C061D515"]
+		description: ["击败娜迦"]
+			icon: "twilightforest:naga_scale"
+			id: "6C995F6BC7E2B17B"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "46E19C7A8EC0207B"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "0F898E8A20900446"
+				type: "kill"
+				value: 1L
+			}]
+			title: "娜迦"
+			x: 0.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["6C995F6BC7E2B17B"]
+		description: ["击败巫妖"]
+			icon: {
+				Count: 1
+				id: "twilightforest:twilight_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5C889900675E4CA0"
+			rewards: [
+				{
+					count: 2
+					id: "36776107CAD77BC0"
+					item: {
+						Count: 1
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B60904AB6AC452C"
+					item: {
+						Count: 1
+						id: "twilightforest:lifedrain_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "7F40A0E2247E5D96"
+				type: "kill"
+				value: 1L
+			}]
+			title: "巫妖"
+			x: 1.5d
+			y: 2.0d
+		},
+		{
+			dependencies: ["5C889900675E4CA0"]
+		description: ["击败幻影骑士"]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "5AA1D5843ED7910F"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "144F42EAA2C04945"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "27B5108380200DF1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "幻影骑士"
+			x: 3.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["5AA1D5843ED7910F"]
+		description: ["击败霜喉"]
+			icon: {
+				Count: 1
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D5E73E2335B0E13"
+			rewards: [
+				{
+					count: 2
+					id: "7B3346AF12B57EA5"
+					item: {
+						Count: 1
+						id: "mowziesmobs:ice_crystal"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "797D836C898860FF"
+					item: "mowziesmobs:music_disc_petiole"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "2AA00F09EE50D0F4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "霜喉"
+			x: 4.5d
+			y: 2.0d
+		},
+		{
+			dependencies: ["5D5E73E2335B0E13"]
+		description: ["击败孵化之母"]
+			icon: "goety:spider_egg"
+			id: "5583EB00A17FFF17"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "1C2A15BE032012C5"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "goety:brood_mother"
+				id: "66ED048C36A6EE07"
+				type: "kill"
+				value: 1L
+			}]
+			title: "孵化之母"
+			x: 6.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["5583EB00A17FFF17"]
+		description: ["击败尸鬼"]
+			icon: "goety:shadow_essence"
+			id: "75FBAF7DFF33C329"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "5C40C214D48A68D4"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "goety:wight"
+				id: "5611B99AC3747354"
+				type: "kill"
+				value: 1L
+			}]
+			title: "尸鬼"
+			x: 7.5d
+			y: 2.0d
+		},
+		{
+			dependencies: ["75FBAF7DFF33C329"]
+		description: ["击败骷髅领主"]
+			icon: "minecraft:skeleton_skull"
+			id: "25312C3823D4EE90"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "37321D146303B80D"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "goety:skull_lord"
+				id: "563F9A008E01BE5F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "骷髅领主"
+			x: 9.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["25312C3823D4EE90"]
+		description: ["击败骨领主"]
+			icon: "goety:treasure_pouch"
+			id: "7D016D873A0E6C72"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "26572DB03D1487D3"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "goety:bone_lord"
+				id: "4E4502D1B95ADC6D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "骨领主"
+			x: 10.5d
+			y: 2.0d
+		},
+		{
+			dependencies: ["7D016D873A0E6C72"]
+		description: ["击败野性Boss"]
+			icon: "ars_nouveau:wilden_horn"
+			id: "33A23B880BCF07B3"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "499DFA8601780FDB"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "5BDE0CC26A20D2CB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "野性Boss"
+			x: 12.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["33A23B880BCF07B3"]
+		description: ["击败末影傀儡"]
+			icon: "cataclysm:void_core"
+			id: "58795A72437060CF"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "380AD48B32C54ABA"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "7EDF990C559B8876"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影傀儡"
+			x: 13.5d
+			y: 2.0d
+		},
+		{
+			dependencies: ["58795A72437060CF"]
+		description: ["击败末影守卫"]
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "44156EAFE4CE8BA3"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "6E7B2F494E048735"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 2 - 进阶"
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "3D4883BA9BDE603F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影守卫"
+			x: 0.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["75FBAF7DFF33C329"]
+		description: ["击败九头蛇"]
+			icon: "twilightforest:fiery_blood"
+			id: "0829842EA87B5B72"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "0EACF928C6364FA2"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "58828BC07BF7107F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "九头蛇"
+			x: 1.5d
+			y: 4.0d
+		},
+		{
+			dependencies: ["0829842EA87B5B72"]
+		description: ["击败暮色恶魂"]
+			icon: "twilightforest:fiery_tears"
+			id: "06A819003E0BC70D"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "7F15D490A9C9519A"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "6B61CF1115D57E6E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "暮色恶魂"
+			x: 3.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["06A819003E0BC70D"]
+		description: ["击败冰雪女王"]
+			icon: {
+				Count: 1
+				id: "twilightforest:triple_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7A4DF912B7051CBE"
+			rewards: [
+				{
+					count: 2
+					id: "2E043F162324B41A"
+					item: {
+						Count: 1
+						id: "twilightforest:triple_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "625C97D710437DA0"
+					item: {
+						Count: 1
+						id: "twilightforest:seeker_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "30DC926AA94A4E95"
+				type: "kill"
+				value: 1L
+			}]
+			title: "冰雪女王"
+			x: 4.5d
+			y: 4.0d
+		},
+		{
+			dependencies: ["7A4DF912B7051CBE"]
+		description: ["击败乌姆武蒂"]
+			icon: "mowziesmobs:sol_visage"
+			id: "43F9CAC7CDA728A9"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "4FD55E1D0CE73285"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "4E4BC69F1C335068"
+				type: "kill"
+				value: 1L
+			}]
+			title: "乌姆武蒂"
+			x: 6.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["43F9CAC7CDA728A9"]
+		description: ["击败盖亚守护者"]
+			icon: "botania:mana_pearl"
+			id: "2D0E08581011A056"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "60823846967E4FAA"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "botania:doppleganger"
+				id: "28F8F85C7BC1702B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "盖亚守护者"
+			x: 7.5d
+			y: 4.0d
+		},
+		{
+			dependencies: ["2D0E08581011A056"]
+		description: ["击败凋灵死灵法师"]
+			icon: "goety:withered_manuscript"
+			id: "59053E79C3FF01D6"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "51AC6A858F898838"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:wither_necromancer"
+				id: "7B0C1B209A807EB6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "凋灵死灵法师"
+			x: 9.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["59053E79C3FF01D6"]
+		description: ["击败使徒"]
+			icon: "goety:music_disc_apostle"
+			id: "403D54AF139B5942"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "7FD91252F35254E7"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:apostle"
+				id: "4C1144F74A458F0B"
+				type: "kill"
+				value: 1L
+			}]
+			title: "使徒"
+			x: 10.5d
+			y: 4.0d
+		},
+		{
+			dependencies: ["403D54AF139B5942"]
+		description: ["击败维齐尔"]
+			icon: "goety:music_disc_vizier"
+			id: "59434EF6B0A2FD60"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "21AD8338137695D5"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:vizier"
+				id: "4947B1423B1DE078"
+				type: "kill"
+				value: 1L
+			}]
+			title: "维齐尔"
+			x: 12.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["59434EF6B0A2FD60"]
+		description: ["击败伊格尼斯"]
+			icon: "cataclysm:ignitium_ingot"
+			id: "0F7DC710690728A4"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "76680BE72074E91C"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "240C962BDF3089C5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "伊格尼斯"
+			x: 13.5d
+			y: 4.0d
+		},
+		{
+			dependencies: ["0F7DC710690728A4"]
+		description: ["击败下界合金怪物"]
+			icon: {
+				Count: 1
+				id: "cataclysm:infernal_forge"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4EA30ED9FAB38C4E"
+			rewards: [
+				{
+					count: 2
+					id: "34A46F06CAD93E6D"
+					item: {
+						Count: 1
+						id: "cataclysm:infernal_forge"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "546E59D8C8DA54B0"
+					item: "cataclysm:monstrous_horn"
+					type: "item"
+				}
+			]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "08C7210B71B038D2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "下界合金怪物"
+			x: 0.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["4EA30ED9FAB38C4E"]
+		description: ["击败珊瑚傀儡"]
+			icon: "cataclysm:crystallized_coral_fragments"
+			id: "6865530174B7946C"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "70E56796140AA200"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:coral_golem"
+				id: "2DCEAA3FC8D7828C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "珊瑚傀儡"
+			x: 1.5d
+			y: 6.0d
+		},
+		{
+			dependencies: ["6865530174B7946C"]
+		description: ["击败先兆者"]
+			icon: "cataclysm:witherite_block"
+			id: "6E1A177A8AD6814B"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "543C8E6BAE124261"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "0AA4A9AFF22CEDC4"
+				type: "kill"
+				value: 1L
+			}]
+			title: "先兆者"
+			x: 3.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["6E1A177A8AD6814B"]
+		description: ["击败老巫婆"]
+			icon: "goety:treasure_pouch"
+			id: "238A0A95CF70691E"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "1FCAF355B9B9F69F"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:crone"
+				id: "3E7DFF6A525063F8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "老巫婆"
+			x: 4.5d
+			y: 6.0d
+		},
+		{
+			dependencies: ["238A0A95CF70691E"]
+		description: ["击败部长"]
+			icon: "minecraft:emerald"
+			id: "0D86A5029DC5A22E"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "65C41C7C2C7D8806"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:minister"
+				id: "4BC16FF64F9DE4DF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "部长"
+			x: 6.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["0D86A5029DC5A22E"]
+		description: ["击败末影使者"]
+			icon: "goety:void_echo"
+			id: "5F12E4A747304110"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "4D855429BE0BE6E4"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:endersent"
+				id: "3C6819A7BAAEA236"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影使者"
+			x: 7.5d
+			y: 6.0d
+		},
+		{
+			dependencies: ["5F12E4A747304110"]
+		description: ["击败敌对红石怪物"]
+			icon: "minecraft:redstone_block"
+			id: "3FB0DBDCC7323126"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "48D092E23335E734"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:hostile_redstone_monstrosity"
+				id: "4AC3AE65877622A5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "敌对红石怪物"
+			x: 9.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["3FB0DBDCC7323126"]
+		description: ["击败末影守护者"]
+			icon: "goety:void_echo"
+			id: "65753059230A75ED"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "0A67BBA986E79EEA"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:ender_keeper"
+				id: "6282420666FB0E63"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影守护者"
+			x: 10.5d
+			y: 6.0d
+		},
+		{
+			dependencies: ["65753059230A75ED"]
+		description: ["击败敌对红石傀儡"]
+			icon: "minecraft:diamond"
+			id: "6395FEC57A1AB617"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "17A46EC75C397286"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:hostile_redstone_golem"
+				id: "5CB1986F36775F9E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "敌对红石傀儡"
+			x: 12.0d
+			y: 6.0d
+		},
+		{
+			dependencies: ["6395FEC57A1AB617"]
+		description: ["击败亡者之王"]
+			icon: "irons_spellbooks:necronomicon_spell_book"
+			id: "3841B4F20AADBA72"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "217F077FA6D52580"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "6950051B9CC40DD6"
+				type: "kill"
+				value: 1L
+			}]
+			title: "亡者之王"
+			x: 13.5d
+			y: 6.0d
+		},
+		{
+			dependencies: ["3841B4F20AADBA72"]
+		description: ["击败火焰Boss"]
+			icon: "irons_spellbooks:cinder_essence"
+			id: "2366574F1E5C2883"
+			rewards: [
+				{
+					count: 2
+					id: "7F0866B521D5D8CC"
+					item: "irons_spellbooks:divine_soulshard"
+					type: "item"
+				}
+				{
+					id: "5C33AE992270E9E5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:decrepit_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "0241322C96776E19"
+				type: "kill"
+				value: 1L
+			}]
+			title: "火焰Boss"
+			x: 0.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["2366574F1E5C2883"]
+		description: ["击败阿普特冈格"]
+			icon: "cataclysm:strange_key"
+			id: "7C9BC6C4AACC090C"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "69625F08933EFE97"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:aptrgangr"
+				id: "2AD81D7114FF68EB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "阿普特冈格"
+			x: 1.5d
+			y: 8.0d
+		},
+		{
+			dependencies: ["7C9BC6C4AACC090C"]
+		description: ["击败珊瑚巨兽"]
+			icon: "cataclysm:coral_chunk"
+			id: "7AB12E56689FF232"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "1433B9FFF00E7795"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:coralssus"
+				id: "43F7FE5AC3B210DF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "珊瑚巨兽"
+			x: 3.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["7AB12E56689FF232"]
+		description: ["击败潜行者"]
+			icon: "minecraft:iron_ingot"
+			id: "7CEA321B5A5C7064"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "077BD57636E12166"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "172DF5A8A8EF3DAC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "潜行者"
+			x: 4.5d
+			y: 8.0d
+		},
+		{
+			dependencies: ["7CEA321B5A5C7064"]
+		description: ["击败克劳迪安"]
+			icon: "cataclysm:chitin_claw"
+			id: "61BFB5C8E1E029CB"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "011FDC85BF789359"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:clawdian"
+				id: "0E16B4CDEB2F8EB7"
+				type: "kill"
+				value: 1L
+			}]
+			title: "克劳迪安"
+			x: 6.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["61BFB5C8E1E029CB"]
+		description: ["击败希波坎图斯"]
+			icon: "cataclysm:lacrima"
+			id: "35A559655700CB30"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "3A884CF6F2617AFB"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "cataclysm:hippocamtus"
+				id: "17995C4D3990A7F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "希波坎图斯"
+			x: 7.5d
+			y: 8.0d
+		},
+		{
+			dependencies: ["35A559655700CB30"]
+		description: ["击败异端"]
+			icon: "goety:treasure_pouch"
+			id: "781836682749A8F7"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "0CA5B9D6FF5B8898"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "goety:heresiarch"
+				id: "244D12F1EC015764"
+				type: "kill"
+				value: 1L
+			}]
+			title: "异端"
+			x: 9.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["781836682749A8F7"]
+		description: ["击败腐败蜘蛛"]
+			icon: "illageandspillage:bag_of_horrors"
+			id: "6BC5502A0F1ED6FB"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "6E4BFC08D2F13CCE"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "illageandspillage:ragno"
+				id: "764E4DBFAA5096FE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "腐败蜘蛛"
+			x: 10.5d
+			y: 8.0d
+		},
+		{
+			dependencies: ["6BC5502A0F1ED6FB"]
+		description: ["击败怪人"]
+			icon: "illageandspillage:bag_of_horrors"
+			id: "3AF2851BD018F509"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "3EF49BB732B2065A"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "illageandspillage:freakager"
+				id: "29BDED6A629B4604"
+				type: "kill"
+				value: 1L
+			}]
+			title: "怪人"
+			x: 12.0d
+			y: 8.0d
+		},
+		{
+			dependencies: ["3AF2851BD018F509"]
+		description: ["击败魔法师"]
+			icon: "illageandspillage:totem_of_banishment"
+			id: "138789257E4B5821"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "295E02D686914AD2"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "illageandspillage:magispeller"
+				id: "6DE88CB909C2E9EF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "魔法师"
+			x: 13.5d
+			y: 8.0d
+		},
+		{
+			dependencies: ["138789257E4B5821"]
+		description: ["击败灵魂感应师"]
+			icon: {
+				Count: 1
+				id: "illageandspillage:spellbound_book"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35A816F77AF50264"
+			rewards: [{
+				count: 2
+				id: "5145CF7339A1DAA7"
+				item: {
+					Count: 1
+					id: "illageandspillage:spellbound_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Tier 3 - 挑战"
+			tasks: [{
+				entity: "illageandspillage:spiritcaller"
+				id: "5E0F12E78923CD77"
+				type: "kill"
+				value: 1L
+			}]
+			title: "灵魂感应师"
+			x: 0.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["3FB0DBDCC7323126"]
+		description: ["击败末影龙"]
+			icon: "minecraft:dragon_egg"
+			id: "1530DAE2031AECDE"
+			rewards: [
+				{
+					count: 2
+					id: "62F2CDEA98A11CEC"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "50DF49BE0ED4F3E1"
+					item: {
+						Count: 1
+						id: "minecraft:elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "2E9DE3F357D1C9B8"
+				type: "kill"
+				value: 1L
+			}]
+			title: "末影龙"
+			x: 1.5d
+			y: 10.0d
+		},
+		{
+			dependencies: ["1530DAE2031AECDE"]
+		description: ["击败凋灵"]
+			icon: "minecraft:nether_star"
+			id: "305138FA9086CD97"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "4AEE42DD9ECD7CCE"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "213F22B3E53B0EC1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "凋灵"
+			x: 3.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["305138FA9086CD97"]
+		description: ["击败监守者"]
+			icon: "minecraft:sculk_catalyst"
+			id: "1A3C398B3F15E0E3"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "2B312B4D663009EE"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "35842413187062B9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "监守者"
+			x: 4.5d
+			y: 10.0d
+		},
+		{
+			dependencies: ["1A3C398B3F15E0E3"]
+		description: ["击败盖亚传承"]
+			icon: "botania:terrasteel_ingot"
+			id: "51EB6A81EE5D0BAF"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "0154FF7EAFC78BB7"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "extrabotany:gaia_legacy"
+				id: "6BAFAF079A6DD938"
+				type: "kill"
+				value: 1L
+			}]
+			title: "盖亚传承"
+			x: 6.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["51EB6A81EE5D0BAF"]
+		description: ["击败高原Boss"]
+			icon: "twilightforest:magic_map_focus"
+			id: "7C4968C021644E96"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "29F0DA093D8286D2"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "twilightforest:plateau_boss"
+				id: "001A884A2E12FA9A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "高原Boss"
+			x: 7.5d
+			y: 10.0d
+		},
+		{
+			dependencies: ["7C4968C021644E96"]
+		description: ["击败诅咒者"]
+			icon: "cataclysm:cursium_ingot"
+			id: "217CA3542AA67E21"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "7E3A544D7A568EDF"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "5464197CA0B401EE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "诅咒者"
+			x: 9.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["217CA3542AA67E21"]
+		description: ["击败斯库拉"]
+			icon: "cataclysm:essence_of_the_storm"
+			id: "03404FB3FFF18BC0"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "16B6EB1EB0049384"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "6DDB1CCFC5BC7267"
+				type: "kill"
+				value: 1L
+			}]
+			title: "斯库拉"
+			x: 10.5d
+			y: 10.0d
+		},
+		{
+			dependencies: ["03404FB3FFF18BC0"]
+		description: ["击败利维坦"]
+			icon: "cataclysm:tidal_claws"
+			id: "511B1D4B4233F042"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "3CCBF9FCC0C96CF4"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "1C918F1681E5DAEA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "利维坦"
+			x: 12.0d
+			y: 10.0d
+		},
+		{
+			dependencies: ["511B1D4B4233F042"]
+		description: ["击败盖亚三世"]
+			icon: "extrabotany:pandoras_box"
+			id: "31765E0946BA60DF"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "2536E285989DC83B"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "extrabotany:gaia_3rd"
+				id: "7F300D281EC4CB91"
+				type: "kill"
+				value: 1L
+			}]
+			title: "盖亚三世"
+			x: 13.5d
+			y: 10.0d
+		},
+		{
+			dependencies: ["31765E0946BA60DF"]
+		description: ["击败亚玻伦"]
+			icon: "minecraft:nether_star"
+			id: "1BFE44218D1E3A09"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "5854E9C1C9F0E420"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "goety_revelation:summon_apollyon"
+				id: "18FDD6F87E972D69"
+				type: "kill"
+				value: 1L
+			}]
+			title: "亚玻伦"
+			x: 0.0d
+			y: 12.0d
+		},
+		{
+			dependencies: ["1BFE44218D1E3A09"]
+		description: ["击败堡垒守卫"]
+			icon: "irons_spellbooks:cinder_essence"
+			id: "0F1EAFF1652CA91D"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "73E6922121507670"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "irons_spellbooks:citadel_keeper"
+				id: "5BF1D09AF24E4ADF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "堡垒守卫"
+			x: 1.5d
+			y: 12.0d
+		},
+		{
+			dependencies: ["0F1EAFF1652CA91D"]
+		description: ["击败震怒的死者之王"]
+			icon: "irons_spellbooks:legendary_ink"
+			id: "1C2660EF4137F402"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "485324F8B4791EA4"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "traveloptics:enraged_dead_king"
+				id: "09CEB5DCA8AE2FBB"
+				type: "kill"
+				value: 1L
+			}]
+			title: "震怒的死者之王"
+			x: 3.0d
+			y: 12.0d
+		},
+		{
+			dependencies: ["1C2660EF4137F402"]
+		description: ["击败夜巡者"]
+			icon: "traveloptics:stellothorn"
+			id: "3D297BD162F9E899"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "466A390D891C8278"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "traveloptics:the_nightwarden"
+				id: "3659D6D7ACDD3066"
+				type: "kill"
+				value: 1L
+			}]
+			title: "夜巡者"
+			x: 4.5d
+			y: 12.0d
+		},
+		{
+			dependencies: ["3D297BD162F9E899"]
+		description: ["击败暝煌龙"]
+			icon: "alexscaves:tectonic_shard"
+			id: "7C64C448F262E040"
+			rewards: [{
+				command: "/puffish_skills experience add @p doom 1"
+				elevate_perms: true
+				id: "01AA37523B1AEF5E"
+				title: "终焉等级+1"
+				type: "command"
+			}]
+			subtitle: "Tier 4 - 终局"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				id: "4530A443F8C72A1F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "暝煌龙"
+			x: 6.0d
+			y: 12.0d
+		}
+	]
+	title: "Boss图鉴"
+}

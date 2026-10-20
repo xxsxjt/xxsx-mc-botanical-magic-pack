@@ -1,0 +1,1809 @@
+
+[ino]
+	#伊诺莉娅整合包模式是否启动(作者自用)
+	inoIntegration_pack = false
+	#每级超负荷提升箭矢伤害
+	#Range: 0.0 ~ 2.147483647E9
+	charged_arrow = 0.75
+	#每级超负荷提升随从召唤伤害
+	#Range: 0.0 ~ 2.147483647E9
+	charged_summon = 0.5
+	#每级超负荷提升泰拉召唤师伤害
+	#Range: 0.0 ~ 2.147483647E9
+	charged_terra_summon = 0.75
+	#飞行状态下玩家造成的伤害
+	#Range: 0.0 ~ 2.147483647E9
+	flying_damage = 0.2
+	#死灵卷轴掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	necromantic_scroll = 0.5
+	#大力士甲虫掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	hercules_beetle = 0.5
+	#守护力场掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	force_field = 0.5
+	#告死细霜掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	hard_ice = 0.5
+	#黑石核心掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	blackstone_core = 0.5
+	#飞升之翼掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	soaring_wings = 0.5
+	#破灭残片掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	explosion_shard = 0.5
+	#逐日之翼掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	sun_membrane = 0.5
+	#裂空结晶掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	storm_core = 0.5
+	#精灵项链掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	spirit_necklace = 0.5
+	#精灵箭袋掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	spirit_arrow_bag = 0.5
+	#矮人项链掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	pygmy_necklace = 0.5
+	#守卫者之眼掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	guardian_eye = 0.5
+	#归一石掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	the_community = 0.5
+	#宝藏磁石掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	treasure_magnet = 0.5
+	#蠕虫围巾掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	worm_scarf = 0.5
+	#混乱之脑掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	brain_of_confusion = 0.5
+	#蜂窝掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	honey_comb = 0.5
+	#克盾掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	shield_of_cthulhu = 0.5
+	#咒愈锋刃掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	wound_rime_blade = 0.5
+	#发簪掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	hairpin = 0.5
+	#无尽图腾掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	infinity_totem = 0.5
+	#混沌之书掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	chaos_book = 0.5
+	#法术强化核心掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	spell_enhancement_core = 0.5
+	#法术超限核心掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	spell_overlimit_core = 0.5
+	#时痕之戒掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	quick_chant_ring = 0.5
+	#魂之书掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	soul_book = 0.5
+	#流转核心掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	flow_core = 0.5
+	#烬血之戒掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	spring_ring = 0.5
+	#馥郁巧思掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	fragrant_ingenuity = 0.5
+	#金色材料数量
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_material = 2.0
+	#橙色材料数量
+	#Range: 0.0 ~ 2.147483647E9
+	mythic_material = 2.0
+	#紫色材料数量
+	#Range: 0.0 ~ 2.147483647E9
+	epic_material = 2.0
+	#蓝色材料数量
+	#Range: 0.0 ~ 2.147483647E9
+	rare_material = 2.0
+	#绿色材料数量
+	#Range: 0.0 ~ 2.147483647E9
+	uncommon_material = 2.0
+	#白色材料数量
+	#Range: 0.0 ~ 2.147483647E9
+	common_material = 2.0
+	#BOSS每秒回血
+	#Range: 0.0 ~ 2.147483647E9
+	boss_time_heal = 0.01
+	#铁币掉落数量
+	#Range: 0.0 ~ 2.147483647E9
+	coin_iron_drop_number = 3.0
+	#腐香囊掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	putrid_scent = 0.75
+	#石巨人之眼掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	eye_of_the_golem = 0.75
+	#魔法箭袋掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	magic_quiver = 0.5
+	#召唤师徽章掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	summoner_emblem = 0.5
+	#游侠徽章掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	ranger_emblem = 0.5
+	#巫师徽章掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	sorcerer_emblem = 0.5
+	#战士徽章掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	warrior_emblem = 0.5
+	#泰坦手套掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	titan_glove = 0.5
+	#狂爪手套掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	feral_claws = 0.5
+	#终焉刻蚀板掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	end_etching = 0.5
+	#混沌刻蚀板掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	chaotic_etching = 0.5
+	#欲望刻蚀板掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	desire_etching = 0.5
+	#铜币掉落概率
+	#Range: 0.0 ~ 2.147483647E9
+	coin_copper_drop_chance = 0.25
+	#铜币掉落数量
+	#Range: 0.0 ~ 2.147483647E9
+	coin_copper_drop_number = 3.0
+	#1星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_1_hp = 4.0
+	#2星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_2_hp = 6.0
+	#3星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_3_hp = 8.0
+	#4星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_4_hp = 10.0
+	#5星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_5_hp = 14.0
+	#6星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_6_hp = 18.0
+	#7星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_7_hp = 22.0
+	#8星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_8_hp = 28.0
+	#9星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_9_hp = 34.0
+	#10星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_10_hp = 42.0
+	#11星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_11_hp = 54.0
+	#12星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_12_hp = 66.0
+	#13星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_13_hp = 78.0
+	#14星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_14_hp = 90.0
+	#15星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_15_hp = 100.0
+	#16星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_16_hp = 120.0
+	#17星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_17_hp = 140.0
+	#18星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_18_hp = 160.0
+	#19星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_19_hp = 180.0
+	#20星怪物生命值提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	level_20_hp = 200.0
+
+[base]
+	#灵护魂石灵魂护盾容量
+	#Range: 0.0 ~ 2.147483647E9
+	soul_ward_capacity = 16.0
+	#灵护魂石灵魂护盾容量
+	#Range: 0.0 ~ 2.147483647E9
+	soul_ward_integrity = 1.0
+	#灵护魂石灵魂护盾恢复速率
+	#Range: 0.0 ~ 2.147483647E9
+	soul_ward_recovery_rate = 1.0
+	#镰锋魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	scythe_soul_stone_lvl = 1.0
+	#镰锋魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	scythe_soul_stone_time = 10.0
+	#镰锋魂石最高等级
+	#Range: 0.0 ~ 2.147483647E9
+	scythe_soul_stone_max_lvl = 11.0
+	#镰锋魂石熟练度
+	#Range: 0.0 ~ 2.147483647E9
+	scythe_soul_stone_att = 0.5
+	#精魂魂石是否可以击碎灵魂
+	spirit_soul_stone_can = true
+	#精魂魂石精魂掠夺数额
+	#Range: 0.0 ~ 2.147483647E9
+	spirit_soul_stone = 1.0
+	#奥能魂石最高时长
+	#Range: 0.0 ~ 2.147483647E9
+	arcana_soul_stone_max_time = 3600.0
+	#奥能魂石最大等级
+	#Range: 0.0 ~ 255.0
+	arcana_soul_stone_max_lvl = 20.0
+	#奥能魂石提升时长
+	#Range: 0.0 ~ 2.147483647E9
+	arcana_soul_stone_time = 30.0
+	#奥能魂石提升等级
+	#Range: 0.0 ~ 255.0
+	arcana_soul_stone_lvl = 1.0
+	#奥能魂石生命值阈值
+	#Range: 0.0 ~ 2.147483647E9
+	arcana_soul_stone_hp = 0.95
+	#虚符魂石生命值
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_att_hp = 0.2
+	#虚符魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_att_magic = 0.1
+	#虚符魂石法杖
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_att_staff = 2.0
+	#虚符魂石移速
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_att_speed = 0.2
+	#虚符魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_att_armor = 0.2
+	#虚符魂石着火减伤
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_hit = 0.15
+	#虚符魂石正面buff时长提升
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_time = 1.0
+	#虚符魂石静默最大时长
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_hit_time_max = 60.0
+	#虚符魂石静默最大等级
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_hit_lvl_max = 10.0
+	#虚符魂石静默提升时长
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_hit_time = 15.0
+	#虚符魂石静默提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_hit_lvl = 1.0
+	#虚符魂石献祭权能最大时长
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_kill_time_max = 10.0
+	#虚符魂石献祭权能最大等级
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_kill_lvl_max = 4.0
+	#虚符魂石献祭权能提升时长
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_kill_time = 10.0
+	#虚符魂石献祭权能提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	void_tablet_soul_stone_kill_lvl = 1.0
+	#污秽魂石灵魂护盾稳固度
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_soul_shield_b = 0.25
+	#污秽魂石灵魂护盾容量
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_soul_shield_a = 6.0
+	#污秽魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_magic = 0.2
+	#污秽魂石移动速度
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_buff_speed = 0.2
+	#污秽魂石反应护盾等级
+	#Range: 0.0 ~ 255.0
+	tainted_soul_stone_buff_lvl = 1.0
+	#污秽魂石反应护盾时长
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_buff_time = 4.0
+	#污秽魂石反应护盾概率
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_buff_chance = 0.3
+	#污秽魂石非正面状态时长降低
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_time = 0.25
+	#污秽魂石挖掘速度
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_dig = 0.25
+	#污秽魂石额外伤害提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_damage_up_number = 1.0
+	#污秽魂石伤害额外提升概率
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_damage_up_chance = 0.1
+	#污秽魂石最大伤害
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_max_damage = 1.2
+	#污秽魂石最小伤害
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_min_damage = 0.9
+	#污秽魂石2s回血数额
+	#Range: 0.0 ~ 2.147483647E9
+	tainted_soul_stone_heal = 0.01
+	#图腾魂石等级-火灵之拥
+	#Range: 0.0 ~ 255.0
+	ifrits_embrace = 1.0
+	#图腾魂石等级-大地之威
+	#Range: 0.0 ~ 255.0
+	earthen_might = 1.0
+	#图腾魂石等级-渔夫之诱
+	#Range: 0.0 ~ 255.0
+	anglers_lure = 1.0
+	#图腾魂石等级-澄空之召
+	#Range: 0.0 ~ 255.0
+	aethers_charm = 1.0
+	#图腾魂石等级-矿工之怒
+	#Range: 0.0 ~ 255.0
+	miners_rage = 1.0
+	#图腾魂石等级-盖亚之护
+	#Range: 0.0 ~ 255.0
+	gaias_bulwark = 1.0
+	#图腾魂石等级-海神之握
+	#Range: 0.0 ~ 255.0
+	poseidons_grasp = 1.0
+	#图腾魂石等级-西风之勇
+	#Range: 0.0 ~ 255.0
+	zephyrs_courage = 1.0
+	#饥馁魂石最高时长
+	#Range: 0.0 ~ 2.147483647E9
+	starved_soul_stone_max_time = 180.0
+	#饥馁魂石最大等级
+	#Range: 0.0 ~ 255.0
+	starved_soul_stone_max_lvl = 10.0
+	#饥馁魂石提升时长
+	#Range: 0.0 ~ 2.147483647E9
+	starved_soul_stone_time = 30.0
+	#饥馁魂石提升等级
+	#Range: 0.0 ~ 255.0
+	starved_soul_stone_lvl = 1.0
+	#饥馁魂石生命值阈值
+	#Range: 0.0 ~ 2.147483647E9
+	starved_soul_stone_hp = 0.95
+	#尸巫魂石是否可以召唤
+	zombie_summon_can = true
+	#触发弹射物追踪时的追踪范围
+	#Range: 0.0 ~ 2.147483647E9
+	track_range = 32.0
+	#锚定魂石冷却
+	#Range: 0.05 ~ 2.147483647E9
+	anchor_soul_stone_cooldown = 10.0
+	#修复魂石修复数额
+	#Range: 0.0 ~ 2.147483647E9
+	mending_soul_stone_number = 1.0
+	#修复魂石间隔
+	#Range: 0.05 ~ 2.147483647E9
+	mending_soul_stone_time = 2.0
+	#金果魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_cooldown = 180.0
+	#金果魂石抗火时长
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_fire_time = 120.0
+	#金果魂石抗性提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_re_lvl = 2.0
+	#金果魂石抗性提升时间
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_re_time = 120.0
+	#金果魂石生命恢复等级
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_heal_lvl = 2.0
+	#金果魂石生命恢复时间
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_heal_time = 20.0
+	#金果魂石伤害吸收等级
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_damage_lvl = 4.0
+	#金果魂石伤害吸收时长
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_damage_time = 60.0
+	#金果魂石触发血量阈值
+	#Range: 0.0 ~ 2.147483647E9
+	ega_soul_stoneoul_stone_hp = 0.25
+	#替死魂石冷却时长
+	#Range: 0.0 ~ 2.147483647E9
+	undying_soul_stone_cooldown = 180.0
+	#替死魂石抗火时长
+	#Range: 0.0 ~ 2.147483647E9
+	undying_soul_stone_fire_time = 40.0
+	#替死魂石伤害吸收等级
+	#Range: 0.0 ~ 2.147483647E9
+	undying_soul_stone_damage_lvl = 2.0
+	#替死魂石伤害吸收时长
+	#Range: 0.0 ~ 2.147483647E9
+	undying_soul_stone_damage_time = 5.0
+	#替死魂石生命恢复等级
+	#Range: 0.0 ~ 2.147483647E9
+	undying_soul_stone_heal_lvl = 2.0
+	#替死魂石生命恢复时间
+	#Range: 0.0 ~ 2.147483647E9
+	undying_soul_stone_heal_time = 45.0
+	#替死魂石保留生命值
+	#Range: 1.0 ~ 2.147483647E9
+	undying_soul_stone_hp = 1.0
+	#危险魂石间隔
+	#Range: 0.05 ~ 2.147483647E9
+	hazard_soul_stone_time = 1.0
+	#危险魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	hazard_soul_stone_range = 21.0
+	#危险魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	hazard_soul_stone_damage = 1.0
+	#磁铁魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	magnet_soul_stone_range = 25.0
+	#锚定魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	anchor_soul_stone_time = 10.0
+	#锚定魂石范围
+	#Range: 1.0 ~ 2.147483647E9
+	anchor_soul_stone_range = 32.0
+	#可以额外添加至最多多少魂石槽位(该数额-基础魂石槽=最终提升槽位)
+	#Range: 0.0 ~ 2.147483647E9
+	mod_slot_add = 20.0
+	#是否可以根据mod数量额外添加魂石槽位
+	can_slot_add = true
+	#下界使徒魂石是否开启非正面清除
+	nether_apostle_debuff_out_open = true
+	#魂石是否无视下界亚波伦封印
+	over_revelation = true
+	#非随从判断中：潜行时[过滤中立及友善生物]功能是否开启
+	can_attack = true
+	#精灵钢魂石内置冷却
+	#Range: 0.0 ~ 6.0
+	elementium_soul_stone_cooldown = 0.25
+	#糖果魂石疾跑加速
+	#Range: 0.0 ~ 6.0
+	candy_cavity_soul_stone_speed = 0.6
+	#糖果魂石基础加速
+	#Range: 0.0 ~ 6.0
+	candy_cavity_soul_stone_base = 0.4
+	#异寂魂石buff冷却
+	#Range: 0.0 ~ 6.0
+	forlorn_soul_stone_buff = 6.0
+	#异寂魂石buff时间
+	#Range: 0.0 ~ 6.0
+	forlorn_soul_stone_time = 6.0
+	#异寂魂石挖掘速度提升
+	#Range: 0.0 ~ 6.0
+	forlorn_soul_stone_dig = 0.25
+	#异寂魂石附伤冷却
+	#Range: 0.0 ~ 6.0
+	forlorn_soul_stone_cooldown = 0.5
+	#异寂魂石附伤数额
+	#Range: 0.0 ~ 6.0
+	forlorn_soul_stone_damage = 0.25
+	#毒化魂石无敌削减
+	#Range: 0.0 ~ 6.0
+	toxic_soul_stone_time = 0.25
+	#毒化魂石辐照等级
+	#Range: 0.0 ~ 6.0
+	toxic_soul_stone_buff_lvl = 3.0
+	#毒化魂石辐照时长
+	#Range: 0.0 ~ 6.0
+	toxic_soul_stone_buff_time = 6.0
+	#原始魂石愤怒等级
+	#Range: 1.0 ~ 255.0
+	primitive_soul_stone_buff = 1.0
+	#原始魂石附伤冷却
+	#Range: 0.0 ~ 2.147483647E9
+	primitive_soul_stone_damage_cooldown = 0.5
+	#原始魂石火焰附伤
+	#Range: 0.0 ~ 2.147483647E9
+	primitive_soul_stone_damage = 0.15
+	#原始魂石晕眩冷却
+	#Range: 0.0 ~ 2.147483647E9
+	primitive_soul_stone_cooldown = 10.0
+	#原始魂石晕眩时长
+	#Range: 0.0 ~ 2.147483647E9
+	primitive_soul_stone_time = 3.0
+	#磁化魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	magnetic_soul_stone_chance = 0.5
+	#磁化魂石磁化时长
+	#Range: 0.0 ~ 2.147483647E9
+	magnetic_soul_stone_time = 10.0
+	#磁化魂石攻击力收益
+	#Range: 0.0 ~ 2.147483647E9
+	magnetic_soul_stone_atk = 0.025
+	#磁化魂石基础伤害
+	#Range: 0.0 ~ 2.147483647E9
+	magnetic_soul_stone_base_atk = 2.0
+	#磁化魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	magnetic_soul_stone_range = 11.0
+	#永恒魂石回复耐久
+	#Range: 0.0 ~ 2.147483647E9
+	eternium_complements_soul_stone = 0.25
+	#幽匿魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	sculkium_complements_soul_stone_armor = 0.1
+	#幽匿魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	sculkium_complements_soul_stone_damage = 0.1
+	#幽匿魂石高度
+	#Range: -200.0 ~ 2.147483647E9
+	sculkium_complements_soul_stone_high = 0.0
+	#幽匿魂石强度
+	#Range: 0.0 ~ 2.147483647E9
+	sculkium_complements_soul_stone_light = 8.0
+	#潜影魂石潜行减伤
+	#Range: 0.0 ~ 2.147483647E9
+	shulkerate_complements_soul_stone_armor = 0.1
+	#潜影魂石方块距离
+	#Range: 0.0 ~ 2.147483647E9
+	shulkerate_complements_soul_stone_block = 1.0
+	#潜影魂石实体距离
+	#Range: 0.0 ~ 2.147483647E9
+	shulkerate_complements_soul_stone_entity = 1.0
+	#海神魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	poseidite_complements_soul_stone_damage = 0.1
+	#海神魂石攻速
+	#Range: 0.0 ~ 2.147483647E9
+	poseidite_complements_soul_stone_speed = 0.1
+	#海神魂石攻击
+	#Range: 0.0 ~ 2.147483647E9
+	poseidite_complements_soul_stone_atk = 0.1
+	#生命魂石回血
+	#Range: 0.0 ~ 2.147483647E9
+	totemic_complements_soul_stone_heal = 1.0
+	#生命魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	totemic_complements_soul_stone_damage = 0.15
+	#海王魂石挖掘
+	#Range: 0.0 ~ 2.147483647E9
+	neptunium_soul_stone_dig = 0.5
+	#海王魂石游泳
+	#Range: 0.0 ~ 2.147483647E9
+	neptunium_soul_stone_swim = 0.5
+	#海王魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	neptunium_soul_stone_damage = 0.1
+	#乐事魂石舒适时间
+	#Range: 0.0 ~ 2.147483647E9
+	farmers_delight_soul_stone_time_2 = 30.0
+	#乐事魂石舒适概率
+	#Range: 0.0 ~ 2.147483647E9
+	farmers_delight_soul_stone_chance_2 = 0.5
+	#乐事魂石滋养时间
+	#Range: 0.0 ~ 2.147483647E9
+	farmers_delight_soul_stone_time_1 = 30.0
+	#乐事魂石滋养概率
+	#Range: 0.0 ~ 2.147483647E9
+	farmers_delight_soul_stone_chance_1 = 0.5
+	#神躯魂石不死冷却
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_cooldown = 0.05
+	#神躯魂石封印数量与时间
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_number = 2.0
+	#神躯魂石封印能力
+	ultra_hostility_soul_stone = true
+	#神躯魂石附魔增伤
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_damage = 0.05
+	#神躯魂石杀戮光环百分比攻击
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_atk = 0.2
+	#神躯魂石杀戮光环基础攻击
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_base_atk = 12.0
+	#神躯魂石杀戮光环范围
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_range = 13.0
+	#神躯魂石杀戮光环间隔时间
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_time = 2.0
+	#神躯魂石回血数额
+	#Range: 0.0 ~ 2.147483647E9
+	ultra_hostility_soul_stone_heal = 0.6
+	#毁坏魂石debuff增伤数额
+	#Range: 0.0 ~ 2.147483647E9
+	destroy_hostility_soul_stone_buff = 0.1
+	#毁坏魂石无甲增伤数额
+	#Range: 0.0 ~ 2.147483647E9
+	destroy_hostility_soul_stone_armor = 0.1
+	#毁坏魂石真伤数额
+	#Range: 0.0 ~ 2.147483647E9
+	destroy_hostility_soul_stone_damage = 0.2
+	#毁坏魂石连锁范围
+	#Range: 0.0 ~ 2.147483647E9
+	destroy_hostility_soul_stone_range = 11.0
+	#疆域魂石反伤比例
+	#Range: 0.0 ~ 2.147483647E9
+	zone_hostility_soul_stone_speed = 0.3
+	#疆域魂石反伤比例
+	#Range: 0.0 ~ 2.147483647E9
+	zone_hostility_soul_stone_range = 41.0
+	#疆域魂石反伤比例
+	#Range: 0.0 ~ 2.147483647E9
+	zone_hostility_soul_stone_damage = 0.6
+	#禁域魂石随从减伤
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_hostility_soul_stone_own_armor = 0.3
+	#禁域魂石随从增伤
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_hostility_soul_stone_own_damage = 0.3
+	#禁域魂石自身减伤
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_hostility_soul_stone_my_armor = 0.2
+	#禁域魂石自身增伤
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_hostility_soul_stone_my_damage = 0.2
+	#禁域魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_hostility_soul_stone_range = 21.0
+	#四相魂石护甲穿透
+	#Range: 0.0 ~ 2.147483647E9
+	resistance_hostility_soul_stone_armor_p = 0.6
+	#四相魂石燃烧时间
+	#Range: 0.0 ~ 2.147483647E9
+	resistance_hostility_soul_stone_time = 5.0
+	#四相魂石箭减
+	#Range: 0.0 ~ 2.147483647E9
+	resistance_hostility_soul_stone_pre = 0.6
+	#四相魂石物减
+	#Range: 0.0 ~ 2.147483647E9
+	resistance_hostility_soul_stone_atk = 0.6
+	#四相魂石魔减
+	#Range: 0.0 ~ 2.147483647E9
+	resistance_hostility_soul_stone_magic = 0.6
+	#四相魂石火减
+	#Range: 0.0 ~ 2.147483647E9
+	resistance_hostility_soul_stone_fire = 0.6
+	#腐蚀魂石诅咒
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_curse = 2.0
+	#腐蚀魂石重力
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_gravity = 2.0
+	#腐蚀魂石寒流
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_frozen = 2.0
+	#腐蚀魂石魂火
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_flame = 2.0
+	#腐蚀魂石凋零
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_wither = 2.0
+	#腐蚀魂石中毒
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_poison = 2.0
+	#腐蚀魂石缓慢
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_slowness = 4.0
+	#腐蚀魂石虚弱
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_weakness = 3.0
+	#腐蚀魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_hostility_soul_stone_time = 10.0
+	#锻体魂石最多减伤
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_adaptive_max_re = 0.6
+	#锻体魂石减伤叠加
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_adaptive_re = 0.15
+	#锻体魂石最高记录数额
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_adaptive_number = 3.0
+	#锻体魂石每秒回血
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_heal_hp = 0.03
+	#锻体魂石抗性提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_buff_lvl = 2.0
+	#锻体魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_armor_t = 12.0
+	#锻体魂石护甲值
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_armor = 12.0
+	#锻体魂石最大生命值
+	#Range: 0.0 ~ 2.147483647E9
+	body_hostility_soul_stone_hp = 0.6
+	#雷霆学派魂石超负荷等级
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_sect_soul_stone_lvl = 3.0
+	#熔岩魂石火伤减免
+	#Range: 0.0 ~ 2.147483647E9
+	lava_soul_stone = 1.0
+	#暴怒魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	wrath_sin_soul_stone_damage = 0.2
+	#暴怒魂石生命值
+	#Range: 0.0 ~ 2.147483647E9
+	wrath_sin_soul_stone_hp = 0.2
+	#怠惰魂石缓慢等级
+	#Range: 0.0 ~ 2.147483647E9
+	sloth_sin_soul_stone_lvl = 4.0
+	#怠惰魂石缓慢时间
+	#Range: 0.0 ~ 2.147483647E9
+	sloth_sin_soul_stone_time = 1.0
+	#怠惰魂石生命值
+	#Range: 0.0 ~ 2.147483647E9
+	sloth_sin_soul_stone_hp = 0.4
+	#傲慢魂石
+	#Range: 0.0 ~ 2.147483647E9
+	pride_sin_soul_stone = 0.15
+	#色欲魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	lust_sin_soul_stone_down = 0.5
+	#色欲魂石穿甲
+	#Range: 0.0 ~ 2.147483647E9
+	lust_sin_soul_stone_armor_p = 0.25
+	#贪婪魂石掉落物
+	#Range: 0.0 ~ 2.147483647E9
+	greed_sin_soul_stone_drop = 2.0
+	#贪婪魂石窒息减伤
+	#Range: 0.0 ~ 2.147483647E9
+	greed_sin_soul_stone_down = 0.9
+	#暴食魂石击杀提升
+	#Range: 0.0 ~ 2.147483647E9
+	gluttony_sin_soul_stone_kill = 0.005
+	#暴食魂石上限
+	#Range: 0.0 ~ 2.147483647E9
+	gluttony_sin_soul_stone_max = 0.3
+	#嫉妒魂石疾跑移速
+	#Range: 0.0 ~ 2.147483647E9
+	envy_sin_soul_stone_speed = 0.2
+	#嫉妒魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	envy_sin_soul_stone_atk = 0.1
+	#嫉妒魂石攻速
+	#Range: 0.0 ~ 2.147483647E9
+	envy_sin_soul_stone_atk_speed = 0.15
+	#死亡蠕虫魂石
+	#Range: 0.0 ~ 2.147483647E9
+	death_worm_soul_stone = 1.0
+	#海马魂石反胃等级
+	#Range: 0.0 ~ 2.147483647E9
+	hippocampus_soul_stone_lvl2 = 1.0
+	#海马魂石缓慢等级
+	#Range: 0.0 ~ 2.147483647E9
+	hippocampus_soul_stone_lvl1 = 1.0
+	#海马魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	hippocampus_soul_stone_time = 5.0
+	#海马魂石游泳速度
+	#Range: 0.0 ~ 2.147483647E9
+	hippocampus_soul_stone_speed = 0.1
+	#食人妖魂石
+	#Range: 0.0 ~ 2.147483647E9
+	troll_soul_stone = 0.35
+	#海蟒魂石
+	#Range: 0.0 ~ 2.147483647E9
+	sea_serpent_soul_stone = 3.0
+	#塞壬魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	iaf_siren_soul_stone_cooldown = 15.0
+	#塞壬魂石魅惑时长
+	#Range: 0.0 ~ 2.147483647E9
+	iaf_siren_soul_stone_time = 4.0
+	#九头蛇魂石回血提升幅度
+	#Range: 0.0 ~ 2.147483647E9
+	iaf_hydra_soul_stone_up = 0.5
+	#九头蛇魂石生命值降低阈值
+	#Range: 0.0 ~ 2.147483647E9
+	iaf_hydra_soul_stone_hp = 0.25
+	#九头蛇魂石基础回血数额
+	#Range: 0.0 ~ 2.147483647E9
+	iaf_hydra_soul_stone_heal = 0.025
+	#蛇发女妖魂石减速等级
+	#Range: 0.0 ~ 2.147483647E9
+	gorgon_soul_stone_lvl = 3.0
+	#蛇发女妖魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	gorgon_soul_stone_range = 15.0
+	#独眼巨人魂石虚弱等级
+	#Range: 0.0 ~ 2.147483647E9
+	cyclops_soul_stone_lvl = 2.0
+	#独眼巨人魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	cyclops_soul_stone_range = 33.0
+	#冰火魂石能不能冻结
+	iaf_can_freeze = true
+	#龙霆魂石特防
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_dragon_steel_soul_stone_dragon = 0.33
+	#龙霆魂石附伤
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_dragon_steel_soul_stone_damage = 0.3
+	#龙霆魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_dragon_steel_soul_stone_armor_t = 1.5
+	#龙霆魂石护甲
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_dragon_steel_soul_stone_armor = 2.0
+	#龙霜魂石特防
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_steel_soul_stone_dragon = 0.33
+	#龙霜魂石附伤
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_steel_soul_stone_damage = 0.2
+	#龙霜魂石附伤
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_steel_soul_stone_time = 5.0
+	#龙霜魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_steel_soul_stone_armor_t = 1.0
+	#龙霜魂石护甲
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_steel_soul_stone_armor = 1.0
+	#龙炎魂石特防
+	#Range: 0.0 ~ 2.147483647E9
+	fire_dragon_steel_soul_stone_dragon = 0.33
+	#龙炎魂石附伤
+	#Range: 0.0 ~ 2.147483647E9
+	fire_dragon_steel_soul_stone_damage = 0.4
+	#龙炎魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	fire_dragon_steel_soul_stone_armor_t = 1.5
+	#龙炎魂石护甲
+	#Range: 0.0 ~ 2.147483647E9
+	fire_dragon_steel_soul_stone_armor = 2.0
+	#霆血魂石附伤
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_dragon_blood_soul_stone_damage = 0.15
+	#霆血魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_dragon_blood_soul_stone_cooldown = 0.25
+	#霆血魂石特攻
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_dragon_blood_soul_stone_dragon = 0.2
+	#霜血魂石特攻
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_blood_soul_stone_dragon = 0.3
+	#霜血魂石冰冻时间
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_blood_soul_stone_freeze_time = 2.5
+	#霜血魂石挖掘疲劳等级
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_blood_soul_stone_dig_lvl = 1.0
+	#霜血魂石缓慢等级
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_blood_soul_stone_ms_lvl = 1.0
+	#霜血魂石缓慢挖掘疲劳时长
+	#Range: 0.0 ~ 2.147483647E9
+	ice_dragon_blood_soul_stone_time = 2.5
+	#炎血魂石特攻
+	#Range: 0.0 ~ 2.147483647E9
+	fire_dragon_blood_soul_stone_dragon = 0.4
+	#炎血魂石点燃增伤
+	#Range: 0.0 ~ 2.147483647E9
+	fire_dragon_blood_soul_stone_damage = 0.1
+	#炎血魂石点燃时长
+	#Range: 0.0 ~ 2.147483647E9
+	fire_dragon_blood_soul_stone_time = 5.0
+	#龙骨魂石穿甲
+	#Range: 0.0 ~ 2.147483647E9
+	dragon_bone_soul_stone_armor_p = 0.1
+	#龙骨魂石对龙特攻
+	#Range: 0.0 ~ 2.147483647E9
+	dragon_bone_soul_stone_damage = 0.2
+	#龙骨魂石固定伤害减免
+	#Range: 0.0 ~ 2.147483647E9
+	dragon_bone_soul_stone_fixed = 1.0
+	#铁魔法及其附属魂石最大魔力值提升
+	#Range: 0.0 ~ 2.147483647E9
+	iron_mana = 60.0
+	#至高木魂石能不能附加爆炸debuff
+	archwood_soul_stone_can_red = true
+	#灾厄教父虚弱等级
+	#Range: 0.0 ~ 2.147483647E9
+	minister_soul_stone_wi_lvl = 1.0
+	#灾厄教父再生等级
+	#Range: 0.0 ~ 2.147483647E9
+	minister_soul_stone_heal_lvl = 1.0
+	#灾厄教父抗性提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	minister_soul_stone_re_lvl = 1.0
+	#灾厄教父魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	minister_soul_stone_range = 41.0
+	#末影守望者魂石无敌
+	#Range: 0.0 ~ 2.147483647E9
+	ender_keeper_soul_stone_time_up = 0.25
+	#末影守望者魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	ender_keeper_soul_stone_damage_down = 1.0
+	#末影守望者魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	ender_keeper_soul_stone_range = 25.0
+	#末影守望者魂石buff等级
+	#Range: 0.0 ~ 2.147483647E9
+	ender_keeper_soul_stone_level = 2.0
+	#末影守望者魂石buff时长
+	#Range: 0.0 ~ 2.147483647E9
+	ender_keeper_soul_stone_time = 10.0
+	#红石巨兽魂石最高增伤
+	#Range: 0.0 ~ 2.147483647E9
+	redstone_monstrosity_soul_stone_max_damage = 100.0
+	#红石巨兽魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	redstone_monstrosity_soul_stone_cooldown = 2.0
+	#红石巨兽魂石百分比伤害
+	#Range: 0.0 ~ 2.147483647E9
+	redstone_monstrosity_soul_stone_hp_damage = 0.01
+	#红石巨兽魂石生命值提升
+	#Range: 0.0 ~ 2.147483647E9
+	redstone_monstrosity_soul_stone_hp_up = 0.1
+	#灾厄宰相魂石替死冷却
+	#Range: 0.0 ~ 2.147483647E9
+	vizier_soul_stone_hp_cooldown = 60.0
+	#灾厄宰相魂石替死回血
+	#Range: 0.0 ~ 2.147483647E9
+	vizier_soul_stone_hp = 1.0
+	#灾厄宰相魂石聚晶等级提升
+	#Range: 0.0 ~ 2.147483647E9
+	vizier_soul_stone_lvl = 3.0
+	#诡使魂石回血增速阈值
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_heal_half = 0.5
+	#诡使魂石侵蚀最高等级
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_lvl = 5.0
+	#诡使魂石侵蚀等级提升概率
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_chance = 0.15
+	#诡使魂石侵蚀时长
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_time = 10.0
+	#诡使魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_damage_down = 0.25
+	#诡使魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_range = 41.0
+	#诡使魂石回血间隔缩短
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_heal_time_fast = 0.5
+	#诡使魂石回血数额
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_heal_number = 0.1
+	#诡使魂石回血间隔
+	#Range: 0.0 ~ 2.147483647E9
+	nether_apostle_soul_stone_heal_time = 2.0
+	#使徒魂石半血额外回血倍率
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_up = 1.5
+	#使徒魂石触发回血增幅的阈值
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_half = 0.5
+	#使徒魂石伤害回血
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_heal = 0.25
+	#使徒魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_cooldown = 120.0
+	#使徒魂石抗性提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_buff_lvl = 4.0
+	#使徒魂石抗性提升时间
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_buff_time = 3.0
+	#使徒魂石死亡回血
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_dead_heal = 0.5
+	#使徒魂石魔抗
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_damage_down = 0.2125
+	#使徒魂石限伤
+	#Range: 0.0 ~ 2.147483647E9
+	apostle_soul_stone_damage_restriction = 0.5
+	#诡暗魂石魔法伤害减免
+	#Range: 0.0 ~ 2.147483647E9
+	goety_dark_soul_stone_magic = 0.15
+	#诡暗魂石火、爆伤害减免
+	#Range: 0.0 ~ 2.147483647E9
+	goety_dark_soul_stone_fire = 0.375
+	#军团魂石移速属性提升
+	#Range: 0.0 ~ 2.147483647E9
+	legion_soul_stone_speed = 0.1
+	#军团魂石攻击属性提升
+	#Range: 0.0 ~ 2.147483647E9
+	legion_soul_stone_atk = 0.1
+	#军团魂石生命属性提升
+	#Range: 0.0 ~ 2.147483647E9
+	legion_soul_stone_hp = 0.1
+	#药酿魂石药水几率
+	#Range: 0.0 ~ 2.147483647E9
+	brew_soul_stone_chance_b = 0.2
+	#药酿魂石药酿几率
+	#Range: 0.0 ~ 2.147483647E9
+	brew_soul_stone_chance_a = 0.1
+	#护卫魂石
+	#Range: 0.0 ~ 2.147483647E9
+	escort_soul_stone = 0.15
+	#驱役魂石伤害增幅
+	#Range: 0.0 ~ 2.147483647E9
+	order_about_soul_stone_damage = 0.15
+	#聚晶魂石数额
+	#Range: 0.0 ~ 2.147483647E9
+	goety_focus_soul_stone = 1.0
+	#灵质魂石数额
+	#Range: 0.0 ~ 2.147483647E9
+	ectoplasm_soul_stone = 100.0
+	#蔓生巨像魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	overgrown_colossus_soul_stone_level = 1.0
+	#蔓生巨像魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	overgrown_colossus_soul_stone_time = 5.0
+	#潜影拟态者魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_cooldown = 4.0
+	#潜影拟态者魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_level = 1.0
+	#潜影拟态者魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_time = 3.0
+	#潜影拟态者魂石几率
+	#Range: 0.0 ~ 2.147483647E9
+	shulker_mimic_soul_stone_chance = 0.3
+	#末影遣使魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	endersent_soul_stone = 0.25
+	#沙丘哨兵魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	dune_sentinel_soul_stone_down = 0.25
+	#沙丘哨兵魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	dune_sentinel_soul_stone_up = 0.15
+	#魄攫圣骑魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_level = 1.0
+	#魄攫圣骑魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_range = 21.0
+	#魄攫圣骑魂石时间
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_time = 3.0
+	#魄攫圣骑魂石几率
+	#Range: 0.0 ~ 2.147483647E9
+	posessed_paladin_soul_stone_chance = 0.5
+	#荒古守卫者魂石护甲提升数额
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_armor = 0.25
+	#荒古守卫者魂石护甲提升阈值
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_hp = 0.5
+	#荒古守卫者魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_cooldown = 0.2
+	#荒古守卫者魂石BUFF时间
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_time = 3.0
+	#荒古守卫者魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_chance = 0.5
+	#荒古守卫者魂石百分比伤害
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_damage = 0.25
+	#荒古守卫者魂石固定伤害
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_guardian_soul_stone_fixed_damage = 5.0
+	#霜冻傀儡魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_cooldown = 0.2
+	#霜冻傀儡魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_level = 1.0
+	#霜冻傀儡魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_time = 3.0
+	#霜冻傀儡魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_damage = 0.2
+	#霜冻傀儡魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	frostbitten_golem_soul_stone_range = 7.0
+	#湫渃云魔魂石无敌时间延长
+	#Range: 0.0 ~ 2.147483647E9
+	cloud_golem_soul_stone_time = 0.5
+	#湫渃云魔魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	cloud_golem_soul_stone_cooldown = 0.2
+	#湫渃云魔魂石雷伤
+	#Range: 0.0 ~ 2.147483647E9
+	cloud_golem_soul_stone_damage = 0.35
+	#熔岩食者魂石燃烧时长
+	#Range: 0.0 ~ 2.147483647E9
+	lava_eater_soul_stone_time = 5.0
+	#凋灵恶煞魂石凋零等级
+	#Range: 0.0 ~ 2.147483647E9
+	withered_abomination_soul_stone_level = 1.0
+	#凋灵恶煞魂石凋零时长
+	#Range: 0.0 ~ 2.147483647E9
+	withered_abomination_soul_stone_time = 5.0
+	#凋灵恶煞魂石攻击
+	#Range: 0.0 ~ 2.147483647E9
+	withered_abomination_soul_stone_atk = 0.125
+	#骷髅蜥龙魂石击退抗性
+	#Range: 0.0 ~ 2.147483647E9
+	skeletosaurus_soul_stone_knockback_resistance = 0.2
+	#骷髅蜥龙魂石护甲
+	#Range: 0.0 ~ 2.147483647E9
+	skeletosaurus_soul_stone_armor = 2.0
+	#骷髅蜥龙魂石攻击
+	#Range: 0.0 ~ 2.147483647E9
+	skeletosaurus_soul_stone_atk = 0.075
+	#迷题羊魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	quest_ram_soul_stone = 0.15
+	#巨人魂石实体距离
+	#Range: 0.0 ~ 2.147483647E9
+	twilight_giant_soul_stone_block = 2.5
+	#巨人魂石实体距离
+	#Range: 0.0 ~ 2.147483647E9
+	twilight_giant_soul_stone_entity = 2.5
+	#浮云魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	fluffy_cloud_soul_stone = 0.15
+	#炽铁魂石回血比例
+	#Range: 0.0 ~ 2.147483647E9
+	fiery_iron_soul_stone_heal = 0.1
+	#炽铁魂石燃烧时长
+	#Range: 0.0 ~ 2.147483647E9
+	fiery_iron_soul_stone_time = 10.0
+	#钢叶魂石数额
+	#Range: 0.0 ~ 2.147483647E9
+	steeleaf_soul_stone_number = 1.0
+	#钢叶魂石间隔
+	#Range: 0.0 ~ 2.147483647E9
+	steeleaf_soul_stone_time = 3.0
+	#铁木魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	ironwood_soul_stone_armor_toughness = 1.0
+	#铁木魂石护甲
+	#Range: 0.0 ~ 2.147483647E9
+	ironwood_soul_stone_armor = 3.0
+	#梦幻学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	fantacy_sect_soul_stone_other = 0.3
+	#岩土学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	earth_sect_soul_stone_other = 0.3
+	#律灵学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	sound_sect_soul_stone_other = 0.3
+	#源流学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_sect_soul_stone_other = 0.3
+	#邪术学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	eldritch_sect_soul_stone_other = 0.3
+	#末影学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	ender_sect_soul_stone_other = 0.3
+	#自然学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	nature_sect_soul_stone_other = 0.3
+	#猩红学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	blood_sect_soul_stone_other = 0.3
+	#神圣学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	holy_sect_soul_stone_other = 0.3
+	#唤魔学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	evocation_sect_soul_stone_other = 0.3
+	#雷霆学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_sect_soul_stone_other = 0.3
+	#冰霜学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	ice_sect_soul_stone_other = 0.3
+	#炽焰学派魂石外学派转化率
+	#Range: 0.0 ~ 2.147483647E9
+	fire_sect_soul_stone_other = 0.3
+	#娜迦魂石治疗增幅
+	#Range: 0.0 ~ 2.147483647E9
+	naga_soul_stone_heal = 0.2
+	#娜迦魂石移速
+	#Range: 0.0 ~ 2.147483647E9
+	naga_soul_stone_speed = 0.1
+	#冰雪女王魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	snow_queen_soul_stone_cooldown = 0.2
+	#冰雪女王魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	snow_queen_soul_stone_damage = 0.25
+	#冰雪女王魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	snow_queen_soul_stone_range = 9.0
+	#雪怪魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	alpha_yeti_soul_stone_cooldown = 0.2
+	#雪怪魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	alpha_yeti_soul_stone_damage = 0.15
+	#雪怪魂石范围
+	#Range: 0.0 ~ 2.147483647E9
+	alpha_yeti_soul_stone_range = 7.0
+	#雪怪魂石HP
+	#Range: 0.0 ~ 2.147483647E9
+	alpha_yeti_soul_stone_hp = 0.05
+	#暮初恶魂魂石减伤
+	#Range: 0.0 ~ 2.147483647E9
+	ur_ghast_soul_stone_armor = 0.2
+	#暮初恶魂魂石减伤时长
+	#Range: 0.0 ~ 2.147483647E9
+	ur_ghast_soul_stone_time = 2.0
+	#暮初恶魂魂石护甲穿透
+	#Range: 0.0 ~ 2.147483647E9
+	ur_ghast_soul_stone_number = 0.072
+	#米诺菇魂石护甲穿透
+	#Range: 0.0 ~ 2.147483647E9
+	minoshroom_soul_stone = 0.2
+	#幻影骑士魂石护甲增伤
+	#Range: 0.0 ~ 2.147483647E9
+	knight_phantom_soul_stone_damage = 0.15
+	#幻影骑士魂石护甲阈值
+	#Range: 0.0 ~ 2.147483647E9
+	knight_phantom_soul_stone_armor = 0.0
+	#九头蛇魂石最高增伤
+	#Range: 0.0 ~ 2.147483647E9
+	twilight_hydra_soul_stone_damage = 0.3
+	#九头蛇魂石最多回血
+	#Range: 0.0 ~ 2.147483647E9
+	twilight_hydra_soul_stone_heal = 1.0
+	#九头蛇魂石生命阈值
+	#Range: 0.0 ~ 2.147483647E9
+	twilight_hydra_soul_stone_last_hp = 0.1
+	#九头蛇魂石减伤数额
+	#Range: 0.0 ~ 2.147483647E9
+	twilight_hydra_soul_stone_armor = 0.5
+	#九头蛇魂石减伤范围
+	#Range: 0.0 ~ 2.147483647E9
+	twilight_hydra_soul_stone_range = 21.0
+	#光巫魂石僵尸冷却时间
+	#Range: 0.0 ~ 2.147483647E9
+	fortification_soul_stone_cooldown = 60.0
+	#血巫魂石伤害饱和转换比例
+	#Range: 0.0 ~ 2.147483647E9
+	lifedrain_soul_stone_sat = 0.05
+	#血巫魂石伤害饥饿转换比例
+	#Range: 0.0 ~ 2.147483647E9
+	lifedrain_soul_stone_food = 0.05
+	#血巫魂石伤害回血转换比例
+	#Range: 0.0 ~ 2.147483647E9
+	lifedrain_soul_stone_heal = 0.05
+	#尸巫魂石僵尸召唤间隔时间
+	#Range: 0.0 ~ 2.147483647E9
+	zombie_scepter_soul_stone_cooldown = 20.0
+	#尸巫魂石僵尸BUFF时间
+	#Range: 0.0 ~ 2.147483647E9
+	zombie_scepter_soul_stone_time = 30.0
+	#尸巫魂石僵尸生命提升等级
+	#Range: 0.0 ~ 255.0
+	zombie_scepter_soul_stone_hp_boost = 1.0
+	#尸巫魂石僵尸力量等级
+	#Range: 0.0 ~ 255.0
+	zombie_scepter_soul_stone_strength = 1.0
+	#玫瑰石英魂石耐久回复
+	#Range: 0.0 ~ 2.147483647E9
+	rose_quartz_soul_stone_number = 1.0
+	#玫瑰石英魂石头盔能力
+	rose_quartz_soul_stone_heat = true
+	#烈焰蛋糕魂石燃烧时间
+	#Range: 0.0 ~ 2.147483647E9
+	blaze_cake_soul_stone_time = 60.0
+	#烈焰蛋糕魂石最高燃烧时间
+	#Range: 0.0 ~ 2.147483647E9
+	blaze_cake_soul_stone_max_time = 180.0
+	#烈焰蛋糕魂石右键时是否是超级燃烧(目前无法进行超级燃烧，所以只能正常燃起来)
+	blaze_cake_soul_stone_super = false
+	#纸板魂石功能
+	cardboard_soul_stone = true
+	#坚固板魂石机器伤害减免
+	#Range: 0.0 ~ 2.147483647E9
+	sturdy_sheet_soul_stone_damage = 1.0
+	#黄铜魂石机器伤害减免
+	#Range: 0.0 ~ 2.147483647E9
+	brass_soul_stone_damage = 0.9
+	#安山合金魂石潜水靴功能
+	andesite_alloy_soul_stone_boot = true
+	#安山合金魂石护目镜功能
+	andesite_alloy_soul_stone_eyes = true
+	#锌魂石是否可以不消耗饥饿度使用曲柄
+	zinc_soul_stone_use = true
+	#锌魂石挖掘速度
+	#Range: 0.0 ~ 2.147483647E9
+	zinc_soul_stone_speed = 0.5
+	#泰拉钢魂石是否允许左键释放光束
+	terrasteel_soul_stone_left = true
+	#泰拉钢魂石魔力恢复数额
+	#Range: 0.0 ~ 2.147483647E9
+	terrasteel_soul_stone_mana = 20.0
+	#精灵钢魂石DEBUFF时长
+	#Range: 0.0 ~ 2.147483647E9
+	elementium_soul_stone_time = 3.0
+	#精灵钢魂石攻击力基础
+	#Range: 0.0 ~ 2.147483647E9
+	elementium_soul_stone_atk = 0.5
+	#精灵钢魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	elementium_soul_stone_chance = 0.5
+	#魔力钢魂石耐久回复数额
+	#Range: 0.0 ~ 2.147483647E9
+	manasteel_soul_stone_number = 1.0
+	#魔力钢魂石消耗
+	#Range: 0.0 ~ 2.147483647E9
+	manasteel_soul_stone_mana = 70.0
+	#魔力钢魂石间隔
+	#Range: 0.05 ~ 2.147483647E9
+	manasteel_soul_stone_time = 2.0
+	#盖亚魂石回血数额
+	#Range: 0.0 ~ 2.147483647E9
+	gaia_soul_stone_heal = 1.0
+	#盖亚魂石回血间隔
+	#Range: 0.05 ~ 2.147483647E9
+	gaia_soul_stone_time = 2.0
+	#盖亚魂石暴击伤害
+	#Range: 0.0 ~ 2.147483647E9
+	gaia_soul_stone_damage = 1.5
+	#盖亚魂石暴击概率
+	#Range: 0.0 ~ 2.147483647E9
+	gaia_soul_stone_chance = 0.5
+	#斯库拉魂石潮湿增伤
+	#Range: 0.0 ~ 2.147483647E9
+	scylla_soul_stone_damage = 0.1
+	#斯库拉魂石潮湿等级
+	#Range: 0.0 ~ 2.147483647E9
+	scylla_soul_stone_level = 1.0
+	#斯库拉魂石潮湿时间
+	#Range: 0.0 ~ 2.147483647E9
+	scylla_soul_stone_time = 10.0
+	#下界合金巨兽最大等级
+	#Range: 0.0 ~ 2.147483647E9
+	netherite_monstrosity_soul_stone_max_lvl = 3.0
+	#下界合金巨兽魂石BUFF时长
+	#Range: 0.0 ~ 2.147483647E9
+	netherite_monstrosity_soul_stone_time = 10.0
+	#下界合金巨兽魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	netherite_monstrosity_soul_stone_chance = 0.2
+	#先驱者魂石无敌时间削减
+	#Range: 0.0 ~ 2.147483647E9
+	the_harbinger_soul_stone = 0.5
+	#远古遗魂魂石骨裂等级
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_remnant_soul_stone_lvl = 1.0
+	#远古遗魂魂石骨裂时间
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_remnant_soul_stone_time = 5.0
+	#远古遗魂魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	ancient_remnant_soul_stone_armor = 3.0
+	#末影守卫魂石冷却
+	#Range: 0.0 ~ 2.147483647E9
+	ender_guardian_soul_stone_cooldown = 5.0
+	#末影守卫魂石时间
+	#Range: 0.0 ~ 2.147483647E9
+	ender_guardian_soul_stone_time = 2.0
+	#末影守卫魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	ender_guardian_soul_stone_chance = 0.25
+	#咒翼灵骸魂石冷却时间
+	#Range: 0.0 ~ 2.147483647E9
+	maledictus_soul_stone_cooldown_time = 300.0
+	#咒翼灵骸魂石防火时间
+	#Range: 0.0 ~ 2.147483647E9
+	maledictus_soul_stone_fire_time = 10.0
+	#咒翼灵骸魂石复活无敌
+	#Range: 0.0 ~ 2.147483647E9
+	maledictus_soul_stone_time = 5.0
+	#咒翼灵骸魂石复活治疗量
+	#Range: 0.0 ~ 2.147483647E9
+	maledictus_soul_stone_heal = 0.2
+	#咒翼灵骸魂石弹射物免伤额外概率
+	#Range: 0.0 ~ 2.147483647E9
+	maledictus_soul_stone_arrow_chance = 0.15
+	#咒翼灵骸魂石免伤概率
+	#Range: 0.0 ~ 2.147483647E9
+	maledictus_soul_stone_chance = 0.05
+	#焰魔魂石水下增伤
+	#Range: 0.0 ~ 2.147483647E9
+	the_leviathan_soul_stone_damage = 0.1
+	#焰魔魂石水上减伤
+	#Range: 0.0 ~ 2.147483647E9
+	the_leviathan_soul_stone_armor = 0.2
+	#利维坦魂石等级
+	#Range: 0.0 ~ 2.147483647E9
+	the_leviathan_soul_stone_level = 3.0
+	#利维坦魂石时间
+	#Range: 0.0 ~ 2.147483647E9
+	the_leviathan_soul_stone_time = 5.0
+	#焰魔魂石基础概率
+	#Range: 0.0 ~ 2.147483647E9
+	ignis_soul_stone_give_chance = 0.6
+	#焰魔魂石等级时间
+	#Range: 0.0 ~ 2.147483647E9
+	ignis_soul_stone_time = 10.0
+	#焰魔魂石等级提升概率
+	#Range: 0.0 ~ 2.147483647E9
+	ignis_soul_stone_up_chance = 0.3
+	#焰魔魂石最高等级
+	#Range: 0.0 ~ 2.147483647E9
+	ignis_soul_stone_max_level = 5.0
+	#机枪魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	machine_gun_soul_stone = 0.10000000149011612
+	#重型枪械魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	heavy_machine_gun_soul_stone = 0.5
+	#冲锋枪魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	submachine_gun_soul_stone_chance = 0.25
+	#冲锋枪魂石移速
+	#Range: 0.0 ~ 2.147483647E9
+	submachine_gun_soul_stone_speed = 0.10000000149011612
+	#霰弹枪魂石破甲
+	#Range: 0.0 ~ 2.147483647E9
+	shotgun_soul_stone = 0.25
+	#狙击枪魂石最高增伤
+	#Range: 0.0 ~ 2.147483647E9
+	sniper_rifle_soul_stone_damage = 0.3
+	#狙击枪魂石最长间隔
+	#Range: 0.0 ~ 2.147483647E9
+	sniper_rifle_soul_stone_time = 3.0
+	#步枪魂石最长间隔
+	#Range: 0.0 ~ 2.147483647E9
+	rifle_soul_stone_time = 5.0
+	#步枪魂石最高增伤
+	#Range: 0.0 ~ 2.147483647E9
+	rifle_soul_stone_damage = 0.15
+	#步枪魂石最高连射次数
+	#Range: 0.0 ~ 2.147483647E9
+	rifle_soul_stone_number = 10.0
+	#手枪魂石爆头伤害
+	#Range: 0.0 ~ 2.147483647E9
+	handgun_soul_stone = 0.5
+	#弹药魂石弹药数
+	#Range: 1.0 ~ 2.147483647E9
+	ammo_soul_stone_number = 1.0
+	#弹药魂石间隔
+	#Range: 0.05 ~ 2.147483647E9
+	ammo_soul_stone_time = 5.0
+	#烈焰加农魂石魔符伤害
+	#Range: 0.0 ~ 2.147483647E9
+	firenando_soul_stone_damage = 1.0
+	#烈焰加农魂石减免
+	#Range: 0.0 ~ 2.147483647E9
+	firenando_soul_stone_cast = 10.0
+	#塞壬魂石
+	#Range: 0.0 ~ 2.147483647E9
+	siren_soul_stone = 1.0
+	#荒野魂石伤害
+	#Range: 0.0 ~ 2.147483647E9
+	wilden_soul_stone_damage = 2.0
+	#荒野魂石最大魔源
+	#Range: 0.0 ~ 2.147483647E9
+	wilden_soul_stone_mana = 0.2
+	#荒野魂石再生
+	#Range: 0.0 ~ 2.147483647E9
+	wilden_soul_stone_re = 0.1
+	#至高木魂石爆炸等级
+	#Range: 0.0 ~ 2.147483647E9
+	archwood_soul_stone_red = 1.0
+	#至高木魂石冻结等级
+	#Range: 0.0 ~ 2.147483647E9
+	archwood_soul_stone_blue = 1.0
+	#至高木魂石debuff时长
+	#Range: 0.0 ~ 2.147483647E9
+	archwood_soul_stone_time = 5.0
+	#至高木魂石Debuff概率
+	#Range: 0.0 ~ 2.147483647E9
+	archwood_soul_stone_chance = 0.1
+	#至高木魂石康复等级
+	#Range: 0.0 ~ 2.147483647E9
+	archwood_soul_stone_green = 1.0
+	#至高木魂石护盾等级
+	#Range: 0.0 ~ 2.147483647E9
+	archwood_soul_stone_purple = 1.0
+	#紫水晶傀儡魂石状态等级
+	#Range: 0.0 ~ 2.147483647E9
+	amethyst_golem_soul_stone_level = 1.0
+	#紫水晶傀儡魂石击退抗性
+	#Range: 0.0 ~ 2.147483647E9
+	amethyst_golem_soul_stone = 0.3
+	#薇克精魂石负面状态时长降低
+	#Range: 0.0 ~ 2.147483647E9
+	wixie_soul_stone_down = 0.3
+	#薇克精魂石正面状态时长提升
+	#Range: 0.0 ~ 2.147483647E9
+	wixie_soul_stone_up = 0.2
+	#书龙魂石魔符伤害
+	#Range: 0.0 ~ 2.147483647E9
+	bookwyrm_soul_stone_damage = 2.0
+	#书龙魂石减免
+	#Range: 0.0 ~ 2.147483647E9
+	bookwyrm_soul_stone_cast = 20.0
+	#星宝石兽魂石移速
+	#Range: 0.0 ~ 2.147483647E9
+	starbuncle_soul_stone = 0.4
+	#风转草魂石消耗减免
+	#Range: 0.0 ~ 2.147483647E9
+	whirlisprig_soul_stone_cast = 10.0
+	#风转草魂石额外回复饱食度
+	#Range: 0.0 ~ 2.147483647E9
+	whirlisprig_soul_stone_food = 0.5
+	#德格米魂石额外掉落物
+	#Range: 0.0 ~ 2.147483647E9
+	drygmy_soul_stone_drop = 1.0
+	#德格米魂石魔艺伤害
+	#Range: 0.0 ~ 2.147483647E9
+	drygmy_soul_stone_damage = 1.0
+	#魔源魂石魔源伤害
+	#Range: 0.0 ~ 2.147483647E9
+	ars_source_soul_stone_damage = 1.0
+	#魔源魂石最大魔源
+	#Range: 0.0 ~ 2.147483647E9
+	ars_source_soul_stone_mana = 30.0
+	#魔源魂石魔源再生
+	#Range: 0.0 ~ 2.147483647E9
+	ars_source_soul_stone_re = 1.0
+	#梦幻学派魂石法术增幅
+	#Range: 0.0 ~ 2.147483647E9
+	fantasy_sect_soul_stone_damage = 0.2
+	#梦幻学派魂石梦终抗性
+	#Range: 0.0 ~ 2.147483647E9
+	fantasy_sect_soul_stone_fantasy_ending_damage_resistance = 0.17
+	#梦幻学派魂石梦终伤害
+	#Range: 0.0 ~ 2.147483647E9
+	fantasy_sect_soul_stone_fantasy_ending_damage = 3.0
+	#梦幻学派魂石梦影抗性
+	#Range: 0.0 ~ 2.147483647E9
+	fantasy_sect_soul_stone_dream_shadow_damage_resistance = 0.15
+	#梦幻学派魂石梦影伤害
+	#Range: 0.0 ~ 2.147483647E9
+	fantasy_sect_soul_stone_dream_shadow_damage = 4.0
+	#梦幻学派魂石梦幻法强
+	#Range: 0.0 ~ 2.147483647E9
+	fantasy_sect_soul_stone_fantacy_power = 0.275
+	#梦幻学派魂石通用法强
+	#Range: 0.0 ~ 2.147483647E9
+	fantasy_sect_soul_stone_power = 0.2
+	#岩土学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	earth_sect_soul_stone_power = 0.1
+	#岩土学派魂石buff时间
+	#Range: 0.0 ~ 2.147483647E9
+	earth_sect_soul_stone_time = 5.0
+	#岩土学派魂石buff提升概率
+	#Range: 0.0 ~ 2.147483647E9
+	earth_sect_soul_stone_chance = 0.3
+	#岩土学派魂石最高buff提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	earth_sect_soul_stone_level = 10.0
+	#律灵学派魂石随从减伤
+	#Range: 0.0 ~ 2.147483647E9
+	sound_sect_soul_stone_armor = 0.2
+	#律灵学派魂石自身增伤
+	#Range: 0.0 ~ 2.147483647E9
+	sound_sect_soul_stone_owner_damage = 0.05
+	#律灵学派魂石随从增伤
+	#Range: 0.0 ~ 2.147483647E9
+	sound_sect_soul_stone_damage = 0.1
+	#律灵学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	sound_sect_soul_stone_power = 0.1
+	#源流学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_sect_soul_stone_power = 0.1
+	#源流学派魂石buff时间
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_sect_soul_stone_time = 5.0
+	#源流学派魂石buff提升概率
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_sect_soul_stone_chance = 0.3
+	#源流学派魂石最高buff提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	aqua_sect_soul_stone_level = 10.0
+	#邪术学派魂石伤害增幅
+	#Range: 0.0 ~ 2.147483647E9
+	eldritch_sect_soul_stone_damage = 0.075
+	#邪术学派魂石抑影时间
+	#Range: 0.0 ~ 2.147483647E9
+	eldritch_sect_soul_stone_time = 10.0
+	#邪术学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	eldritch_sect_soul_stone_power = 0.1
+	#末影学派魂石伤害增幅
+	#Range: 0.0 ~ 2.147483647E9
+	ender_sect_soul_stone_damage = 0.1
+	#末影学派魂石抑影时间
+	#Range: 0.0 ~ 2.147483647E9
+	ender_sect_soul_stone_time = 10.0
+	#末影学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	ender_sect_soul_stone_power = 0.1
+	#血腥学派魂石宠物吸血转化
+	#Range: 0.0 ~ 2.147483647E9
+	blood_sect_soul_stone_owner = 0.5
+	#血腥学派魂石自身吸血
+	#Range: 0.0 ~ 2.147483647E9
+	blood_sect_soul_stone_heal = 0.15
+	#血腥学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	blood_sect_soul_stone_power = 0.1
+	#自然学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	nature_sect_soul_stone_power = 0.1
+	#自然学派魂石buff增加时间
+	#Range: 0.0 ~ 2.147483647E9
+	nature_sect_soul_stone_time = 0.2
+	#自然学派魂石buff提升概率
+	#Range: 0.0 ~ 2.147483647E9
+	nature_sect_soul_stone_chance = 0.3
+	#自然学派魂石最高buff提升等级
+	#Range: 0.0 ~ 2.147483647E9
+	nature_sect_soul_stone_level = 15.0
+	#唤魔学派魂石随从减伤
+	#Range: 0.0 ~ 2.147483647E9
+	evocation_sect_soul_stone_armor = 0.3
+	#唤魔学派魂石自身增伤
+	#Range: 0.0 ~ 2.147483647E9
+	evocation_sect_soul_stone_owner_damage = 0.05
+	#唤魔学派魂石随从增伤
+	#Range: 0.0 ~ 2.147483647E9
+	evocation_sect_soul_stone_damage = 0.15
+	#唤魔学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	evocation_sect_soul_stone_power = 0.1
+	#神圣学派魂石时长
+	#Range: 0.0 ~ 2.147483647E9
+	holy_sect_soul_stone_time = 10.0
+	#神圣学派魂石伤害增幅
+	#Range: 0.0 ~ 2.147483647E9
+	holy_sect_soul_stone_damage = 0.1
+	#神圣学派魂石法强
+	#Range: 0.0 ~ 2.147483647E9
+	holy_sect_soul_stone_power = 0.1
+	#雷霆学派魂石最长超负荷时长
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_sect_soul_stone_time = 10.0
+	#雷霆学派魂石伤害转化比例
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_sect_soul_stone_damage = 0.4
+	#雷霆学派魂石雷霆法强
+	#Range: 0.0 ~ 2.147483647E9
+	lightning_sect_soul_stone_power = 0.1
+	#冰霜学派魂石冰霜法强
+	#Range: 0.0 ~ 2.147483647E9
+	ice_sect_soul_stone_ice_power = 0.1
+	#冰霜学派魂石冰封时间
+	#Range: 0.0 ~ 2.147483647E9
+	ice_sect_soul_stone_time = 10.0
+	#冰霜学派魂石冰封增伤
+	#Range: 0.0 ~ 2.147483647E9
+	ice_sect_soul_stone_ice_damage = 0.1
+	#炽焰学派魂石炽焰最大增幅
+	#Range: 0.0 ~ 2.147483647E9
+	fire_sect_soul_stone_fire_max_damage = 0.15
+	#炽焰学派魂石炽焰最小增幅
+	#Range: 0.0 ~ 2.147483647E9
+	fire_sect_soul_stone_fire_min_damage = 0.05
+	#炽焰学派魂石炽焰法强
+	#Range: 0.0 ~ 2.147483647E9
+	fire_sect_soul_stone_fire_power = 0.1
+	#飞翼魂石飞行速度
+	#Range: 0.0 ~ 2.147483647E9
+	wing_soul_stone = 1.0
+	#水生魂石水下增伤
+	#Range: 0.0 ~ 2.147483647E9
+	aquatic_soul_stone = 0.15
+	#动物魂石额外战利品数量
+	#Range: 0.0 ~ 2.147483647E9
+	animal_soul_stone = 1.0
+	#节肢增伤
+	#Range: 0.0 ~ 2.147483647E9
+	arthropod_soul_stone = 0.15
+	#亡灵增伤
+	#Range: 0.0 ~ 2.147483647E9
+	death_soul_stone = 0.15
+	#狱灵增伤
+	#Range: 0.0 ~ 2.147483647E9
+	blaze_soul_stone = 0.15
+	#森林间隔
+	#Range: 0.0 ~ 2.147483647E9
+	forest_soul_stone = 3.0
+	#自然饱和度
+	#Range: 0.0 ~ 2.147483647E9
+	lush_soul_stone_saturation = 1.0
+	#自然饥饿度
+	#Range: 0.0 ~ 2.147483647E9
+	lush_soul_stone_food = 1.0
+	#海洋游泳速度
+	#Range: 0.0 ~ 2.147483647E9
+	ocean_soul_stone = 0.5
+	#末地-末影人特攻
+	#Range: 0.0 ~ 2.147483647E9
+	ender_soul_stone_attack = 0.5
+	#末地-末影人特防
+	#Range: 0.0 ~ 2.147483647E9
+	ender_soul_stone_armor = 0.4
+	#蘑菇魂石概率
+	#Range: 0.0 ~ 2.147483647E9
+	mushroom_soul_stone = 0.5
+	#下界魂石增伤
+	#Range: 0.0 ~ 2.147483647E9
+	nether_soul_stone = 0.15
+	#下界合金魂石击退抗性
+	#Range: 0.0 ~ 2.147483647E9
+	netherite_soul_stone = 1.0
+	#下界合金魂石护甲韧性
+	#Range: 0.0 ~ 2.147483647E9
+	netherite_soul_stone_armor = 4.0
+	#煤炭魂石移速
+	#Range: 0.0 ~ 2.147483647E9
+	coal_soul_stone = 0.2
+	#铜魂石挖掘速度
+	#Range: 0.0 ~ 2.147483647E9
+	copper_soul_stone = 0.25
+	#绿宝石魂石声望
+	#Range: 0.0 ~ 2.147483647E9
+	emerald_soul_stone = 100.0
+	#红石攻击速度
+	#Range: 0.0 ~ 2.147483647E9
+	redstone_soul_stone = 0.25
+	#铁魂石护甲值
+	#Range: 0.0 ~ 2.147483647E9
+	iron_soul_stone = 5.0
+	#金魂石附魔等级
+	#Range: 0.0 ~ 2.147483647E9
+	gold_soul_stone = 5.0
+	#钻石魂石抢夺
+	#Range: 0.0 ~ 100.0
+	diamond_soul_stone_looting = 2.0
+	#钻石魂石时运
+	#Range: 0.0 ~ 100.0
+	diamond_soul_stone_fortune = 2.0
+	#青金石经验倍率
+	#Range: 0.0 ~ 100.0
+	lapis_lazuli_soul_stone = 1.0
+

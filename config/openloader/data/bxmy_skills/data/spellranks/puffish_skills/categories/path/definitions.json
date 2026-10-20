@@ -1,0 +1,670 @@
+{
+  "path_reset": {
+    "title": "道途重置",
+    "cost": "0",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:wayward_compass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills skills reset @p spellranks:path"
+        }
+      }
+    ]
+  },
+  "domain_unlock": {
+    "title": "Unlock Domain & Corruption Skill Trees",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:netherite_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @p spellranks:domain"
+        }
+      },
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @p spellranks:corruption"
+        }
+      }
+    ]
+  },
+  "blood_spell_power+0.01": {
+    "title": "+0.01 Blood Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:blood_vial"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blood_spell_power+0.02": {
+    "title": "+0.02 Blood Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:blood_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blood_spell_power+0.03": {
+    "title": "+0.03 Blood Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:blood_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ender_spell_power+0.01": {
+    "title": "+0.01 Ender Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ender_spell_power+0.02": {
+    "title": "+0.02 Ender Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ender_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ender_spell_power+0.03": {
+    "title": "+0.03 Ender Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:ender_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "evocation_spell_power+0.01": {
+    "title": "+0.01 Evocation Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "evocation_spell_power+0.02": {
+    "title": "+0.02 Evocation Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:evocation_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "evocation_spell_power+0.03": {
+    "title": "+0.03 Evocation Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:evocation_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_spell_power+0.01": {
+    "title": "+0.01 Fire Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_spell_power+0.02": {
+    "title": "+0.02 Fire Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:fire_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_spell_power+0.03": {
+    "title": "+0.03 Fire Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:fire_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "holy_spell_power+0.01": {
+    "title": "+0.01 Holy Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:divine_pearl"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "holy_spell_power+0.02": {
+    "title": "+0.02 Holy Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:holy_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "holy_spell_power+0.03": {
+    "title": "+0.03 Holy Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:holy_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ice_spell_power+0.01": {
+    "title": "+0.01 Ice Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:frozen_bone"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ice_spell_power+0.02": {
+    "title": "+0.02 Ice Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ice_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ice_spell_power+0.03": {
+    "title": "+0.03 Ice Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:ice_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lightning_spell_power+0.01": {
+    "title": "+0.01 Lightning Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:lightning_bottle"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lightning_spell_power+0.02": {
+    "title": "+0.02 Lightning Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:lightning_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lightning_spell_power+0.03": {
+    "title": "+0.03 Lightning Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:lightning_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "nature_spell_power+0.01": {
+    "title": "+0.01 Nature Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:poisonous_potato"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "nature_spell_power+0.02": {
+    "title": "+0.02 Nature Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:nature_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "nature_spell_power+0.03": {
+    "title": "+0.03 Nature Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:nature_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "aqua_spell_power+0.01": {
+    "title": "+0.01 Aqua Path Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "alexscaves:pearl"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "aqua_spell_power+0.02": {
+    "title": "+0.02 Aqua Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:aqua_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "aqua_spell_power+0.03": {
+    "title": "+0.03 Aqua Path Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:aqua_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

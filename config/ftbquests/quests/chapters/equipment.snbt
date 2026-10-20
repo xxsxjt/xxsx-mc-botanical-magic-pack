@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "equipment"
+	group: "02425CA86B834E06"
+	icon: {
+		Count: 1
+		id: "minecraft:netherite_chestplate"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "22C39512219F5E03"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["起步装备"]
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2344195EA7DAEFB4"
+			tasks: [
+				{
+					id: "0A43011C8CAF5260"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E40002C3AAF64DD"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EE0B5C36824BF00"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "钻石基础"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["升级到下界合金"]
+			icon: "minecraft:netherite_ingot"
+			id: "354DEE0B3BEDBF38"
+			tasks: [{
+				id: "6CE34C5EEB806736"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "下界合金升级"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["354DEE0B3BEDBF38"]
+			description: ["Tetra模块化装备系统"]
+			icon: "tetra:basic_workbench"
+			id: "7308F12235F6A522"
+			tasks: [
+				{
+					id: "7C8F2FF8F47BD543"
+					item: "tetra:workbench"
+					type: "item"
+				}
+				{
+					id: "7E9832F1055C819B"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+			]
+			title: "Tetra加工台"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["354DEE0B3BEDBF38"]
+			description: ["神化词缀装备重铸"]
+			icon: "apotheosis:reforging_table"
+			id: "4A91C44C49B8D471"
+			tasks: [{
+				id: "640E7CBA16B36B2C"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "神化重铸"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["354DEE0B3BEDBF38"]
+			description: ["冰火传说龙钢系列"]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D3F2C4EA7D04351"
+			tasks: [
+				{
+					id: "614CBCDF0EF802E3"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75EB8C8F8FFD4794"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "龙钢装备"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["354DEE0B3BEDBF38"]
+			description: ["悚怖钢盔甲"]
+			icon: "dreadsteel:dreadsteel_chestplate"
+			id: "6724373775C3D5FA"
+			tasks: [{
+				id: "61E142201EA3379E"
+				item: "dreadsteel:dreadsteel_chestplate"
+				type: "item"
+			}]
+			title: "悚怖钢甲"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["354DEE0B3BEDBF38"]
+			description: ["神秘遗物中各具特殊能力的装备"]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "1EC40635E9C78235"
+			tasks: [{
+				id: "4CC6670410C4E759"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			title: "神器装备"
+			x: 4.0d
+			y: -2.0d
+		}
+	]
+	title: "装备与武器"
+}

@@ -1,0 +1,247 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "endgame_void"
+	group: "47E5E5631C3D3E0A"
+	icon: "kubejs:final_witness"
+	id: "6E7D2A1B90C4F3D5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7前期你可以用任意体系换任意资源——那是为了方便。"
+				"&7但从这里开始，&e没有一条捷径是单体系能走完的&r。"
+				"",
+				"&5虚空精粹&r是后期的通用底料。"
+				"&7它由 7 个体系的「媒介」与 &b寰宇之心&r 汇合而成。"
+				"&7每个媒介都必须用该体系自己的 Boss 掉落物。"
+				"",
+				"&8任务书只提示入口，具体在各自章节。"
+			]
+			id: "1000000000000001"
+			tasks: [{
+				id: "2000000000000001"
+				title: "明白"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"&a自然之印&r：世界树之心 → 魔力池灌注"
+				"&7掉落：&e世界树（植物魔法附属）&r",
+				"&7需要：&a极大的魔力储备&r，先去把盖亚打过"
+			]
+			icon: "kubejs:botania_attunement"
+			id: "1000000000000002"
+			tasks: [{
+				id: "2000000000000002"
+				item: "kubejs:botania_attunement"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"&8机巧之印&r：无限炎铸 + 锌渣 + 红石，&e过热&r混合"
+				"&7掉落：&c灾变·烈焰魔（Ignis）&r",
+				"&7需要：&8机械动力的过热产线&r"
+			]
+			icon: "kubejs:create_attunement"
+			id: "1000000000000003"
+			tasks: [{
+				id: "2000000000000003"
+				item: "kubejs:create_attunement"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"&d奥术之印&r：暮色巫妖的权杖 → 源质灌铸"
+				"&7掉落：&b暮色森林·巫妖&r",
+				"&7需要：&a源质&r 5000"
+			]
+			icon: "kubejs:ars_attunement"
+			id: "1000000000000004"
+			tasks: [{
+				id: "2000000000000004"
+				item: "kubejs:ars_attunement"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"&b秘法之印&r：奥术微核 + 奥术混合物 织法而成"
+				"&7需要：&3魔法艺术&r 的矿物与织法书"
+			]
+			icon: "kubejs:mna_attunement"
+			id: "1000000000000005"
+			tasks: [{
+				id: "2000000000000005"
+				item: "kubejs:mna_attunement"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"&e遗秘之印&r：七咒之戒 + 盖亚锭 + 极恶锭"
+				"&7需要：&e神秘遗物&r 与 &a植物魔法&r 的终局材料"
+			]
+			icon: "kubejs:enigmatic_attunement"
+			id: "1000000000000006"
+			tasks: [{
+				id: "2000000000000006"
+				item: "kubejs:enigmatic_attunement"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"&4亡灵之印&r：四块虚空碎片，在&c黑暗祭坛&r前献祭"
+				"&7需要：&c诡厄巫法&r 的灵魂与仪式"
+			]
+			icon: "kubejs:goety_attunement"
+			id: "1000000000000007"
+			tasks: [{
+				id: "2000000000000007"
+				item: "kubejs:goety_attunement"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1000000000000001"]
+			description: [
+				"&6灵魂之印&r：炎血魂石 + 空白魂石 + 寰宇之心"
+				"&7需要：&e魂石&r 体系的龙血魂石"
+			]
+			icon: "kubejs:fargo_soul_attunement"
+			id: "1000000000000008"
+			tasks: [{
+				id: "2000000000000008"
+				item: "kubejs:fargo_soul_attunement"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1000000000000002"
+				"1000000000000003"
+				"1000000000000004"
+				"1000000000000005"
+			]
+			description: [
+				"&5虚空精粹（自然路线）&r"
+				"&7自然之印 + 机巧之印 + 奥术之印 + 秘法之印 + 寰宇之心"
+			]
+			id: "1000000000000009"
+			tasks: [{
+				id: "2000000000000009"
+				item: "kubejs:void_essence"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"1000000000000006"
+				"1000000000000007"
+				"1000000000000008"
+				"1000000000000002"
+			]
+			description: [
+				"&5虚空精粹（仪式路线）&r"
+				"&7遗秘之印 + 亡灵之印 + 灵魂之印 + 自然之印 + 寰宇之心"
+			]
+			id: "100000000000000A"
+			tasks: [{
+				id: "200000000000000A"
+				item: "kubejs:void_essence"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1000000000000009"]
+			description: [
+				"&5虚空合金&r：2 精粹 + 3 下界合金锭"
+				"&7也可以用 &a盖亚锭&r 或 &c咒魂锭&r 代替下界合金"
+			]
+			id: "100000000000000B"
+			tasks: [{
+				id: "200000000000000B"
+				item: "kubejs:void_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["100000000000000B"]
+			description: ["星核是终局装备的骨架，之后所有终局配方都会用到它。"]
+			id: "100000000000000C"
+			tasks: [{
+				id: "200000000000000C"
+				item: "kubejs:star_core"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["100000000000000C"]
+			description: ["终焉之证。走到这里，你已经把每个体系都跑通了一遍。"]
+			id: "100000000000000D"
+			tasks: [{
+				id: "200000000000000D"
+				item: "kubejs:final_witness"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["100000000000000D"]
+			description: [
+				"&6终局奇点&r。",
+				"&7它不再是「一把剑秒一切」的入口，"
+				"&7而是一切终局装备的起点。"
+				"",
+				"&c寰宇支配之剑与无尽套装已被彻底移除。&r"
+				"&7后期的提升来自材质、词条与各体系的加工，而不是无敌。"
+			]
+			icon: "avaritia:eternal_singularity"
+			id: "100000000000000E"
+			tasks: [{
+				id: "200000000000000E"
+				item: "avaritia:eternal_singularity"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 12.0d
+		}
+	]
+	title: "虚空终局"
+}

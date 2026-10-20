@@ -1,0 +1,12 @@
+{
+  "unlocked_by_default": false,
+  "title": "领域",
+  "exclusive_root": true,
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "irons_spellbooks:netherite_spell_book"
+    }
+  },
+  "background": "spellranks:textures/gui/advancements/backgrounds/domain.png"
+}

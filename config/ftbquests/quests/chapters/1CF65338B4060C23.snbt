@@ -1,0 +1,95 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1CF65338B4060C23"
+	group: "6AC426B8FA929F7F"
+	icon: "goety:dark_altar"
+	id: "1CF65338B4060C23"
+	order_index: 7
+	quest_links: [{
+		id: "42660994BAB9E344"
+		linked_quest: "443EA073B338A408"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["443EA073B338A408"]
+			description: [
+				"看&e黑暗秘典&b@goety"
+				"仪式是乱序的"
+			]
+			id: "3A3B5A9F0D359244"
+			rewards: [{
+				id: "249D8A292F1A8B83"
+				item: "create:haunted_bell"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5264B4CE04B9D45B"
+					item: "goety:dark_altar"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "4B452AAF87D7BC5F"
+					item: { Count: 12, id: "goety:pedestal_crypt_stone" }
+					type: "item"
+				}
+				{
+					id: "23D323971E5EFC7A"
+					item: "goety:cursed_cage"
+					type: "item"
+				}
+				{
+					id: "7EFFD9F90E7CCC08"
+					item: {
+						Count: 1
+						id: "goety:totem_of_souls"
+						tag: {
+							"Max Souls": 10000
+							Souls: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "213EE1131065DB29"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "goety:black_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "黑暗仪式"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A3B5A9F0D359244"]
+			description: ["灵魂方舟放下就会绑定玩家，然后宝石右键方舟会绑定方舟，在把宝石当成图腾放进诅咒之笼"]
+			id: "3D646D24E6618729"
+			tasks: [
+				{
+					id: "5A46EDC60BE252DB"
+					item: "goety:arca"
+					type: "item"
+				}
+				{
+					id: "5B88B71F61129E84"
+					item: "goety:soul_transfer"
+					type: "item"
+				}
+			]
+			title: "灵魂能量不够？"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "诡厄巫法"
+}

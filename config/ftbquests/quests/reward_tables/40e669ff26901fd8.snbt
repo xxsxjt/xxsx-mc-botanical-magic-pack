@@ -1,0 +1,17 @@
+{
+	id: "40E669FF26901FD8"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			command: "/gamerule keepInventory true"
+			title: "开"
+			type: "command"
+		}
+		{
+			command: "/gamerule keepInventory false"
+			title: "关"
+			type: "command"
+		}
+	]
+}

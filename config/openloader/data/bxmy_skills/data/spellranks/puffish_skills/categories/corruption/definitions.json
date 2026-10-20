@@ -1,0 +1,74 @@
+{
+  "corruption_spell_power+0.01": {
+    "title": "+0.01 Corruption Domain Power",
+    "description": "+0.01 Eldritch Spell Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:echo_shard"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "corruption_spell_power+0.02": {
+    "title": "+0.02 Corruption Domain Power",
+    "description": "+0.02 Eldritch Spell Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:eldritch_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "corruption_spell_power+0.03": {
+    "title": "+0.03 Corruption Domain Power",
+    "description": "+0.03 Eldritch Spell Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "traveloptics:eldritch_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:eldritch_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

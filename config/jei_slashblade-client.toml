@@ -1,0 +1,9 @@
+#仅显示可获取到拔刀的 生物掉落配方
+filter_drop = true
+#设置旋转速度，等于0的时候关闭旋转
+entity_rotation_speed = 0.0125
+sa_recipe_width = 128
+sa_recipe_height = 100
+se_recipe_width = 176
+se_recipe_height = 120
+

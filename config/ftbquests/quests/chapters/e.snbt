@@ -1,0 +1,679 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "e"
+	group: ""
+	icon: "botania:lexicon"
+	id: "15637CD54A19B009"
+	order_index: 2
+	quest_links: [{
+		id: "291823C47A7ADB00"
+		linked_quest: "192ADE0787F682A8"
+		x: -3.0d
+		y: 1.5d
+	}]
+	quests: [
+		{
+			dependencies: ["55F55229002B152E"]
+			description: [
+				"oi！掉虚空了，我的灵魂碎片找不回来了！&b（添加了制作配方，去jei搜，不知道这里为什么跳转不过去）"
+				""
+				"初始模型好丑？alt+Y打开设置。&8魔法酒狐真香嘿嘿"
+				"不想要可以去删除mod：&eysm&r"
+				""
+				"可以&e/sethome&r设置家，&e/home&r回家，&e/back&r回到上次传送点（不兼容传送石碑/指路石）"
+				""
+				"传送石碑在背包有按钮；当前已关闭传送经验、跨维度经验、冷却和使用时间。需要调整时修改&bconfig/waystones-common.toml&r"
+				""
+				"&eshift+右键&r可以抱起搬运（小心bug）"
+			]
+			disable_toast: true
+			id: "3D99BE1E313E2A4F"
+			rewards: [
+				{
+					count: 8
+					id: "2053553F62F177A5"
+					item: "enigmaticlegacy:soul_crystal"
+					type: "item"
+				}
+				{
+					id: "308019B9D5C93040"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "168E4A77F37574D0"
+				title: "阿巴阿巴"
+				type: "checkmark"
+			}]
+			title: "一些事情"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F55229002B152E"]
+			description: [
+				"&e蒸蚌！做到生产魔力了，奖励你仓储自由。"
+				""
+				"&b后续可通过下界石英与魔法石英合成赛特斯石英，详见jei。"
+				""
+				"&8这个ae能源元件应该不能输出给其他mod吧"
+			]
+			icon: "ae2:controller"
+			id: "34D36295BFAEBC97"
+			rewards: [
+				{
+					id: "765AF84EF8FC4CFF"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "7A816B9FC11C0A1E"
+					item: {
+						Count: 1
+						id: "ae2:item_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "214811D2337896D2"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "7C3165992B6B17D2"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "48E843114EC38938"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "6E995D77B5F105CF"
+					item: {
+						Count: 1
+						id: "ae2:fluid_storage_cell_256k"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1AAF29EA629C7F7A"
+					item: "ae2:white_smart_cable"
+					type: "item"
+				}
+				{
+					id: "6822C68CF8B670E3"
+					item: "ae2:creative_energy_cell"
+					type: "item"
+				}
+			]
+			subtitle: "把铁锭丢到魔力池里"
+			tasks: [{
+				id: "14473087D35599C7"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			title: "仓储自由（暂时）"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&a感觉不知所措，有点懵逼的时候，回来翻翻序章周围一圈的描述啊！&8如果没有就是真没有了"
+				""
+				"&e通过kubejs自定义了不少配方，减少了部分并不稀罕但有时难找的资源难以获取的痛苦体验，同时也让空岛玩法更完整。详见jei。"
+				""
+				"除基础资源获取外没多少魔改，所以就&m懒得&r不写太多任务书了。"
+				"&3你可能会觉得很多配方很雷霆，但是这就是魔法！"
+				""
+				"&b选择空岛玩法（创建世界时选择世界类型为水晶花园），请查阅&a植物魔法辞典-基础知识-水晶花园&r&b中的新手指引。"
+				""
+				"&d如果没有选择空岛玩法，就不用非得先玩植物魔法。"
+				""
+				"&4书太多吗？背包按&eT&r&4有垃圾桶，左上角也有。"
+			]
+			icon: "botania:king_key"
+			id: "55F55229002B152E"
+			rewards: [
+				{
+					id: "777DAD3D233D8D61"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "275430E255269468"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "tetra_patchouli_book:forging_master_notebook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "570E7649245C9EC5"
+					item: "beyonddimensions:net_creater"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "48803D51E4FA2082"
+				title: "看这里"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34D36295BFAEBC97"]
+			description: [
+				"很好，搞到赛特斯石英了，请领取你的压印模板。"
+				""
+				"陨石合成请看jei。"
+			]
+			id: "4DA955559A4A02AF"
+			rewards: [{
+				id: "070F6AD67B15CF0A"
+				item: "ae2:mysterious_cube"
+				type: "item"
+			}]
+			tasks: [{
+				id: "092BA6327F23CB5A"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F55229002B152E"]
+			description: [
+				"&e自制汉化资源包，理论上来说补全了自动汉化更新没有的部分。"
+				"&b在设置-选项-资源包查看&d“植物魔艺汉化”&r"
+				""
+				"不懂就看书，教程挺全的。&3不过任务书也可能有一些教程书没讲的小细节"
+				""
+				"&e机械动力&r&b直接看jei吧，主要就是&e安山合金&r&b，去下界搞到石英之后可以合成安山岩，看不懂就去bilibili或mcmod.cn。"
+				""
+				"&e魔法艺术&r&b同理，主要是从&e温特姆&r&b矿开始。"
+				""
+				"&cmcmod.cn和bilibili真的很好用，信我，真的。"
+				"&8应该没漏哪本教程书吧"
+			]
+			icon: "minecraft:book"
+			id: "443EA073B338A408"
+			optional: true
+			subtitle: "好好学习，天天向上"
+			tasks: [
+				{
+					id: "147D816FC3C0F9E8"
+					item: {
+						Count: 1
+						id: "occultism:dictionary_of_spirits"
+						tag: {
+							"modonomicon:book_id": "occultism:dictionary_of_spirits"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "572BB3E3BE3429E9"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "goety:black_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0327A08C80F6D17E"
+					item: {
+						Count: 1
+						id: "botania:lexicon"
+						tag: {
+							"botania:elven_unlock": 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E97E0BFE94B6807"
+					item: "ars_nouveau:worn_notebook"
+					type: "item"
+				}
+				{
+					id: "27311A4B6CBBED28"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1596EC9A244438DF"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "blood_arsenal_reawakened:blood_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1080821DB8AC5673"
+					item: {
+						Count: 1
+						id: "occultengineering:encyclopedia_of_souls"
+						tag: {
+							"modonomicon:book_id": "occultengineering:encyclopedia_of_souls"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68F8ADC3B37C19F3"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "ltc2:guidebook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "703D4C707C0135B9"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62DFFBF4D7BB3141"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "tetra_patchouli_book:forging_master_notebook"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "看书咯"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&b最常用基础材料为烈焰棒（制作末影之眼）和末影珍珠。"
+				""
+				"jei搜索珍珠或者@gateways"
+			]
+			id: "47B18D603D5EB495"
+			rewards: [{
+				id: "7F7C08113E658B84"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
+			subtitle: "有很多像这样的珍珠"
+			tasks: [
+				{
+					id: "2298D12B89D54F33"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1474A730AF197FA5"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/blaze"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "永恒之门"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&8“哎呀好烦啊，就没有一些合适获取饰品栏位的方式吗？”"
+				""
+				"一些自定义神秘小道具，jei搜@kubejs，进阶无上限，普通的上限+3"
+			]
+			id: "626A052A76ABF7A0"
+			rewards: [{
+				id: "2954D791532E06F2"
+				item: "kubejs:ring_slot_token"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18C7178DBD04054E"
+				item: "kubejs:advanced_slot_token"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F55229002B152E"]
+			description: [
+				"&b你可能会发现每次进入存档手上都会莫名其妙的多一本书。&4书太多可以背包按&eT&r&4有垃圾桶，左上角也有。"
+				""
+				"你擅长打字吗，使用知识典籍后可以解锁所有的词汇，在聊天栏输入任意数量修饰词+结尾词（作用范围）即可生效，前提是你的等级够高，等级越高，允许的词汇数就越多。"
+				""
+				"&6然后你可能会发现这些效果都极差，而且还麻烦。"
+				""
+				"&3实际上，你可以输入"
+				"“ &esanitatem sanitatem sanitatem sanitatem sui&r&3”"
+				"&b是的，重复叠加也是有效的。"
+				""
+				"&3至于输入麻烦，聊天输入框按键盘上的“&e↑&r&3”可以快捷输入上一句话，"
+				"&e还有法术书编辑完成后可以右键释放。&b副手也可以"
+				""
+				"&8有趣的小模组，什么？！金山打字通？（0v0）"
+			]
+			icon: "spelled:creative_tome"
+			id: "4D9F98D0B934A9F8"
+			rewards: [
+				{
+					id: "47E0039861BE6D7D"
+					item: "spelled:creative_tome"
+					type: "item"
+				}
+				{
+					id: "003639323B008FF3"
+					item: "spelled:spell_book"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "69070F493FC827E2"
+					title: "念咒来"
+					type: "checkmark"
+				}
+				{
+					id: "007FF283471D203A"
+					item: "spelled:leveling_altar"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4DA955559A4A02AF"]
+			description: [
+				"可以用锻造仪式合成，"
+				"&b为啥？别问，问就是魔法"
+			]
+			id: "085F176861E85307"
+			rewards: [{
+				id: "57E2F0D51D59DE5B"
+				item: "botanicpledge:yggdrasilsteel_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "534AD6FBFB91E8BB"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04EA2FC2F5FAC4C0"]
+			description: ["&b有更多凝聚板，看jei能看到"]
+			id: "0E7E8C399F9762E1"
+			rewards: [{
+				count: 3
+				id: "7EF2DED4C8C1B834"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7313998F6A5F4DD8"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F55229002B152E"]
+			description: [
+				"本模组的核心还是植物魔法的魔力，很多东西都要靠魔力池转换，尤其是空岛模式。"
+				""
+				"&3魔力容器全部扩大了1000倍。&7（不想要可以去把那个loooxbotania模组删掉）&r&3另外，黑莲花添加了神秘的合成方式，黑莲花丢入魔力池可以产出大量魔力，同时可以回收多余的怪物材料&7（不知道为什么箭和火药特别特别多，到底是哪个mod动的手脚）"
+			]
+			id: "04EA2FC2F5FAC4C0"
+			rewards: [{
+				id: "104A3EF81D2EBF59"
+				item: "botania:black_lotus"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64F81981915B0230"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["&b你应该会发现一些神秘的甘蔗/芦苇，它们需要种在这种方块上"]
+			id: "21C8FFF150CBC58C"
+			rewards: [{
+				id: "59178C778832F8FB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "有很多像这样的珍珠"
+			tasks: [{
+				id: "60DE152E07BEDAAA"
+				item: "growores:growing_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["04EA2FC2F5FAC4C0"]
+			description: ["更多矿物产出方式可以点击此页面的奖励右边的箭头查看附属"]
+			id: "3F7D1FFC82367C8F"
+			rewards: [{
+				count: 3
+				id: "7F175A76BCDC0850"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "这是凝矿兰的所有产物了"
+			tasks: [
+				{
+					id: "48FEC7E049B352A7"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "5056E06CB5CDB070"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "36F20D3960D154E7"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "1E3E49FD87B69484"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "5B42919AB91DF2CB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "73616A63F2DAAABB"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "384E29531D409CDB"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			title: "基础矿物"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F55229002B152E"]
+			description: [
+				"&e有什么不懂就长按W思考。"
+				"&e有什么不懂就长按W思考。"
+				"&e有什么不懂就长按W思考。"
+				"还有看jei哦"
+			]
+			id: "3914191018E6F1D1"
+			rewards: [{
+				count: 3
+				id: "3FED5B1862055A00"
+				item: "kubejs:head_slot_token"
+				type: "item"
+			}]
+			subtitle: "有什么不懂就长按W思考"
+			tasks: [
+				{
+					id: "597B6AD0F3931495"
+					item: "botania:cosmetic_engineer_goggles"
+					type: "item"
+				}
+				{
+					id: "725B885E0F9AD26A"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "6EC6481D44EA50C9"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "工程师"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55F55229002B152E"]
+			description: [
+				"泥土围一圈，上面放满花（神秘花也行），中间放2*2的水，然后往里丢钻石。"
+				""
+				"&3可以获取大量泥土和水，还有雪。然后就没什么了"
+				"&8应该不用单开一章吧"
+			]
+			disable_toast: true
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "07E6AC868C46F21D"
+			rewards: [{
+				id: "353DE3C26ADC1F57"
+				item: "twilightforest:twilight_oak_wood"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44F4594A06C4641A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "暮色森林"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: ["默认开启的"]
+			id: "7C2614B845C7332B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23CCA12E3F0F486C"
+				table_id: 4676541807655395288L
+				type: "choice"
+			}]
+			subtitle: "放过自己吧"
+			tasks: [{
+				id: "34DC2A0C2F4533FD"
+				title: "死亡不掉落"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DA955559A4A02AF"]
+			description: [
+				"可以合成，焦黑熔渣在下界挺常见的"
+				"&b为啥？别问，问就是mc"
+			]
+			id: "7B1D028FDE80458D"
+			rewards: [{
+				id: "389B5F4DD6EA51EE"
+				item: "ae2:sky_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37595CA2C20FAF03"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"jei搜索“之眼”寻找前往各个灾变维度的道具"
+				"或者搜索@cata"
+			]
+			id: "04E8B6376032D9AC"
+			tasks: [{
+				id: "67F9870EC06324EF"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "灾变"
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	title: "序章-植物魔法"
+}

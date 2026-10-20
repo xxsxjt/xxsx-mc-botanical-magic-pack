@@ -1,0 +1,455 @@
+
+[base]
+	#精通之戒——法术反应精通
+	#Range: 0.0 ~ 2.147483647E9
+	mastery_ring = 0.2
+	#反应之戒——法术反应冷却缩减
+	#Range: 0.0 ~ 2.147483647E9
+	reaction_ring = 0.2
+	#解析目标易伤
+	#Range: 0.0 ~ 2.147483647E9
+	resolve_resist_down = 0.1
+	#解析目标降伤
+	#Range: 0.0 ~ 2.147483647E9
+	resolve_damage_down = 0.1
+	#解析时长
+	#Range: 0.05 ~ 2.147483647E9
+	resolve_time = 10.0
+	#扩散范围
+	#Range: 0.0 ~ 2.147483647E9
+	swirl_range = 9.0
+	#扩散疾风伤害
+	#Range: 0.0 ~ 2.147483647E9
+	swirl_wind_damage = 0.3
+	#扩散反应伤害
+	#Range: 0.0 ~ 2.147483647E9
+	swirl_reaction_damage = 0.3
+	#扩散疾风减抗
+	#Range: 0.0 ~ 2.147483647E9
+	swirl_wind_resist_down = 0.2
+	#扩散反应减抗
+	#Range: 0.0 ~ 2.147483647E9
+	swirl_reaction_resist_down = 0.2
+	#扩散减抗时长
+	#Range: 0.05 ~ 2.147483647E9
+	swirl_resist_down_time = 15.0
+	#明晰基础回蓝
+	#Range: 0.0 ~ 2.147483647E9
+	clarity_fixed = 10.0
+	#明晰伤害回蓝
+	#Range: 0.0 ~ 2.147483647E9
+	clarity_get = 0.05
+	#侵蚀伤害记录比例
+	#Range: 0.0 ~ 2.147483647E9
+	corrosion_damage_get = 0.1
+	#侵蚀基础间隔时间
+	#Range: 0.05 ~ 2.147483647E9
+	corrosion_base_cooldown = 2.0
+	#侵蚀时长
+	#Range: 0.05 ~ 2.147483647E9
+	corrosion_time = 10.0
+	#结晶护盾值获取
+	#Range: 0.0 ~ 2.147483647E9
+	crystallize_shield_get = 0.1
+	#结晶时长
+	#Range: 0.05 ~ 2.147483647E9
+	crystallize_time = 15.0
+	#结晶护盾上限数值为最大生命值*多少(0.1数额就是最大护盾值=10%最大生命值)
+	#Range: 0.05 ~ 2.147483647E9
+	max_crystallize_shield = 0.5
+	#调律范围
+	#Range: 0.0 ~ 2.147483647E9
+	attunement_range = 31.0
+	#调律——为自身及周围随从随机附加下列状态效果之一。格式：命名空间:效果ID、若效果所属模组未加载，则该条目会被自动忽略。
+	attunement_effect = ["minecraft:strength", "minecraft:speed", "minecraft:haste", "minecraft:resistance", "minecraft:regeneration", "minecraft:resistance", "minecraft:fire_resistance", "minecraft:water_breathing", "minecraft:night_vision", "minecraft:saturation", "minecraft:absorption", "minecraft:luck"]
+	#调律状态时长
+	#Range: 0.05 ~ 2.147483647E9
+	attunement_time = 10.0
+	#调律状态等级
+	#Range: 1.0 ~ 2.147483647E9
+	attunement_lvl = 1.0
+	#绽放范围
+	#Range: 0.0 ~ 2.147483647E9
+	bloom_range = 7.0
+	#绽放次数
+	#Range: 1.0 ~ 2.147483647E9
+	bloom_number = 5.0
+	#绽放伤害
+	#Range: 0.05 ~ 2.147483647E9
+	bloom_damage = 0.15
+	#幽泉减抗
+	#Range: 0.0 ~ 2.147483647E9
+	gloomspring_resist_down = 0.1
+	#幽泉法强
+	#Range: 0.0 ~ 2.147483647E9
+	gloomspring_att = 0.1
+	#幽泉属性时长
+	#Range: 0.05 ~ 2.147483647E9
+	gloomspring_att_time = 15.0
+	#生息回蓝
+	#Range: 0.0 ~ 2.147483647E9
+	lifespring_mana_re = 0.15
+	#生息属性
+	#Range: 0.0 ~ 2.147483647E9
+	lifespring_att = 0.2
+	#生息属性时长
+	#Range: 0.05 ~ 2.147483647E9
+	lifespring_att_time = 15.0
+	#暗流减抗数额
+	#Range: 0.0 ~ 2.147483647E9
+	shadow_weave_resist_down = 0.15
+	#暗流减抗时长
+	#Range: 0.05 ~ 2.147483647E9
+	shadow_weave_resist_down_time = 20.0
+	#穿血穿甲数额
+	#Range: 0.0 ~ 2.147483647E9
+	piercing_blood = 0.5
+	#圣涤亡灵增伤
+	#Range: 0.0 ~ 2.147483647E9
+	holypurge_damage = 0.4
+	#圣涤回血
+	#Range: 0.0 ~ 2.147483647E9
+	holypurge_heal = 0.05
+	#感电范围
+	#Range: 0.0 ~ 2.147483647E9
+	electrocharge_range = 15.0
+	#感电伤害
+	#Range: 0.0 ~ 2.147483647E9
+	electrocharge_damage = 0.3
+	#冰封等级
+	#Range: 0.0 ~ 2.147483647E9
+	chilled_lvl = 5.0
+	#冰封时长
+	#Range: 0.0 ~ 2.147483647E9
+	chilled_time = 5.0
+	#冰封积累冰冻进度
+	#Range: 0.05 ~ 2.147483647E9
+	chilled_freeze = 500.0
+	#蒸发伤害
+	#Range: 0.0 ~ 2.147483647E9
+	vaporize_damage = 0.15
+	#蒸发减抗
+	#Range: 0.0 ~ 2.147483647E9
+	vaporize_resist_down = 0.1
+	#蒸发减抗时长
+	#Range: 0.05 ~ 2.147483647E9
+	vaporize_resist_down_time = 10.0
+	#唤灵属性
+	#Range: 0.0 ~ 2.147483647E9
+	soulvocation_att = 0.15
+	#唤灵属性时长
+	#Range: 0.05 ~ 2.147483647E9
+	soulvocation_att_time = 10.0
+	#唤灵法力值回复百分比
+	#Range: 0.01 ~ 2.147483647E9
+	soulvocation_mana = 0.1
+	#衰弱buff等级
+	#Range: 0.0 ~ 2.147483647E9
+	decay_lvl = 4.0
+	#衰弱时长
+	#Range: 0.05 ~ 2.147483647E9
+	decay_time = 15.0
+	#血绽放间隔
+	#Range: 0.05 ~ 2.147483647E9
+	bloodbloom_cooldown = 1.0
+	#血绽放范围
+	#Range: 0.05 ~ 2.147483647E9
+	bloodbloom_range = 5.0
+	#血绽放伤害
+	#Range: 0.0 ~ 2.147483647E9
+	bloodbloom_damage = 0.5
+	#血绽放时长
+	#Range: 0.0 ~ 2.147483647E9
+	bloodbloom_time = 5.0
+	#腐败减甲
+	#Range: 0.0 ~ 2.147483647E9
+	corruption_armor_down = 8.0
+	#腐败虚弱等级
+	#Range: 0.05 ~ 2.147483647E9
+	corruption_buff_lvl = 2.0
+	#腐败时长
+	#Range: 0.0 ~ 2.147483647E9
+	corruption_time = 15.0
+	#光绽放范围
+	#Range: 0.0 ~ 2.147483647E9
+	lightbloom_range = 15.0
+	#光绽放治疗
+	#Range: 0.05 ~ 2.147483647E9
+	lightbloom_heal = 0.05
+	#光绽放特攻治疗
+	#Range: 0.0 ~ 2.147483647E9
+	lightbloom_heal_undead = 0.08
+	#激化伤害
+	#Range: 0.0 ~ 2.147483647E9
+	quicken_damage = 0.4
+	#激化破甲等级
+	#Range: 0.05 ~ 2.147483647E9
+	quicken_buff_lvl = 4.0
+	#激化时长
+	#Range: 0.0 ~ 2.147483647E9
+	quicken_time = 10.0
+	#霜华减速
+	#Range: 0.0 ~ 2.147483647E9
+	frostglow_speed_down = 0.4
+	#霜华枯萎等级
+	#Range: 0.05 ~ 2.147483647E9
+	frostglow_buff_lvl = 3.0
+	#霜华时长
+	#Range: 0.0 ~ 2.147483647E9
+	frostglow_time = 10.0
+	#燃烧记录比例
+	#Range: 0.0 ~ 2.147483647E9
+	buring_damage_get = 0.5
+	#燃烧伤害间隔
+	#Range: 0.05 ~ 2.147483647E9
+	buring_cooldown = 0.25
+	#单次燃烧伤害
+	#Range: 0.0 ~ 2.147483647E9
+	buring_damage = 0.25
+	#燃烧伤害降低比例
+	#Range: 0.0 ~ 2.147483647E9
+	buring_damage_down = 0.125
+	#燃烧时间
+	#Range: 0.05 ~ 2.147483647E9
+	buring_time = 4.0
+	#织邪属性
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchweave_at = 0.15
+	#织邪法强
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchweave_att = 0.1
+	#织邪属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchweave_att_time = 15.0
+	#幽血重伤
+	#Range: 0.0 ~ 2.147483647E9
+	gloomblood_heal_down = 0.6
+	#幽血属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	gloomblood_att = 0.1
+	#幽血属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	gloomblood_att_time = 15.0
+	#幽影减甲
+	#Range: 0.0 ~ 2.147483647E9
+	gloomshadow_armor_down = 10.0
+	#幽影属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	gloomshadow_att = 0.1
+	#幽影属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	gloomshadow_att_time = 15.0
+	#幽光回血
+	#Range: 0.0 ~ 2.147483647E9
+	gloomlight_heal = 0.05
+	#幽光属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	gloomlight_att = 0.1
+	#幽光属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	gloomlight_att_time = 15.0
+	#邪霆范围
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchbolt_range = 5.0
+	#邪霆伤害
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchbolt_damage = 0.3
+	#邪霆属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchbolt_att = 0.1
+	#邪霆属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchbolt_att_time = 15.0
+	#邪霜减速
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchfrost_damage = 0.5
+	#邪霜属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchfrost_att = 0.1
+	#邪霜属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchfrost_att_time = 15.0
+	#邪火伤害
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchflame_damage = 0.3
+	#邪火属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchflame_att = 0.1
+	#邪火属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	eldritchflame_att_time = 15.0
+	#驭血回血
+	#Range: 0.0 ~ 2.147483647E9
+	bloodweave_heal = 0.07
+	#驭血属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	bloodweave_att = 0.15
+	#驭血属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	bloodweave_att_time = 10.0
+	#驭影属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	shadowweave_att = 0.15
+	#驭影属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	shadowweave_att_time = 10.0
+	#驭光属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	lightweave_att = 0.1
+	#驭光属性特攻
+	#Range: 0.0 ~ 2.147483647E9
+	lightweave_att_undead = 0.2
+	#驭光属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	lightweave_att_time = 10.0
+	#唤雷范围
+	#Range: 0.0 ~ 2.147483647E9
+	electrovocation_range = 5.0
+	#唤雷伤害
+	#Range: 0.0 ~ 2.147483647E9
+	electrovocation_damage = 0.3
+	#唤雷属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	electrovocation_att = 0.1
+	#唤雷属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	electrovocation_att_time = 10.0
+	#唤雪减速
+	#Range: 0.0 ~ 2.147483647E9
+	cryovocation_damage = 0.5
+	#唤雪属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	cryovocation_att = 0.1
+	#唤雪属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	cryovocation_att_time = 10.0
+	#唤火伤害
+	#Range: 0.0 ~ 2.147483647E9
+	pyrovocation_damage = 0.3
+	#唤火属性加成
+	#Range: 0.0 ~ 2.147483647E9
+	pyrovocation_att = 0.1
+	#唤火属性时长
+	#Range: 0.0 ~ 2.147483647E9
+	pyrovocation_att_time = 10.0
+	#封血重伤
+	#Range: 0.0 ~ 2.147483647E9
+	bloodseal_heal_down = 1.0
+	#封血重伤时长
+	#Range: 0.0 ~ 2.147483647E9
+	bloodseal_heal_down_time = 8.0
+	#圣血回血
+	#Range: 0.0 ~ 2.147483647E9
+	holy_blood_base = 0.04
+	#圣血特攻回血
+	#Range: 0.0 ~ 2.147483647E9
+	holy_blood_undead = 0.1
+	#血超导范围
+	#Range: 0.0 ~ 2.147483647E9
+	blood_superconduct_range = 15.0
+	#血超导伤害
+	#Range: 0.0 ~ 2.147483647E9
+	blood_superconduct_damage = 0.6
+	#凝血减速
+	#Range: 0.0 ~ 2.147483647E9
+	bloodsolid_speed_down = 0.6
+	#凝血重伤
+	#Range: 0.0 ~ 2.147483647E9
+	bloodsolid_heal_down = 0.6
+	#凝血重伤时长
+	#Range: 0.0 ~ 2.147483647E9
+	bloodsolid_heal_down_time = 10.0
+	#蒸血伤害
+	#Range: 0.0 ~ 2.147483647E9
+	bloodvapor_damage = 0.4
+	#蒸血重伤
+	#Range: 0.0 ~ 2.147483647E9
+	bloodvapor_heal_down = 0.2
+	#蒸血重伤时长
+	#Range: 0.0 ~ 2.147483647E9
+	bloodvapor_heal_down_time = 10.0
+	#末光减甲
+	#Range: 0.0 ~ 2.147483647E9
+	enderlight_armor_down = 7.0
+	#末光特攻减甲
+	#Range: 0.0 ~ 2.147483647E9
+	enderlight_armor_down_undead = 15.0
+	#末光减甲时长
+	#Range: 0.0 ~ 2.147483647E9
+	enderlight_armor_down_time = 10.0
+	#隙雷范围
+	#Range: 0.0 ~ 2.147483647E9
+	rift_lightning_range = 7.0
+	#隙雷伤害
+	#Range: 0.0 ~ 2.147483647E9
+	rift_lightning_damage = 0.3
+	#隙雷减甲
+	#Range: 0.0 ~ 2.147483647E9
+	rift_lightning_armor_down = 7.0
+	#隙雷减甲时长
+	#Range: 0.0 ~ 2.147483647E9
+	rift_lightning_armor_down_time = 8.0
+	#焚影伤害
+	#Range: 0.0 ~ 2.147483647E9
+	shadowburn_damage = 0.3
+	#焚影减甲
+	#Range: 0.0 ~ 2.147483647E9
+	shadowburn_armor_down = 5.0
+	#焚影减甲时长
+	#Range: 0.0 ~ 2.147483647E9
+	shadowburn_armor_down_time = 10.0
+	#天罚范围
+	#Range: 0.0 ~ 2.147483647E9
+	holy_smite_range = 5.0
+	#天罚基础
+	#Range: 0.0 ~ 2.147483647E9
+	holy_smite_base = 0.3
+	#天罚特攻
+	#Range: 0.0 ~ 2.147483647E9
+	holy_smite_undead = 0.4
+	#元素附着提示方式：'cube' 头顶正方体, 'particle' 头顶粒子, 'none' 不显示
+	spell_light_type = "cube"
+	#元素反应是否会出现文本提示
+	spell_reaction_send = true
+	#元素反应是否只有玩家/玩家的随从(包括女仆)可以触发？
+	spell_player_and_maid = true
+	#元素附着时长
+	#Range: 0.05 ~ 2.147483647E9
+	spell_reaction_time = 10.0
+	#单体元素反应基础冷却时间
+	#Range: 0.05 ~ 2.147483647E9
+	spell_reaction_cooldown = 0.5
+	#融化倍率
+	#Range: 0.0 ~ 2.147483647E9
+	melt = 0.6
+	#超载范围
+	#Range: 0.0 ~ 2.147483647E9
+	overload_range = 5.0
+	#超载范围
+	#Range: 0.0 ~ 2.147483647E9
+	overload_damage = 0.5
+	#超导范围
+	#Range: 0.0 ~ 2.147483647E9
+	superconduct_range = 5.0
+	#超导伤害
+	#Range: 0.0 ~ 2.147483647E9
+	superconduct_damage = 0.25
+	#超导时长
+	#Range: 0.0 ~ 2.147483647E9
+	superconduct_time = 5.0
+	#超导减速
+	#Range: 0.0 ~ 2.147483647E9
+	superconduct_speed_down = 0.4
+	#光灼基础
+	#Range: 0.0 ~ 2.147483647E9
+	lightburn_base = 0.3
+	#光灼特攻
+	#Range: 0.0 ~ 2.147483647E9
+	lightburn_undead = 0.8
+	#圣霜基础
+	#Range: 0.0 ~ 2.147483647E9
+	holyfrost_base = 0.6
+	#圣霜时长
+	#Range: 0.0 ~ 2.147483647E9
+	holyfrost_undead = 8.0
+

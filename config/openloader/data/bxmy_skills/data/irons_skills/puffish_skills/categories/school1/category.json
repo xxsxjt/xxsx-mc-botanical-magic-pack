@@ -1,0 +1,12 @@
+{
+  "unlocked_by_default": false,
+  "title": "学派 I",
+  "exclusive_root": true,
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "irons_spellbooks:gold_spell_book"
+    }
+  },
+  "background": "irons_spells_dynamic_skilltree:textures/gui/advancements/backgrounds/sourcestonegreen.png"
+}

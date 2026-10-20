@@ -1,0 +1,598 @@
+{
+  "root_power": {
+    "title": "魔力觉醒",
+    "description": "+25 法力 / +0.5/s 法力恢复 — 感受魔力的涌动",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_power_1": {
+    "title": "法术增幅",
+    "description": "+5% 法术强度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:rare_ink"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_power_2": {
+    "title": "奥术凝聚",
+    "description": "+10% 法术强度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:epic_ink"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_power_3": {
+    "title": "奥术精通",
+    "description": "+15% 法术强度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:legendary_ink"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "mana_regen_1": {
+    "title": "法力源泉",
+    "description": "+0.5/s 法力恢复",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:amethyst_resonance_charm"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_mana_1": {
+    "title": "法力扩容 I",
+    "description": "+30 最大法力",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:mana_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 30,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "max_mana_2": {
+    "title": "法力扩容 II",
+    "description": "+60 最大法力",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:dragonskin_spell_book"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 60,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cooldown_1": {
+    "title": "疾速施法",
+    "description": "+10% 冷却缩减",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cooldown_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cooldown_2": {
+    "title": "无间施法",
+    "description": "+15% 冷却缩减",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cooldown_ring"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cast_speed_1": {
+    "title": "瞬发",
+    "description": "+12% 施法速度 / +5% 施法移速",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cooldown_ring"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.12,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:casting_movespeed",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_resist_1": {
+    "title": "魔法抵抗",
+    "description": "+5% 法术抗性",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:heavy_chain_necklace"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "spell_resist_2": {
+    "title": "法术屏障",
+    "description": "+10% 法术抗性",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:protection_upgrade_orb"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_dmg_1": {
+    "title": "烈焰之心 I",
+    "description": "+8% 火焰法术强度 / +5% 火焰附伤",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:fire_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "fire_dmg_2": {
+    "title": "烈焰之心 II",
+    "description": "+15% 火焰法术强度 / +3 护甲穿透",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_dmg_1": {
+    "title": "冰霜之心 I",
+    "description": "+8% 冰霜法术强度 / +5% 冰霜附伤",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ice_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "cold_dmg_2": {
+    "title": "冰霜之心 II",
+    "description": "+15% 冰霜法术强度 / +5% 闪避",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:packed_ice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lightning_dmg_1": {
+    "title": "雷霆之心 I",
+    "description": "+8% 闪电法术强度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:lightning_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.08,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "lightning_dmg_2": {
+    "title": "雷霆之心 II",
+    "description": "+15% 闪电法术强度 / +10% 移动速度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "minecraft:generic.movement_speed",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "holy_dmg_1": {
+    "title": "圣光之触",
+    "description": "+10% 神圣法术强度 / +15% 治疗接受",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:holy_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "blood_dmg_1": {
+    "title": "鲜血仪式",
+    "description": "+10% 鲜血法术强度 / +5% 生命偷取",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:blood_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "ender_dmg_1": {
+    "title": "虚空行者",
+    "description": "+10% 末影法术强度 / +5% 暴击率",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:ender_upgrade_orb"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "summon_dmg_1": {
+    "title": "召唤亲和",
+    "description": "+15% 召唤物伤害",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "goety:dark_hat"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:summon_damage",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "summon_dmg_2": {
+    "title": "召唤大师",
+    "description": "+25% 召唤物伤害 / +10% 召唤物抗性",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "goety:grand_robe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:summon_damage",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.tamed_resistance",
+          "value": 0.1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "arcane_mastery": {
+    "title": "奥术精通",
+    "description": "+15% 全法术强度 / +1.5/s 法力恢复 / +15% 冷却 / +50 法力",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:legendary_ink"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 1.5,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 50,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

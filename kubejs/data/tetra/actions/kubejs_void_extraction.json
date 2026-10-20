@@ -1,0 +1,10 @@
+[
+  {
+    "key": "kubejs_void_extraction",
+    "requirement": {
+      "items": [ "mine_fargo:empty_soul_stone" ]
+    },
+    "requiredTools": { "hammer_dig": "minecraft:diamond" },
+    "lootTable": "kubejs:actions/void_extraction"
+  }
+]

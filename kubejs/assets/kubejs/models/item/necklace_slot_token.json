@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "kubejs:item/necklace_slot_token"
+                 },
+    "parent":  "item/generated"
+}

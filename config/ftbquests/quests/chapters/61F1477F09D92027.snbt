@@ -1,0 +1,102 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "61F1477F09D92027"
+	group: "6AC426B8FA929F7F"
+	id: "61F1477F09D92027"
+	order_index: 3
+	quest_links: [{
+		id: "4411A7130199951A"
+		linked_quest: "443EA073B338A408"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["443EA073B338A408"]
+			description: [
+				"深板岩嘛，可以试试&e拆解台&r神力，但是小心你的经验。"
+				""
+				"&3法术书就直接在jei搜法术书，能搜到"
+			]
+			id: "14761B5442C37C7A"
+			rewards: [{
+				id: "6D64A758263E3810"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:rotten_spell_book"
+					tag: {
+						"irons_spellbooks:spell_container": {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "31B6C5E34D0AA7C3"
+					item: "irons_spellbooks:inscription_table"
+					type: "item"
+				}
+				{
+					id: "65C175C53305681B"
+					item: "irons_spellbooks:scroll_forge"
+					type: "item"
+				}
+				{
+					id: "79562C4420DC4496"
+					item: "irons_spellbooks:arcane_anvil"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443EA073B338A408"]
+			description: ["墨水很好搞，真的，不信看jei。"]
+			id: "3C86DFB28E0E3191"
+			rewards: [{
+				id: "3A68961DB5FA710F"
+				item: "botania:mana_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A353AF80F7122A4"
+				item: "irons_spellbooks:legendary_ink"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443EA073B338A408"]
+			description: [
+				"空白符文可以通过植物魔法的符文祭坛做"
+				"&8（这个强制放活石怎么这么坏）&r"
+				""
+				"奥术残骸可以通过仪式制作。"
+			]
+			id: "5AABC19F8F098A33"
+			tasks: [
+				{
+					id: "25C92640B9B2CE80"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+				{
+					id: "0F9F2731373FB307"
+					item: "irons_spellbooks:upgrade_orb"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "铁魔法"
+}

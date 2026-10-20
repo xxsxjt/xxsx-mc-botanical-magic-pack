@@ -1,0 +1,50 @@
+
+[ai]
+	#AI API 地址，留空则使用内置 API
+	provider_url = ""
+	#API Key，留空则使用内置 Key
+	provider_key = ""
+	#模型名称，留空则使用内置模型
+	provider_model = ""
+
+[chat]
+	#启用会话记忆
+	memory_enabled = true
+	#会话持久化：重连后保留对话
+	session_persistence = true
+	#上下文最大 token 数，超限后按压缩策略处理
+	#Range: 1000 ~ 1000000
+	context_max_tokens = 70000
+	#上下文压缩策略: truncate(截断) / summarize(AI总结)
+	context_compression = "truncate"
+	#每会话保留最大消息数
+	#Range: 1 ~ 500
+	memory_max_messages = 100
+	#AI API 超时（毫秒）
+	#Range: 5000 ~ 600000
+	api_timeout_ms = 300000
+
+[knowledge]
+	#知识库根目录，子目录名为知识库名
+	path = "config/xxsx_builder/knowledge"
+
+[build]
+	#建筑前询问是否清除周围区域
+	ask_clear = true
+	#建造速度（每tick方块数，-1=使用默认blocks_per_tick）
+	#Range: -1 ~ 10000
+	speed = -1
+	#每 tick 放置方块数（20tick=1秒，1000=20000方块/秒）
+	#Range: 10 ~ 10000
+	blocks_per_tick = 1000
+	#PMX 最大顶点数
+	#Range: 10000 ~ 5000000
+	max_vertices = 500000
+	#默认缩放大小（方块）
+	#Range: 10 ~ 2000
+	default_scale = 300
+
+[safety]
+	#AI 禁止执行的命令前缀，逗号分隔
+	command_blacklist = "op,deop,ban-ip,ban,stop,kick,whitelist,pardon,debug,reload,save-all,save-off,save-on"
+

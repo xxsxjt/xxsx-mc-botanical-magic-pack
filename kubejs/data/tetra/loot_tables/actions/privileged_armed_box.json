@@ -1,0 +1,59 @@
+{
+    "pools": [
+        {
+            "name": "fca_items",
+            "rolls": { "min": 1, "max": 3 },
+            "entries": [
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:as_written_by_whom", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:cerces", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:coin_of_whimsy", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:coronal_radiance", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:death_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:earth_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:eternal_lament", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:ethereal_drill", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:evernight", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:flower_of_life", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:folding_knife", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:glory_aspersed_torso", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:golden_remains", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:hatred_inundate", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:jade_feather", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:janus", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:law_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:lucky_star", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:mass_production_armor", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:memory_crystal_shard", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:mnestia", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:ocean_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:origin_sin", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:passage_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:peace_pistol", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:permansor_terrae", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:photon_battery", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:pristine_love", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:reason_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:roller_skates", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:romance_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:sky_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:strawberry_roselle", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:strife_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:talanton", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:time_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:trickery_curios", "weight": 3 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:undying_embers", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:undying_starlight", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:vanquished_flow_s_reticence", "weight": 2 },
+                { "type": "minecraft:item", "name": "flame_chase_artifacts:worldbearing_curios", "weight": 3 }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:apply_bonus",
+                    "enchantment": "minecraft:fortune",
+                    "formula": "uniform_bonus_count",
+                    "parameters": { "bonusMultiplier": 1 }
+                }
+            ]
+        }
+    ]
+}

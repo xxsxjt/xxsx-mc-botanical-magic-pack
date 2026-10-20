@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "41234C3F4F61DA5E"
+	group: "6AC426B8FA929F7F"
+	id: "41234C3F4F61DA5E"
+	order_index: 8
+	quest_links: [
+		{
+			id: "60FFB170E50783B1"
+			linked_quest: "443EA073B338A408"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7EF5EC88CA1E1974"
+			linked_quest: "3914191018E6F1D1"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0373235F0821DA5A"
+			linked_quest: "3F7D1FFC82367C8F"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["443EA073B338A408"]
+			description: [
+				"看&e魔灵之书&b@occultism"
+				""
+				"为什么是其一吗？因为还有其他第三只眼"
+			]
+			id: "6F7E1DAB84074F74"
+			rewards: [{
+				count: 3
+				id: "4FB161BB08336DB8"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			subtitle: "豪赤"
+			tasks: [{
+				id: "6B7069D44D673F60"
+				item: "occultism:datura_seeds"
+				type: "item"
+			}]
+			title: "第三只眼-其一"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3914191018E6F1D1"]
+			description: ["应该好使"]
+			id: "4F26B4A0D3EA12F9"
+			rewards: [{
+				count: 16
+				id: "1808B68FA9D8BAA4"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BB4BC4D45597761"
+				item: "occultengineering:combined_goggles"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F7E1DAB84074F74"]
+			description: [
+				"&b异界原木需要在第三只眼状态下才能拿到"
+				"不然的话，灵火转换的树苗种出来的撸下来就是普通橡树"
+			]
+			id: "4858B0C0F7E5DA14"
+			tasks: [
+				{
+					id: "5C284097151BCA0D"
+					item: "occultism:otherworld_log"
+					type: "item"
+				}
+				{
+					id: "1A625979C6D7CE0A"
+					item: "occultism:otherstone"
+					type: "item"
+				}
+				{
+					id: "18D5A987A088729F"
+					item: {
+						Count: 1
+						id: "occultism:otherworld_sapling_natural"
+						tag: {
+							isInventoryItem: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F7D1FFC82367C8F"]
+			description: ["通过&e批量缠魂&r获取粗银，详见jei"]
+			id: "60FC94138B642850"
+			rewards: [{
+				count: 3
+				id: "4B190D62719133D4"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "78008548BBD23DEC"
+					item: "occultism:raw_silver"
+					type: "item"
+				}
+				{
+					id: "35652242A1C5B24F"
+					item: "occultism:silver_ingot"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F7D1FFC82367C8F"]
+			description: ["然而并不好做。"]
+			id: "0E8465918473D18F"
+			rewards: [{
+				count: 16
+				id: "2B7A995F1E61A0A9"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6351E19C4CE1341D"
+				item: "occultism:dimensional_mineshaft"
+				type: "item"
+			}]
+			title: "更多矿物获取方式"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "神秘学"
+}

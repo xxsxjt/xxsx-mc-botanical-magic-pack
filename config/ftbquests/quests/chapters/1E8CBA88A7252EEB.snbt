@@ -1,0 +1,91 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1E8CBA88A7252EEB"
+	group: "02425CA86B834E06"
+	icon: "minecraft:end_portal_frame"
+	id: "1E8CBA88A7252EEB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["进入主世界"]
+			icon: "minecraft:grass_block"
+			id: "1F1A88947900F7F9"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "341A8A79CEB81F9D"
+				type: "dimension"
+			}]
+			title: "主世界"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["进入下界"]
+			icon: "minecraft:netherrack"
+			id: "3C8A6090C8DCD19F"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "49B3F7717AAE2EF2"
+				type: "dimension"
+			}]
+			title: "下界"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["进入末地"]
+			icon: "minecraft:end_stone"
+			id: "0C12DE2A30BEB45F"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "54598BFD18D0752B"
+				type: "dimension"
+			}]
+			title: "末地"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["进入暮色森林"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "2D599F6F6E595ED3"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "349EFFDE6C6FA611"
+				type: "dimension"
+			}]
+			title: "暮色森林"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["进入深暗之园"]
+			icon: "undergarden:depthrock"
+			id: "6E9233D6778EEDB3"
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				id: "06EF14D3BAA4B71A"
+				type: "dimension"
+			}]
+			title: "深暗之园"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["进入灾变维度"]
+			icon: "cataclysm:burning_ashes"
+			id: "53A46DE7AC619E63"
+			tasks: [{
+				dimension: "cataclysm:the_cataclysm"
+				id: "52B604A0FBF24050"
+				type: "dimension"
+			}]
+			title: "灾变维度"
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	title: "维度"
+}

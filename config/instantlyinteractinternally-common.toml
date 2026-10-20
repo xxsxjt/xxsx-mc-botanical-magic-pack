@@ -1,0 +1,45 @@
+
+#InstantlyInteractInternally server-side blacklist/whitelist controls
+[controls]
+	#Enable item blacklist (disallow items in the list)
+	enableItemBlacklist = false
+	#Item blacklist: registry names (e.g. minecraft:diamond_sword)
+	itemBlacklist = []
+	#Enable block blacklist (disallow blocks in the list)
+	enableBlockBlacklist = false
+	#Block blacklist: registry names (e.g. minecraft:chest)
+	blockBlacklist = []
+	#Enable item whitelist (only allow items in the list)
+	enableItemWhitelist = false
+	#Item whitelist: registry names (e.g. minecraft:bread)
+	itemWhitelist = []
+	#Enable block whitelist (only allow blocks in the list)
+	enableBlockWhitelist = false
+	#Block whitelist: registry names (e.g. minecraft:chest)
+	blockWhitelist = []
+
+#Use progress behavior
+[use_progress]
+	#Enable vanilla-time use progress for edible/drinkable items (uninterrupted by closing screens)
+	enableUseProgress = true
+	#Progress ring X position ratio (0.0~1.0)
+	#Range: 0.0 ~ 1.0
+	xRatio = 0.5
+	#Progress ring Y position ratio (0.0~1.0)
+	#Range: 0.0 ~ 1.0
+	yRatio = 0.76
+	#Progress ring outer radius (pixels)
+	#Range: 6 ~ 64
+	outerRadius = 16
+	#Progress ring thickness (pixels)
+	#Range: 2 ~ 32
+	thickness = 5
+	#Progress ring start color (ARGB integer)
+	#Range: 0 ~ 4294967295
+	startColorARGB = 3429289215
+	#Progress ring end color (ARGB integer)
+	#Range: 0 ~ 4294967295
+	endColorARGB = 3429302118
+	#Show centered countdown seconds
+	showCountdown = true
+

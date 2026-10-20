@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "10B3F153DEE6C4D2"
+	group: "6AC426B8FA929F7F"
+	icon: "enigmaticlegacy:cursed_ring"
+	id: "10B3F153DEE6C4D2"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"带上吧，&8&m什么？副作用？大受着时代了解一下&r"
+				""
+				"神秘遗物搜&e@enigmatic"
+				""
+				"七界之约搜&e@Sanctified Legacy"
+				""
+				"&8有没有想过同时戴两个"
+			]
+			id: "61201B481565BF82"
+			tasks: [
+				{
+					id: "1FD686B160E1ADF9"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+				{
+					id: "1849D5F22267DF56"
+					item: "covenant_of_the_seven:virtue_ring"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"自己看全息球和书吧，联动材料挺多的。"
+				"&e有兼容法术书、拔刀剑，还有盔甲附加，自行探索"
+				"&b各个原理图添加了各种莫名其妙的合成方式。"
+				"&8第一次玩拿个球放地上敲，找了半天，然后拎着精准采集锤子和另一个东西几乎挖干净整个遗迹，愣是没找到板条箱和锻造锤，最后去搜才知道这玩意有概率不刷，貌似还不低，直接破防。"
+				"&e锻造锤不玩空岛的也领吧，别折磨自己了，那破遗迹天天不刷。&8"
+				"&b使用方式就是放在加工台上，中间空一格，有时候会卡住，用锤子右键即可。"
+			]
+			id: "12C7CA271A72EA8A"
+			rewards: [
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "2833B4B3C3C190B4"
+					item: "tetra:hammer_base"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 2
+					exclude_from_claim_all: true
+					id: "2797984456BA7AF4"
+					item: "tetra:combustion_chamber"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					count: 2
+					exclude_from_claim_all: true
+					id: "273F06BE68A56544"
+					item: "tetra:planar_stabilizer"
+					type: "item"
+				}
+			]
+			subtitle: "no 要 木锤"
+			tasks: [
+				{
+					id: "26B39F4F24CE78B1"
+					item: {
+						Count: 1
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/stone"
+							"double/basic_hammer_right_material": "basic_hammer/stone"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "78b6924d-3506-43be-a1e7-9ae990c38570"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E9DAB6AA73A4FCE"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "tetra_patchouli_book:forging_master_notebook"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "377A594D4076325B"
+					item: {
+						Count: 1
+						id: "tetra:holo"
+						tag: {
+							"holo/core": "holo/core"
+							"holo/core_material": "frame/dim"
+							"holo/frame": "holo/frame"
+							"holo/frame_material": "core/ancient"
+							"holo/repo": "holo/repo"
+							"holo/repo_material": "repo/default"
+							"holo/scanner": "holo/scanner"
+							"holo/scanner_material": "scanner/default"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "tetra"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"这可能是最方便的一个？"
+				"但是附魔种类应该不全。"
+			]
+			id: "5BD3DDF481074E84"
+			rewards: [{
+				id: "415AF504CEB2A7F2"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				id: "4B63F66E7DB85BAA"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: ["搜索&e@dragon&r和&e@blood&r有一些盔甲类强化"]
+			id: "48EC0614DF5D9983"
+			tasks: [
+				{
+					id: "4F1B84D34252510A"
+					item: "dmnr:blank_upgrade_seal"
+					type: "item"
+				}
+				{
+					id: "4F86D7F8ADFE7A13"
+					item: {
+						Count: 1
+						id: "bloodmagic:upgradetome"
+						tag: {
+							livingStats: {
+								evolved: 0b
+								maxPoints: 310
+								upgrades: [{
+									exp: 5.0d
+									key: "bloodmagic:curios_socket"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["12C7CA271A72EA8A"]
+			description: ["字面意思，身上携带磨刀石，可以在Tetra加工台进行特殊改造。"]
+			id: "38F8944952AC0E67"
+			rewards: [{
+				count: 6
+				id: "0F236AD55CFBF721"
+				item: "tetrawhetstone:whetstone"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3855CFF65C9C76CC"
+					item: "tetrawhetstone:whetstone"
+					type: "item"
+				}
+				{
+					id: "58200F2870E3F19D"
+					item: "tetrawhetstone:overwhetstone"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["yyds"]
+			id: "0E528ACA01591996"
+			rewards: [{
+				id: "04B45EDD6D3F7A08"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [
+				{
+					id: "1AC2E7AC8CD39A8D"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "276CB07A0A985040"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["对，星穹铁道，翁法罗斯"]
+			id: "35FC795E33A7B5CC"
+			tasks: [
+				{
+					id: "1F00A2E6DCB0C32C"
+					item: "flame_chase_artifacts:hatred_inundate"
+					type: "item"
+				}
+				{
+					id: "459F51285A832F8F"
+					item: "flame_chase_artifacts:pristine_love"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"实际上："
+				""
+				"&b鼠标悬停物品+shift键可以看到物品对应mod的id，jei中@id即可搜索该mod相关物品。"
+				""
+				"&b现在jei中可以搜索物品描述或者饰品栏位来搜索物品，比如“逐火”。"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "3A18F87263BFE7FD"
+			tasks: [{
+				id: "24574A9E941E215F"
+				title: "一些提示"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["12C7CA271A72EA8A"]
+			description: ["ennnnnnn，怎么说呢，比如木偶是不支持改造的，可能还有一些特殊的"]
+			id: "400F69D0BD1512D7"
+			rewards: [{
+				count: 4
+				id: "6CA11A7AD4E319E0"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7473D8F01364C065"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:judgement_cut"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_iron.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 4.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 999
+								lastActionTime: 85794L
+								maxDamage: 15050
+								proudSoul: 47391
+								translationKey: "item.slashblade.rodai_iron"
+							}
+							"fallen_gems_affixes:augment_capability": {
+								Augments: [{
+									Test: "test"
+								}]
+							}
+						}
+						id: "slashbladetetra:slashblade"
+						tag: {
+							HideFlags: 1
+							bladeState: {
+								AttackAmplifier: 0.0f
+								ComboRoot: "slashblade:standby"
+								Damage: 0
+								ModelName: "slashblade:model/blade.obj"
+								RepairCounter: 0
+								SpecialAttackType: "slashblade:judgement_cut"
+								StandbyRenderType: 1b
+								SummonedSwordColor: -13421569
+								SummonedSwordColorInverse: 0b
+								TargetEntity: 0
+								TextureName: "slashblade:model/rodai_iron.png"
+								_onClick: 0b
+								adjustXYZ: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								baseAttackModifier: 4.0f
+								currentCombo: "slashblade:none"
+								fallDecreaseRate: 0.0f
+								isBroken: 0b
+								isDefaultBewitched: 0b
+								isSealed: 0b
+								killCount: 999
+								lastActionTime: 85794L
+								maxDamage: 15050
+								proudSoul: 47391
+								translationKey: "item.slashblade.rodai_iron"
+							}
+							honing_available: 1b
+							honing_progress: -2
+							id: "29a95510-919c-45b6-a5c4-cda5821364d6"
+							"slashblade/blade": "slashblade/blade/blade"
+							"slashblade/blade/blade_material": "blade/avaritia_infinity_ingot"
+							"slashblade/blade/settle_progress": 1728
+							"slashblade/handle": "slashblade/handle/handle"
+							"slashblade/handle/handle_material": "handle/avaritia_infinity_ingot"
+							"slashblade/handle/settle_progress": 1728
+							"slashblade/scabbard": "slashblade/scabbard/scabbard"
+							"slashblade/scabbard/scabbard_material": "scabbard/avaritia_infinity_ingot"
+							"slashblade/scabbard/settle_progress": 1728
+							"slashblade/tsuba": "slashblade/tsuba/tsuba"
+							"slashblade/tsuba/settle_progress": 1728
+							"slashblade/tsuba/tsuba_material": "tsuba/avaritia_infinity_ingot"
+							soul_slot: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "117513D58AD5291D"
+					item: {
+						Count: 1
+						id: "tetra_spell_book:modular_spell_book"
+						tag: {
+							Damage: 0
+							HideFlags: 1
+							ISB_Spells: {
+								maxSpells: 10
+							}
+							honing_progress: 450
+							id: "91346a6b-672f-4b40-b8c0-27c545cfb4bf"
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 10
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+							"modular_spell_book/back_cover": "modular_spell_book/back_cover/base_back_cover"
+							"modular_spell_book/back_cover/base_back_cover_material": "base_back_cover/avaritia_infinity_ingot"
+							"modular_spell_book/core": "modular_spell_book/core/iron_spell_core"
+							"modular_spell_book/core/iron_spell_core_material": "iron_spell_core/druidic_spell_book"
+							"modular_spell_book/front_cover": "modular_spell_book/front_cover/base_front_cover"
+							"modular_spell_book/front_cover/base_front_cover_material": "base_front_cover/avaritia_infinity_ingot"
+							"modular_spell_book/pages": "modular_spell_book/pages/base_pages"
+							"modular_spell_book/pages/base_pages_material": "base_pages/string"
+							"modular_spell_book/spine": "modular_spell_book/spine/base_spine"
+							"modular_spell_book/spine/base_spine_material": "base_spine/avaritia_infinity_ingot"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "像这样"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: ["&e这很好用，真的"]
+			id: "3AD6ACF6B28AD614"
+			tasks: [{
+				id: "0240D37AA33E9B44"
+				item: "terra_curio:ankh_charm"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "更多"
+}

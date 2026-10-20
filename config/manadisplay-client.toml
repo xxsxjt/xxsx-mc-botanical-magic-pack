@@ -1,0 +1,12 @@
+
+#Mana Display client config
+[overlay]
+	#Enable mana display overlay globally
+	enabled = true
+	#Show overlay above mana pools
+	pools = true
+	#Show overlay above mana spreaders
+	spreaders = false
+	#Show overlay above generating flowers
+	flowers = false
+

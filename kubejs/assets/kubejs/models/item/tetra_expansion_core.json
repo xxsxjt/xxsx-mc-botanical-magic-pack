@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "kubejs:item/tetra_expansion_core"
+                 },
+    "parent":  "item/generated"
+}

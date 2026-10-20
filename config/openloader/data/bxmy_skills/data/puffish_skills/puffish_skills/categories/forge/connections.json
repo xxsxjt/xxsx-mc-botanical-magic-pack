@@ -1,0 +1,48 @@
+{
+  "normal": {
+    "bidirectional": [
+      ["fg_rt",  "fg_ms1"],
+      ["fg_rt",  "fg_ft1"],
+      ["fg_rt",  "fg_xp1"],
+
+      ["fg_ms1", "fg_ms2"],
+      ["fg_ms1", "fg_ps1"],
+      ["fg_ft1", "fg_ps1"],
+      ["fg_ft1", "fg_ft2"],
+      ["fg_xp1", "fg_ft2"],
+      ["fg_xp1", "fg_xp2"],
+
+      ["fg_ms2", "fg_ms3"],
+      ["fg_ms2", "fg_as1"],
+      ["fg_ps1", "fg_as1"],
+      ["fg_ps1", "fg_ss1"],
+      ["fg_ft2", "fg_ss1"],
+      ["fg_ft2", "fg_dr1"],
+      ["fg_xp2", "fg_dr1"],
+
+      ["fg_ms3", "fg_xp3"],
+      ["fg_as1", "fg_xp3"],
+      ["fg_ss1", "fg_xp3"],
+      ["fg_dr1", "fg_xp3"],
+
+      ["fg_xp3", "fg_lk1"],
+      ["fg_xp3", "fg_st1"],
+      ["fg_xp3", "fg_ar1"],
+      ["fg_xp3", "fg_cs1"],
+
+      ["fg_lk1", "fg_ac1"],
+      ["fg_st1", "fg_ac1"],
+      ["fg_ar1", "fg_at1"],
+      ["fg_cs1", "fg_at1"],
+
+      ["fg_ac1", "fg_ac2"],
+      ["fg_ac1", "fg_rd1"],
+      ["fg_at1", "fg_rd1"],
+      ["fg_at1", "fg_ac3"],
+
+      ["fg_ac2", "fg_mst"],
+      ["fg_rd1", "fg_mst"],
+      ["fg_ac3", "fg_mst"]
+    ]
+  }
+}

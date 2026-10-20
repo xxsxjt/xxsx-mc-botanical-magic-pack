@@ -1,0 +1,22 @@
+{
+  "type": "summoningrituals:altar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "l2complements"
+    }
+  ],
+  "catalyst": { "item": "l2complements:guardian_eye" },
+  "outputs": [
+    {
+      "mob": "minecraft:elder_guardian",
+      "count": 1,
+      "offset": { "x": 0, "y": 3, "z": 0 },
+      "spread": { "x": 5, "y": 0, "z": 5 }
+    },
+    { "item": "l2complements:guardian_eye" }
+  ],
+  "inputs": [
+    { "item": "minecraft:copper_ingot", "count": 8 }
+  ]
+}

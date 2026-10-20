@@ -1,0 +1,108 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "37533B3C9A936FEB"
+	group: "6AC426B8FA929F7F"
+	id: "37533B3C9A936FEB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&7可能或许有点太好获取了"
+				"注：&4不熟，空岛游玩体验可能不完整"
+			]
+			id: "3CC1EAAD06ECAF1C"
+			subtitle: "加了制作方式"
+			tasks: [{
+				id: "1DC0CBBD337D32BA"
+				item: "mna:vinteum_ore"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CC1EAAD06ECAF1C"]
+			id: "149AF9FB83BD77A5"
+			tasks: [{
+				id: "1B8C056D68B2E665"
+				item: {
+					Count: 1
+					id: "mna:manaweaver_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"看&b@mana"
+				"&7有时候@mna？没搞懂"
+			]
+			id: "0DBE3C16EF69D2AA"
+			tasks: [{
+				id: "2E78877BCED9006A"
+				item: "mna:runeforge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A3B5A9F0D359244"]
+			description: [
+				"你可能需要一些神秘的小植物，最后指向这个东西。"
+				"&b查阅@goety的安息仪式，基座放2个任意蘑菇，祭坛再放1个"
+			]
+			id: "6B98EE9CE5F4D145"
+			rewards: [{
+				id: "1189F13FEA15FE4E"
+				item: "mna:arcane_compound"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mna:mushroom_soldier"
+				id: "4C621000CE91E51B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&7可能或许有点太好获取了"
+				"注：&4不熟，空岛游玩体验可能不完整"
+			]
+			id: "01120CFB69BCD10D"
+			subtitle: "加了制作方式"
+			tasks: [{
+				id: "67874D01D3E224C0"
+				item: "mna:chimerite_gem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3CC1EAAD06ECAF1C"
+				"01120CFB69BCD10D"
+			]
+			id: "7A9B13BC1167BAB1"
+			tasks: [{
+				id: "6A2B3F696478E3F6"
+				item: "mna:manaweaver_wand_advanced"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "魔法艺术"
+}

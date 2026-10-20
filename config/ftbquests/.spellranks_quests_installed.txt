@@ -1,0 +1,217 @@
+version: 1.5.4-1.20.1
+reward_config: on
+ias_spellbooks:blazing_imprint    fire uncraftable C: 01 , U: 02->03 , R: 04 , E: 05 , L: 06
+ias_spellbooks:dragline    nature uncraftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+ias_spellbooks:handemic    evocation uncraftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+ias_spellbooks:hellish_horde    evocation uncraftable E: 01 , L: 02
+ias_spellbooks:pumpkin_spice    nature uncraftable U: 01 , E: 02 , L: 03
+ias_spellbooks:restorative_rain    evocation uncraftable R: 01 , E: 02 , L: 03
+ias_spellbooks:silken_breath    evocation uncraftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+ias_spellbooks:snack_attack    ice uncraftable R: 01 , E: 02 , L: 03
+ias_spellbooks:spirits_chosen    blood uncraftable R: 01->02 , E: 03 , L: 04->05
+ias_spellbooks:venomous_reborn    eldritch uncraftable L: 01->02
+ias_spellbooks:zoom_n_boom    evocation uncraftable E: 01
+irons_spellbooks:abyssal_shroud    eldritch craftable L: 01->03
+irons_spellbooks:acid_orb    nature craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+irons_spellbooks:acupuncture    blood craftable R: 01->04 , E: 05->07 , L: 08->10
+irons_spellbooks:angel_wing    holy craftable L: 01->05
+irons_spellbooks:arrow_volley    evocation craftable U: 01->02 , R: 03 , E: 04->05 , L: 06
+irons_spellbooks:ascension    lightning craftable R: 01->04 , E: 05->07 , L: 08->10
+irons_spellbooks:ball_lightning    lightning craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:black_hole    ender craftable L: 01->06
+irons_spellbooks:blaze_storm    fire craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:blessing_of_life    holy craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:blight    nature craftable R: 01->03 , E: 04->06 , L: 07->08
+irons_spellbooks:blood_needles    blood craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:blood_slash    blood craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:blood_step    blood craftable U: 01 , R: 02->03 , E: 04 , L: 05
+irons_spellbooks:burning_dash    fire craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:chain_creeper    evocation craftable U: 01->02 , R: 03 , E: 04->05 , L: 06
+irons_spellbooks:chain_lightning    lightning craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:charge    lightning craftable R: 01 , E: 02 , L: 03
+irons_spellbooks:cleanse    holy craftable E: 01
+irons_spellbooks:cone_of_cold    ice craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:counterspell    ender craftable R: 01
+irons_spellbooks:devour    blood craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:divine_smite    holy craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:dragon_breath    ender craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:earthquake    nature craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:echoing_strikes    ender craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:eldritch_blast    eldritch craftable L: 01->05
+irons_spellbooks:electrocute    lightning craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:evasion    ender craftable E: 01->03 , L: 04->05
+irons_spellbooks:fang_strike    evocation craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:fang_ward    evocation craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+irons_spellbooks:fire_arrow    fire craftable R: 01->04 , E: 05->07 , L: 08->10
+irons_spellbooks:fire_breath    fire craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:fireball    fire craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:firebolt    fire craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:firecracker    evocation craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:firefly_swarm    nature craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:flaming_barrage    fire craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:flaming_strike    fire craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:fortify    holy craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:frost_step    ice craftable R: 01->03 , E: 04->06 , L: 07->08
+irons_spellbooks:frostbite    ice craftable E: 01->03 , L: 04->05
+irons_spellbooks:frostwave    ice craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+irons_spellbooks:gluttony    nature craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:greater_heal    holy craftable R: 01
+irons_spellbooks:guiding_bolt    holy craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:gust    evocation craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:haste    holy craftable E: 01->02 , L: 03->04
+irons_spellbooks:heal    holy craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+irons_spellbooks:healing_circle    holy craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:heartstop    blood craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:heat_surge    fire craftable C: 01 , U: 02->03 , R: 04 , E: 05 , L: 06
+irons_spellbooks:ice_block    ice craftable R: 01->02 , E: 03->04 , L: 05->06
+irons_spellbooks:ice_spikes    ice craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:ice_tomb    ice craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+irons_spellbooks:icicle    ice craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:invisibility    evocation craftable R: 01->02 , E: 03->04 , L: 05->06
+irons_spellbooks:lightning_bolt    lightning craftable E: 01->06 , L: 07->10
+irons_spellbooks:lightning_lance    lightning craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:lob_creeper    evocation craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:magic_arrow    ender craftable R: 01->04 , E: 05->07 , L: 08->10
+irons_spellbooks:magic_missile    ender craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:magma_bomb    fire craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+irons_spellbooks:oakskin    nature craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+irons_spellbooks:planar_sight    eldritch craftable L: 01->03
+irons_spellbooks:pocket_dimension    eldritch craftable L: 01
+irons_spellbooks:poison_arrow    nature craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:poison_breath    nature craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:poison_splash    nature craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:portal    ender craftable U: 01 , E: 02 , L: 03
+irons_spellbooks:raise_dead    blood craftable U: 01->02 , R: 03 , E: 04->05 , L: 06
+irons_spellbooks:ray_of_frost    ice craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:ray_of_siphoning    blood craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:recall    ender craftable U: 01
+irons_spellbooks:root    nature craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:sacrifice    blood craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:scorch    fire craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:sculk_tentacles    eldritch craftable L: 01->04
+irons_spellbooks:shadow_slash    ender craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:shield    evocation craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:shockwave    lightning craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+irons_spellbooks:slow    evocation craftable E: 01->02 , L: 03->04
+irons_spellbooks:snowball    ice craftable U: 01 , R: 02->03 , E: 04 , L: 05
+irons_spellbooks:sonic_boom    eldritch craftable L: 01->03
+irons_spellbooks:spectral_hammer    evocation craftable U: 01 , R: 02->03 , E: 04 , L: 05
+irons_spellbooks:spider_aspect    nature craftable R: 01->03 , E: 04->06 , L: 07->08
+irons_spellbooks:starfall    ender craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:stomp    nature craftable U: 01 , R: 02->03 , E: 04 , L: 05
+irons_spellbooks:summon_ender_chest    ender craftable R: 01
+irons_spellbooks:summon_horse    evocation craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:summon_polar_bear    ice craftable R: 01->04 , E: 05->07 , L: 08->10
+irons_spellbooks:summon_swords    ender craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:summon_vex    evocation craftable R: 01->02 , E: 03 , L: 04->05
+irons_spellbooks:sunbeam    holy craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:telekinesis    eldritch craftable L: 01->05
+irons_spellbooks:teleport    ender craftable U: 01 , R: 02->03 , E: 04 , L: 05
+irons_spellbooks:throw    evocation craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:thunderstorm    lightning craftable R: 01->03 , E: 04->06 , L: 07->08
+irons_spellbooks:touch_dig    nature craftable R: 01 , E: 02 , L: 03
+irons_spellbooks:volt_strike    lightning craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:wall_of_fire    fire craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+irons_spellbooks:wisp    holy craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+irons_spellbooks:wither_skull    blood craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+irons_spellbooks:wololo    evocation craftable L: 01
+traveloptics:abyssal_blast    eldritch uncraftable E: 01 , L: 02->03
+traveloptics:aerial_collapse    nature craftable U: 01 , R: 02->03 , E: 04 , L: 05
+traveloptics:annihilation    fire uncraftable L: 01->03
+traveloptics:aqua_missiles    aqua craftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:ashen_breath    evocation craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+traveloptics:astral_sense    ender craftable R: 01 , E: 02 , L: 03
+traveloptics:axe_of_the_doomed    ice uncraftable L: 01->03
+traveloptics:blackout    eldritch uncraftable L: 01->03
+traveloptics:blink    ender craftable U: 01 , E: 02 , L: 03
+traveloptics:blood_howl    blood craftable U: 01 , R: 02->03 , E: 04 , L: 05
+traveloptics:bubble_spray    aqua craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+traveloptics:burning_judgment    fire uncraftable C: 01 , U: 02->03 , R: 04 , E: 05 , L: 06
+traveloptics:call_forth_the_dead_king    blood uncraftable L: 01
+traveloptics:conjure_void_tomes    ender uncraftable U: 01 , R: 02->03 , E: 04 , L: 05
+traveloptics:coral_barrage    aqua craftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:cursed_minefield    ender craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+traveloptics:cursed_revenants    ice craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+traveloptics:death_laser    lightning craftable U: 01 , E: 02 , L: 03
+traveloptics:despair    ice craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+traveloptics:echo_of_the_abyss    aqua uncraftable L: 01->02
+traveloptics:eek    blood craftable L: 01
+traveloptics:em_pulse    lightning craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+traveloptics:eternal_sentinel    ender uncraftable E: 01 , L: 02->03
+traveloptics:flames_reborn    fire craftable R: 01 , E: 02 , L: 03
+traveloptics:flood_slash    aqua craftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:floodgate    aqua craftable E: 01->04 , L: 05->08
+traveloptics:halberd_horizon    ice uncraftable R: 01->02 , E: 03->04 , L: 05->06
+traveloptics:herald_of_acropolis    aqua uncraftable L: 01->03
+traveloptics:hydroshot    aqua craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+traveloptics:ignited_onslaught    fire uncraftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:jet_steam    aqua craftable E: 01
+traveloptics:lava_bomb    fire craftable E: 01 , L: 02->03
+traveloptics:lingering_strain    evocation craftable E: 01 , L: 02->03
+traveloptics:magnetron_deployment    lightning uncraftable E: 01
+traveloptics:mechanized_predator    lightning uncraftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:meteor_storm    fire craftable E: 01->03 , L: 04->06
+traveloptics:nocturnal_swarm    blood craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+traveloptics:nullflare    holy craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+traveloptics:orbital_void    ender craftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:overflow    aqua craftable U: 01 , R: 02 , E: 03 , L: 04
+traveloptics:primal_pack    nature uncraftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:primordial_steed    nature uncraftable L: 01->03
+traveloptics:psychic_bolt    eldritch craftable E: 01 , L: 02->03
+traveloptics:rainfall    aqua craftable E: 01 , L: 02->03
+traveloptics:rapid_laser    lightning craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+traveloptics:reversal    eldritch craftable R: 01 , E: 02 , L: 03
+traveloptics:serpentide    aqua uncraftable R: 01 , E: 02->03 , L: 04
+traveloptics:shadowed_miasma    eldritch craftable R: 01 , E: 02 , L: 03
+traveloptics:spectral_blink    eldritch craftable L: 01->03
+traveloptics:stele_cascade    nature craftable C: 01 , U: 02->03 , R: 04 , E: 05 , L: 06
+traveloptics:sticky_steed_summon    ice uncraftable L: 01->03
+traveloptics:summon_desert_dwellers    holy uncraftable R: 01->02 , E: 03 , L: 04->05
+traveloptics:sword_of_the_ancients    holy uncraftable L: 01->03
+traveloptics:the_forgotten_beast    eldritch uncraftable L: 01->02
+traveloptics:the_howling_tempest    aqua uncraftable E: 01 , L: 02->03
+traveloptics:tidal_grasp    aqua craftable U: 01->02 , R: 03 , E: 04->05 , L: 06
+traveloptics:tsunami    aqua craftable R: 01 , E: 02->03 , L: 04
+traveloptics:vigor_siphon    blood craftable E: 01 , L: 02->03
+traveloptics:violent_skreech    eldritch craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+traveloptics:void_eruption    ender craftable E: 01 , L: 02->03
+traveloptics:vortex_of_the_deep    aqua craftable L: 01->06
+traveloptics:vortex_punch    ender craftable L: 01->03
+universal_spell:attack_speed_modifier    lightning craftable E: 01->03 , L: 04->05
+universal_spell:block_crushing    evocation craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+universal_spell:builder_hand    nature craftable C: 01 , U: 02->03 , R: 04 , E: 05 , L: 06
+universal_spell:crafting    evocation craftable C: 01
+universal_spell:create_arcane_motor    lightning craftable U: 01->03 , R: 04->06 , E: 07->08 , L: 09->10
+universal_spell:create_fire_whirl    evocation craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+universal_spell:create_goggle    evocation craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+universal_spell:create_lava_whirl    fire craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+universal_spell:create_polish    evocation craftable R: 01->02 , E: 03->04 , L: 05->06
+universal_spell:create_press    lightning craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+universal_spell:create_reignite    fire craftable R: 01->02 , E: 03->04 , L: 05->06
+universal_spell:create_soul_whirl    ender craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+universal_spell:create_water_whirl    ice craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+universal_spell:death_match    eldritch uncraftable L: 01
+universal_spell:exchange    blood craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+universal_spell:extinguish    ice craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+universal_spell:feed    nature craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:frost_walker    ice craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:growing    nature craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+universal_spell:growth_accelerate    nature craftable R: 01->02 , E: 03 , L: 04->05
+universal_spell:growth_aura    nature craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:harvest    nature craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:leap    evocation craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:liquid_walker    ice craftable U: 01 , R: 02->03 , E: 04 , L: 05
+universal_spell:logging    nature craftable C: 01->02 , U: 03 , R: 04->05 , E: 06 , L: 07
+universal_spell:magnetism    ender craftable U: 01->02 , R: 03->05 , E: 06 , L: 07->08
+universal_spell:perceiving    holy craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:pickup    ender craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:portable_anvil    evocation craftable C: 01 , U: 02 , R: 03 , E: 04 , L: 05
+universal_spell:portable_brewing_stand    evocation craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+universal_spell:portable_smithing_table    evocation craftable C: 01
+universal_spell:repair    evocation craftable R: 01->02 , E: 03->04 , L: 05->06
+universal_spell:smelting    fire craftable C: 01->02 , U: 03->04 , R: 05->06 , E: 07 , L: 08
+universal_spell:teleport_anchor    ender craftable U: 01
+universal_spell:thunder_slam    lightning craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+universal_spell:time_cycle    eldritch craftable L: 01->05
+universal_spell:treasure_hunt    evocation craftable C: 01->03 , U: 04->05 , R: 06->07 , E: 08->09 , L: 10
+universal_spell:weather_cycle    lightning craftable R: 01

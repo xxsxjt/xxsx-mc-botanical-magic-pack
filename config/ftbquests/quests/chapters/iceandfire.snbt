@@ -1,0 +1,355 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iceandfire"
+	group: "6AC426B8FA929F7F"
+	icon: "iceandfire:dragonbone"
+	id: "6F90886746F4D3EB"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["阅读冰火传说的生物图鉴，了解这个世界的神奇生物"]
+			icon: "iceandfire:bestiary"
+			id: "1100000000000001"
+			tasks: [{
+				id: "1200000000000001"
+				item: "iceandfire:bestiary"
+				type: "item"
+			}]
+			title: "龙之图鉴"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000001"]
+			description: ["击杀任意龙获得龙骨，制作龙骨工具"]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonbone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1100000000000002"
+			tasks: [
+				{
+					id: "1200000000000002"
+					item: "iceandfire:dragonbone"
+					type: "item"
+				}
+				{
+					id: "1200000000000003"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000004"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonbone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "龙骨工具"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000001"]
+			description: ["制作龙食，驯服属于你的龙"]
+			icon: "iceandfire:dragon_meal"
+			id: "1100000000000003"
+			tasks: [{
+				id: "1200000000000005"
+				item: "iceandfire:dragon_meal"
+				type: "item"
+			}]
+			title: "驯龙"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000001"]
+			description: ["击杀三种龙获得龙之心，用于制作龙钢"]
+			icon: "iceandfire:fire_dragon_heart"
+			id: "1100000000000004"
+			tasks: [
+				{
+					id: "1200000000000006"
+					item: "iceandfire:fire_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "1200000000000007"
+					item: "iceandfire:ice_dragon_heart"
+					type: "item"
+				}
+				{
+					id: "1200000000000008"
+					item: "iceandfire:lightning_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "龙之心"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1100000000000004"]
+			description: ["用龙之心和龙骨炼制龙钢，打造终极装备"]
+			icon: "iceandfire:dragonsteel_fire_ingot"
+			id: "1100000000000005"
+			tasks: [
+				{
+					id: "1200000000000009"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					id: "1200000000000010"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					id: "1200000000000011"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			title: "龙钢之始"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1100000000000005"]
+			description: ["火焰龙钢系列：最强火属性装备"]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1100000000000006"
+			tasks: [
+				{
+					id: "1200000000000012"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000013"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000014"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "火龙钢装备"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1100000000000005"]
+			description: ["冰霜龙钢系列：最强冰属性装备"]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_ice_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1100000000000007"
+			tasks: [
+				{
+					id: "1200000000000015"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000016"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000017"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "冰龙钢装备"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1100000000000005"]
+			description: ["雷电龙钢系列：最强雷属性装备"]
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_lightning_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1100000000000008"
+			tasks: [
+				{
+					id: "1200000000000018"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000019"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000020"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "雷龙钢装备"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: ["冰火传说世界中还有许多其他强大的传说生物"]
+			icon: {
+				Count: 1
+				id: "iceandfire:cyclops_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1100000000000009"
+			tasks: [
+				{
+					id: "1200000000000021"
+					item: {
+						Count: 1
+						id: "iceandfire:cyclops_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000022"
+					item: {
+						Count: 1
+						id: "iceandfire:gorgon_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1200000000000023"
+					item: "iceandfire:hydra_fang"
+					type: "item"
+				}
+			]
+			title: "传说生物"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1100000000000009"]
+			description: ["探索海洋与天空中的强大生物"]
+			icon: "iceandfire:sea_serpent_fang"
+			id: "1100000000000010"
+			tasks: [
+				{
+					id: "1200000000000024"
+					item: "iceandfire:sea_serpent_fang"
+					type: "item"
+				}
+				{
+					id: "1200000000000025"
+					item: "iceandfire:cockatrice_eye"
+					type: "item"
+				}
+				{
+					id: "1200000000000026"
+					item: "iceandfire:stymphalian_bird_feather"
+					type: "item"
+				}
+			]
+			title: "海洋与天空"
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	title: "冰火传说"
+}

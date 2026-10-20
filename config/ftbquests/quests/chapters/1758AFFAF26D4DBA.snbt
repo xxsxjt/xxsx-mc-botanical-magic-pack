@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1758AFFAF26D4DBA"
+	group: "6AC426B8FA929F7F"
+	id: "1758AFFAF26D4DBA"
+	order_index: 13
+	quest_links: [{
+		id: "5373E5D01B670C09"
+		linked_quest: "443EA073B338A408"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["443EA073B338A408"]
+			id: "229E233E7AAEC2C6"
+			subtitle: "没什么好说的"
+			tasks: [{
+				id: "3CDD8D5DA0E92DFC"
+				item: "ltc2:unprocessed_latiao"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["229E233E7AAEC2C6"]
+			id: "3AEEB1F6B2B00030"
+			subtitle: "顾名思义"
+			tasks: [{
+				id: "246AB9EACF2D3913"
+				item: "ltc2:latiao_oven"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "神秘辣条"
+}

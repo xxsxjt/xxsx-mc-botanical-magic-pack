@@ -1,0 +1,57 @@
+{
+  "do_s1":  { "definition": "root_strength",     "x": -80,  "y": 0,     "root": true },
+  "do_s2":  { "definition": "root_vitality",     "x": 80,   "y": 0,     "root": true },
+
+  "do_a1":  { "definition": "attack_1",          "x": -240, "y": -80   },
+  "do_sp1": { "definition": "speed_1",           "x": 0,    "y": -80   },
+  "do_ls1": { "definition": "life_steal_1",      "x": 80,   "y": -80   },
+  "do_at1": { "definition": "attack_spd_1",      "x": 160,  "y": -80   },
+  "do_h1":  { "definition": "health_1",          "x": 240,  "y": -80   },
+  "do_dr1": { "definition": "dmg_reflect_1",     "x": 320,  "y": -80   },
+
+  "do_a2":  { "definition": "attack_2",          "x": -240, "y": -160  },
+  "do_sd1": { "definition": "sword_dmg_1",       "x": -80,  "y": -160  },
+  "do_ls2": { "definition": "life_steal_2",      "x": 80,   "y": -160  },
+  "do_at2": { "definition": "attack_spd_2",      "x": 160,  "y": -160  },
+  "do_h2":  { "definition": "health_2",          "x": 240,  "y": -160  },
+  "do_dr2": { "definition": "dmg_reflect_2",     "x": 320,  "y": -160  },
+
+  "do_a3":  { "definition": "attack_3",          "x": -240, "y": -240  },
+  "do_md1": { "definition": "melee_dmg_1",       "x": -160, "y": -240  },
+  "do_sd2": { "definition": "sword_dmg_2",       "x": -80,  "y": -240  },
+  "do_ls3": { "definition": "life_steal_3",      "x": 80,   "y": -240  },
+  "do_h3":  { "definition": "health_3",          "x": 240,  "y": -240  },
+  "do_mr1": { "definition": "magic_resist_1",    "x": 320,  "y": -240  },
+
+  "do_a4":  { "definition": "attack_4",          "x": -240, "y": -320  },
+  "do_md2": { "definition": "melee_dmg_2",       "x": -160, "y": -320  },
+  "do_cb":  { "definition": "crit_boost",        "x": -80,  "y": -320  },
+  "do_sp2": { "definition": "speed_2",           "x": 0,    "y": -320  },
+  "do_ar1": { "definition": "armor_1",           "x": 240,  "y": -320  },
+  "do_mr2": { "definition": "magic_resist_2",    "x": 320,  "y": -320  },
+
+  "do_a5":  { "definition": "attack_5",          "x": -240, "y": -400  },
+  "do_md3": { "definition": "melee_dmg_3",       "x": -160, "y": -400  },
+  "do_ar2": { "definition": "armor_2",           "x": 240,  "y": -400  },
+  "do_as1": { "definition": "armor_shred_1",     "x": 320,  "y": -400  },
+
+  "do_rd1": { "definition": "ranged_dmg_1",      "x": -160, "y": -480  },
+  "do_tg":  { "definition": "toughness_1",       "x": 240,  "y": -480  },
+  "do_as2": { "definition": "armor_shred_2",     "x": 320,  "y": -480  },
+
+  "do_bs1": { "definition": "bow_speed_1",       "x": -160, "y": -560  },
+  "do_nr1": { "definition": "natural_regen_1",   "x": -80,  "y": -560  },
+  "do_st1": { "definition": "stamina_1",         "x": 80,   "y": -560  },
+  "do_kb1": { "definition": "knockback_1",       "x": 160,  "y": -560  },
+  "do_ap1": { "definition": "armor_pierce_1",    "x": 320,  "y": -560  },
+
+  "do_nr2": { "definition": "natural_regen_2",   "x": -80,  "y": -640  },
+  "do_st2": { "definition": "stamina_2",         "x": 80,   "y": -640  },
+  "do_kb2": { "definition": "knockback_2",       "x": 160,  "y": -640  },
+  "do_ap2": { "definition": "armor_pierce_2",    "x": 320,  "y": -640  },
+  "do_dg":  { "definition": "dodge_1",           "x": 0,    "y": -640  },
+
+  "do_lk1": { "definition": "luck_1",            "x": 0,    "y": -720  },
+  "do_lk2": { "definition": "luck_2",            "x": 0,    "y": -800  },
+  "do_ms":  { "definition": "doom_master",       "x": 0,    "y": -880  }
+}

@@ -1,0 +1,532 @@
+{
+  "path_unlock": {
+    "title": "+75 法力上限",
+    "description": "同时解锁道途技能树",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:diamond_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills category unlock @p spellranks:path"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:max_mana",
+          "value": 75,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "oel3f149wa7wavjm"
+    }
+  },
+  "enhancement_reset": {
+    "title": "增强重置",
+    "cost": "0",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:wayward_compass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills skills reset @p spellranks:enhancement"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "bkm8yklgv6xg0bnk"
+    }
+  },
+  "mana_regen+0.01": {
+    "title": "+0.01 法力恢复",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:amethyst_resonance_charm"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "he4bo1rfpouqktj3"
+    }
+  },
+  "mana_regen+0.02": {
+    "title": "+0.02 法力恢复",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:graybeard_staff"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "c84f4aysannkiycl"
+    }
+  },
+  "mana_regen+0.03": {
+    "title": "+0.03 法力恢复",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:amethyst_resonance_charm"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "bi579hretjwgxhet"
+    }
+  },
+  "mana_regen+0.05": {
+    "title": "+0.05 法力恢复",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:graybeard_staff"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "3h2n86dh7549zl8p"
+    }
+  },
+  "spell_power+0.02": {
+    "title": "+0.02 法术强度",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:epic_ink"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "77igdqowww32f46b"
+    }
+  },
+  "spell_power+0.03": {
+    "title": "+0.03 法术强度",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:legendary_ink"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "0o5g6dot2vafowc2"
+    }
+  },
+  "spell_resist+0.01": {
+    "title": "+0.01 法术抗性",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:heavy_chain_necklace"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "1upfnr4dq3kd3g45"
+    }
+  },
+  "spell_resist+0.02": {
+    "title": "+0.02 法术抗性",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:magehunter"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "tja8r54uekqtqw1e"
+    }
+  },
+  "spell_resist+0.03": {
+    "title": "+0.03 法术抗性",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:heavy_chain_necklace"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "4h10h2m81ksn87ml"
+    }
+  },
+  "spell_resist+0.05": {
+    "title": "+0.05 法术抗性",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:magehunter"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:spell_resist",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "av9zdqu5022l2k5i"
+    }
+  },
+  "cooldown_reduction+0.01": {
+    "title": "+0.01 冷却缩减",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:lightning_rod"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "pw5hm9uu7df96vmu"
+    }
+  },
+  "cooldown_reduction+0.02": {
+    "title": "+0.02 冷却缩减",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cooldown_ring"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "9kly7kjhaw7yzq21"
+    }
+  },
+  "cooldown_reduction+0.03": {
+    "title": "+0.03 冷却缩减",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:lightning_rod"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "w2bciioc64duj862"
+    }
+  },
+  "cooldown_reduction+0.05": {
+    "title": "+0.05 冷却缩减",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cooldown_ring"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cooldown_reduction",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "lo64824xkjoa8sf9"
+    }
+  },
+  "cast_time_reduction+0.01": {
+    "title": "+0.01 施法速度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:gold_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "7epdzgth5pzv9ktd"
+    }
+  },
+  "cast_time_reduction+0.02": {
+    "title": "+0.02 施法速度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cast_time_ring"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "ifntwwn4s81yyt5c"
+    }
+  },
+  "cast_time_reduction+0.03": {
+    "title": "+0.03 施法速度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:gold_spell_book"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "7mvtdw1oksyqfdk6"
+    }
+  },
+  "cast_time_reduction+0.05": {
+    "title": "+0.05 施法速度",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:cast_time_ring"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:cast_time_reduction",
+          "value": 0.05,
+          "operation": "addition"
+        }
+      }
+    ],
+    "metadata": {
+      "icon": "9ngqufsh2ne0vkbg"
+    }
+  }
+}

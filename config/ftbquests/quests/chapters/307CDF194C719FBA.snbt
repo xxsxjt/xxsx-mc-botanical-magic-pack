@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "307CDF194C719FBA"
+	group: "6AC426B8FA929F7F"
+	id: "307CDF194C719FBA"
+	order_index: 4
+	quest_links: [{
+		id: "748C3E2104F4C48A"
+		linked_quest: "443EA073B338A408"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [{
+		dependencies: ["443EA073B338A408"]
+		description: [
+			"看&e魔灵之书和Tome of ForbiddenMitality"
+			"&b@blood"
+			""
+			"好像没啥好加的"
+		]
+		id: "48EA8BC36AF6FCBA"
+		tasks: [{
+			id: "2E1DD260F5F1CFD8"
+			item: "bloodmagic:altar"
+			type: "item"
+		}]
+		x: 1.5d
+		y: 0.0d
+	}]
+	title: "血魔法"
+}

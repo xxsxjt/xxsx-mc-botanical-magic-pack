@@ -1,0 +1,386 @@
+{
+  "domain_reset": {
+    "title": "Domain Reset",
+    "cost": "0",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "irons_spellbooks:wayward_compass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills skills reset @p spellranks:domain"
+        }
+      }
+    ]
+  },
+  "praxis_spell_power+0.01": {
+    "title": "+0.01 Praxis Domain Power",
+    "description": "+0.01 Evocation 道途 Power\n+0.01 Ender 道途 Power\n+0.01 Holy 道途 Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:praxis_materials"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "praxis_spell_power+0.02": {
+    "title": "+0.02 Praxis Domain Power",
+    "description": "+0.02 Evocation 道途 Power\n+0.02 Ender 道途 Power\n+0.02 Holy 道途 Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:praxis_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "praxis_spell_power+0.03": {
+    "title": "+0.03 Praxis Domain Power",
+    "description": "+0.03 Evocation 道途 Power\n+0.03 Ender 道途 Power\n+0.03 Holy 道途 Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:praxis_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:evocation_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ender_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:holy_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "vitalis_spell_power+0.01": {
+    "title": "+0.01 Vitalis Domain Power",
+    "description": "+0.01 Nature 道途 Power\n+0.01 Fire 道途 Power\n+0.01 Blood 道途 Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:vitalis_materials"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "vitalis_spell_power+0.02": {
+    "title": "+0.02 Vitalis Domain Power",
+    "description": "+0.02 Nature 道途 Power\n+0.02 Fire 道途 Power\n+0.02 Blood 道途 Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:vitalis_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "vitalis_spell_power+0.03": {
+    "title": "+0.03 Vitalis Domain Power",
+    "description": "+0.03 Nature 道途 Power\n+0.03 Fire 道途 Power\n+0.03 Blood 道途 Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:vitalis_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:nature_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:fire_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:blood_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "maelstrom_spell_power+0.01": {
+    "title": "+0.01 Maelstrom Domain Power",
+    "description": "+0.01 Ice 道途 Power\n+0.01 Lightning 道途 Power\n+0.01 Aqua 道途 Power",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:maelstrom_materials"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "value": 0.01,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "maelstrom_spell_power+0.02": {
+    "title": "+0.02 Maelstrom Domain Power",
+    "description": "+0.02 Ice 道途 Power\n+0.02 Lightning 道途 Power\n+0.02 Aqua 道途 Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "goal"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:maelstrom_rune"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "value": 0.02,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "maelstrom_spell_power+0.03": {
+    "title": "+0.03 Maelstrom Domain Power",
+    "description": "+0.03 Ice 道途 Power\n+0.03 Lightning 道途 Power\n+0.03 Aqua 道途 Power",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "spellranks:maelstrom_echo"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:ice_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "irons_spellbooks:lightning_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "traveloptics:aqua_spell_power",
+          "value": 0.03,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
+}

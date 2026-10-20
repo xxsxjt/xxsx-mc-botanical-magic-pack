@@ -1,0 +1,26 @@
+{
+  "type": "summoningrituals:altar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "mowziesmobs"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "catalyst": { "item": "farmersdelight:rich_soil" },
+  "outputs": [
+    {
+      "mob": "mowziesmobs:sculptor",
+      "count": 1,
+      "offset": { "x": 0, "y": 3, "z": 0 },
+      "spread": { "x": 5, "y": 0, "z": 5 }
+    },
+    { "item": "farmersdelight:rich_soil" }
+  ],
+  "inputs": [
+    { "item": "minecraft:copper_ingot", "count": 8 }
+  ]
+}

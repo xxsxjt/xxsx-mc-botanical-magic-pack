@@ -1,0 +1,12 @@
+{
+  "unlocked_by_default": false,
+  "title": "道途",
+  "exclusive_root": true,
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "irons_spellbooks:diamond_spell_book"
+    }
+  },
+  "background": "spellranks:textures/gui/advancements/backgrounds/path.png"
+}

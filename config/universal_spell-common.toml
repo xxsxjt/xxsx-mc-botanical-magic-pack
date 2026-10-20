@@ -1,0 +1,9 @@
+
+[exchange]
+	#If true, Exchange spell cannot swap positions with entities tagged forge:bosses
+	prevent_bosses = false
+
+[treasure_hunt]
+	#If true, Treasure Hunt spell will not highlight Lootr containers already opened by the caster
+	filter_opened_lootr = true
+

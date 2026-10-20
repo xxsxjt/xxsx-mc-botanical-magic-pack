@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "kubejs:item/mana_catalyst_ring"
+                 },
+    "parent":  "item/generated"
+}

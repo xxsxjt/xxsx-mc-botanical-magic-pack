@@ -1,0 +1,47 @@
+{
+  "normal": {
+    "bidirectional": [
+      ["mg_rt",  "mg_sp1"],
+      ["mg_rt",  "mg_mn1"],
+      ["mg_rt",  "mg_mr1"],
+
+      ["mg_sp1", "mg_sp2"],
+      ["mg_mn1", "mg_sp2"],
+      ["mg_mn1", "mg_cd1"],
+      ["mg_mr1", "mg_cd1"],
+      ["mg_mr1", "mg_cs1"],
+
+      ["mg_sp2", "mg_sp3"],
+      ["mg_sp2", "mg_mn2"],
+      ["mg_cd1", "mg_cd2"],
+      ["mg_cd1", "mg_sr1"],
+      ["mg_cs1", "mg_sr1"],
+      ["mg_cs1", "mg_cd2"],
+
+      ["mg_sp3", "mg_sr2"],
+      ["mg_mn2", "mg_sr2"],
+      ["mg_sr1", "mg_sr2"],
+      ["mg_cd2", "mg_sr2"],
+
+      ["mg_sr2", "mg_fr1"],
+      ["mg_sr2", "mg_co1"],
+      ["mg_sr2", "mg_li1"],
+      ["mg_sr2", "mg_ho1"],
+
+      ["mg_fr1", "mg_fr2"],
+      ["mg_co1", "mg_co2"],
+      ["mg_li1", "mg_li2"],
+      ["mg_ho1", "mg_bl1"],
+
+      ["mg_co2", "mg_en1"],
+      ["mg_li2", "mg_su1"],
+      ["mg_fr2", "mg_su1"],
+
+      ["mg_su1", "mg_su2"],
+      ["mg_en1", "mg_su2"],
+      ["mg_bl1", "mg_su2"],
+
+      ["mg_su2", "mg_mst"]
+    ]
+  }
+}

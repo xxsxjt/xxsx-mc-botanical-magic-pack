@@ -1,0 +1,22 @@
+{
+  "type": "summoningrituals:altar",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "irons_spellbooks"
+    }
+  ],
+  "catalyst": { "item": "irons_spellbooks:blood_upgrade_orb" },
+  "outputs": [
+    {
+      "mob": "irons_spellbooks:dead_king",
+      "count": 1,
+      "offset": { "x": 0, "y": 3, "z": 0 },
+      "spread": { "x": 5, "y": 0, "z": 5 }
+    },
+    { "item": "irons_spellbooks:blood_upgrade_orb" }
+  ],
+  "inputs": [
+    { "item": "minecraft:copper_ingot", "count": 8 }
+  ]
+}

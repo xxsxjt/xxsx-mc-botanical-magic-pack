@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "endthrone"
+	group: "47E5E5631C3D3E0A"
+	icon: "apotheosis:boss_summoner"
+	id: "07640CB3E1565DFB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["挑战神化的终极Boss——亚波伦"]
+			icon: "apotheosis:boss_summoner"
+			id: "0FF8ED2C83C8357A"
+			tasks: [{
+				id: "667FA4CC3480CD79"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			title: "深渊之座"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FF8ED2C83C8357A"]
+			description: ["使用Boss召唤物开启亚波伦挑战"]
+			icon: "apotheosis:boss_summoner"
+			id: "304157D9D3A8E82F"
+			tasks: [{
+				id: "0083BBAFF95F260A"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			title: "亚波伦召唤"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["亚波伦掉落的远古材料，用于终极重铸"]
+			icon: "apotheosis:ancient_material"
+			id: "3423FCDE5C21599A"
+			tasks: [{
+				id: "7B7211DBAC60007C"
+				item: "apotheosis:ancient_material"
+				type: "item"
+			}]
+			title: "终局装备"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "深渊之座"
+}

@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": true,
+  "title": "魔法 I",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "irons_spellbooks:copper_spell_book"
+    }
+  },
+  "background": "irons_spells_dynamic_skilltree:textures/gui/advancements/backgrounds/sourcestoneblue.png"
+}

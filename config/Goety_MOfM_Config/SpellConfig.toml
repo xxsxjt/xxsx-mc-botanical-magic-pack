@@ -1,0 +1,112 @@
+
+[spells]
+
+	[spells.soul_barrier]
+		#Soul cost per second of the Soul Barrier spell
+		#Range: > 0
+		soul_cost_per_second = 200
+
+	[spells.fireshot]
+		#Maximum Fireshot damage at point blank
+		#Range: > 0
+		max_damage = 20
+		#Cast time of the Fireshot spell (ticks)
+		#Range: > 0
+		cast_time = 30
+		#Soul cost of the Fireshot spell
+		#Range: > 0
+		soul_cost = 50
+		#Cooldown of the Fireshot spell (ticks)
+		#Range: > 0
+		cooldown = 40
+		#Minimum Fireshot damage at max range
+		#Range: > 0
+		min_damage = 8
+
+	[spells.focus_wildfire]
+		#Summon down duration of the Focus Wildfire spell (ticks)
+		#Range: > 0
+		summon_down = 200
+		#Cast time of the Focus Wildfire spell (ticks)
+		#Range: > 0
+		cast_time = 60
+		#Soul cost of the Focus Wildfire spell
+		#Range: > 0
+		soul_cost = 120
+		#Cooldown of the Focus Wildfire spell (ticks)
+		#Range: > 0
+		cooldown = 600
+		#Summon limit of the Focus Wildfire spell
+		#Range: > 0
+		limit = 1
+
+	[spells.mining_curse]
+		#Cast time of the Mining Curse spell (ticks)
+		#Range: > 0
+		cast_time = 0
+		#Base duration of the Mining Curse spell (seconds)
+		#Range: > 0
+		base_duration = 12
+		#Soul cost of the Mining Curse spell
+		#Range: > 0
+		soul_cost = 4
+		#Cooldown of the Mining Curse spell (ticks)
+		#Range: > 0
+		cooldown = 100
+
+	[spells.time_stop]
+		#Base radius of the Time Stop spell (blocks)
+		#Range: > 0
+		base_radius = 10
+		#Extra Time Stop radius per Radius level
+		#Range: > 0
+		radius_per_level = 2
+		#Cast time of the Time Stop spell (ticks)
+		#Range: > 0
+		cast_time = 20
+		#Base duration of the Time Stop spell (seconds)
+		#Range: > 0
+		base_duration = 5
+		#Soul cost of the Time Stop spell
+		#Range: > 0
+		soul_cost = 3000
+		#Cooldown of the Time Stop spell (ticks)
+		#Range: > 0
+		cooldown = 600
+		#Extra Time Stop duration per Duration level (seconds)
+		#Range: > 0
+		duration_per_level = 1
+
+	[spells.fading]
+		#Soul cost of the Fading Focus spell
+		#Range: > 0
+		soul_cost = 30
+		#Cooldown of the Fading Focus spell (ticks)
+		#Range: > 0
+		cooldown = 50
+
+	[spells.ice_monarch]
+		#Summon down duration of the Ice Monarch spell (ticks)
+		#Range: > 0
+		summon_down = 200
+		#Cast time of the Ice Monarch spell (ticks)
+		#Range: > 0
+		cast_time = 80
+		#Soul cost of the Ice Monarch spell
+		#Range: > 0
+		soul_cost = 500
+		#Cooldown of the Ice Monarch spell (ticks)
+		#Range: > 0
+		cooldown = 800
+		#Summon limit of the Ice Monarch spell
+		#Range: > 0
+		limit = 1
+
+	[spells.dodging]
+		#Soul cost of the Dodging Focus spell
+		#Range: > 0
+		soul_cost = 20
+		#Cooldown of the Dodging Focus spell (ticks)
+		#Range: > 0
+		cooldown = 20
+

@@ -1,0 +1,706 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "soul_stones"
+	group: "02425CA86B834E06"
+	icon: "mine_fargo:soul_of_inolia"
+	id: "54271DD82EF31B6A"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["合成空白魂石以开启魂石系统"]
+			icon: "mine_fargo:empty_soul_stone"
+			id: "5AA89ED0133C1813"
+			rewards: [{
+				count: 3
+				id: "3DEE2A2F807C8493"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 入门"
+			tasks: [{
+				id: "12D651E55A447011"
+				item: "mine_fargo:empty_soul_stone"
+				type: "item"
+			}]
+			title: "空白魂石"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["收集全部9种矿物魂石后合成"]
+			icon: "mine_fargo:soul_of_ores"
+			id: "6A2AEE31ED547E36"
+			rewards: [{
+				count: 5
+				id: "434F0EEBC1B3E649"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "0EDBA38DC4B99611"
+				item: "mine_fargo:soul_of_ores"
+				type: "item"
+			}]
+			title: "矿物之魂"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["提升移动速度"]
+			icon: "mine_fargo:coal_soul_stone"
+			id: "0EBD2F15402BDBAE"
+			rewards: [{
+				id: "6C8F2A6D8B8B637D"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "21CD4503BBF88E41"
+				item: "mine_fargo:coal_soul_stone"
+				type: "item"
+			}]
+			title: "煤炭魂石"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["提升挖掘速度"]
+			icon: "mine_fargo:copper_soul_stone"
+			id: "111CE14961EB9912"
+			rewards: [{
+				id: "4509F404F5CC9A3F"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "315740A7DE8BC298"
+				item: "mine_fargo:copper_soul_stone"
+				type: "item"
+			}]
+			title: "铜魂石"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: ["提升经验获取"]
+			icon: "mine_fargo:lapis_lazuli_soul_stone"
+			id: "25DA9B5A55503162"
+			rewards: [{
+				id: "72EDE8FEDFC023AE"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "55F4C5E990E84F7F"
+				item: "mine_fargo:lapis_lazuli_soul_stone"
+				type: "item"
+			}]
+			title: "青金石魂石"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: ["提升护甲值"]
+			icon: "mine_fargo:iron_soul_stone"
+			id: "5C61062999FD7155"
+			rewards: [{
+				id: "15A89F1ABE766283"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "1E3941AB9FF9E4B0"
+				item: "mine_fargo:iron_soul_stone"
+				type: "item"
+			}]
+			title: "铁魂石"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: ["提升攻击速度"]
+			icon: "mine_fargo:redstone_soul_stone"
+			id: "2AFC2F7642D0B16C"
+			rewards: [{
+				id: "2E86A7088D880EBF"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "542FC8DB6D10941D"
+				item: "mine_fargo:redstone_soul_stone"
+				type: "item"
+			}]
+			title: "红石魂石"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			description: ["提升附魔等级"]
+			icon: "mine_fargo:gold_soul_stone"
+			id: "728D2743CB9AE9D5"
+			rewards: [{
+				id: "0067ABDDB1A86BD6"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "3288F9D70B38299C"
+				item: "mine_fargo:gold_soul_stone"
+				type: "item"
+			}]
+			title: "金魂石"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			description: ["提升村民声望"]
+			icon: "mine_fargo:emerald_soul_stone"
+			id: "4CFA1841E9EE30BF"
+			rewards: [{
+				id: "5AC9309C4909996C"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "653931943074BD2C"
+				item: "mine_fargo:emerald_soul_stone"
+				type: "item"
+			}]
+			title: "绿宝石魂石"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			description: ["提升抢夺与时运"]
+			icon: "mine_fargo:diamond_soul_stone"
+			id: "6A4C4DFFBF3746A4"
+			rewards: [{
+				id: "67CD6177BD1F97BB"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "1B9603AD47DF7DFA"
+				item: "mine_fargo:diamond_soul_stone"
+				type: "item"
+			}]
+			title: "钻石魂石"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			description: ["提升击退抗性"]
+			icon: "mine_fargo:netherite_soul_stone"
+			id: "7495504652B8B402"
+			rewards: [{
+				id: "33848EE7C413F7F0"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 矿物"
+			tasks: [{
+				id: "68AC197A1A0C76BD"
+				item: "mine_fargo:netherite_soul_stone"
+				type: "item"
+			}]
+			title: "下界合金魂石"
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			description: ["收集全部8种自然魂石后合成"]
+			icon: "mine_fargo:soul_of_nature"
+			id: "3D7DB28F5D5AFA14"
+			rewards: [{
+				count: 3
+				id: "52228068D191A23C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "7C2E5023D4FC25F8"
+				item: "mine_fargo:soul_of_nature"
+				type: "item"
+			}]
+			title: "自然之魂"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["攻击附加缓慢，免疫冻结伤害"]
+			icon: "mine_fargo:snow_soul_stone"
+			id: "6F2AE3175B94E972"
+			rewards: [{
+				id: "77AA146F9953260B"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "6F4F151DF43B9B7B"
+				item: "mine_fargo:snow_soul_stone"
+				type: "item"
+			}]
+			title: "冰雪魂石"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: ["可在熔岩上行走，火焰伤害减免"]
+			icon: "mine_fargo:lava_soul_stone"
+			id: "1D7A3246CD88701E"
+			rewards: [{
+				id: "5CB7BD88F0BD40AA"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "7DE35940F5DF3165"
+				item: "mine_fargo:lava_soul_stone"
+				type: "item"
+			}]
+			title: "熔岩魂石"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: ["进食获得力量效果，概率不消耗食物"]
+			icon: "mine_fargo:mushroom_soul_stone"
+			id: "12702CC188FA1001"
+			rewards: [{
+				id: "5B3A912150911A0D"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "31943BA76B2E1614"
+				item: "mine_fargo:mushroom_soul_stone"
+				type: "item"
+			}]
+			title: "蘑菇魂石"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: ["下界维度伤害增幅"]
+			icon: "mine_fargo:nether_soul_stone"
+			id: "2AB02E2C5F1AF0EC"
+			rewards: [{
+				id: "44ED847D390EC0E9"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "5E4CE110E86E5889"
+				item: "mine_fargo:nether_soul_stone"
+				type: "item"
+			}]
+			title: "下界魂石"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			description: ["对末影人伤害增幅"]
+			icon: "mine_fargo:ender_soul_stone"
+			id: "64BBB9554A2254AD"
+			rewards: [{
+				id: "1F96EAEAB8D41344"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "12C40599CA14098C"
+				item: "mine_fargo:ender_soul_stone"
+				type: "item"
+			}]
+			title: "末地魂石"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			description: ["水面行走，游泳加速"]
+			icon: "mine_fargo:ocean_soul_stone"
+			id: "15803BE42B313BAF"
+			rewards: [{
+				id: "0AA4514B649E57FC"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "24B7C4740BB14FBC"
+				item: "mine_fargo:ocean_soul_stone"
+				type: "item"
+			}]
+			title: "海洋魂石"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			description: ["每3秒回复饥饿度"]
+			icon: "mine_fargo:lush_soul_stone"
+			id: "57E0F380E56F320A"
+			rewards: [{
+				id: "34C59AC56E23D35C"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "01D42834ED51EF1F"
+				item: "mine_fargo:lush_soul_stone"
+				type: "item"
+			}]
+			title: "翠绿魂石"
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			description: ["潜行时催熟周围农作物"]
+			icon: "mine_fargo:forest_soul_stone"
+			id: "69D2A2B7A6F4CB25"
+			rewards: [{
+				id: "2F3F1622C3FBE02F"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 自然"
+			tasks: [{
+				id: "5695DDC335EFF23B"
+				item: "mine_fargo:forest_soul_stone"
+				type: "item"
+			}]
+			title: "森林魂石"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			description: ["收集全部6种生灵魂石后合成"]
+			icon: "mine_fargo:soul_of_entity"
+			id: "44C88D6921760BD4"
+			rewards: [{
+				id: "4F7D5AB3B659EB5B"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			subtitle: "[魂石] 生灵"
+			tasks: [{
+				id: "4978BFF4305EF5F5"
+				item: "mine_fargo:soul_of_entity"
+				type: "item"
+			}]
+			title: "生灵之魂"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["点燃目标，对燃烧目标伤害增幅"]
+			icon: "mine_fargo:blaze_soul_stone"
+			id: "4A60C188FCC7CCB5"
+			rewards: [{
+				id: "326E6D8F5E9AE06B"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 生灵"
+			tasks: [{
+				id: "4EAF0E330F65FBB4"
+				item: "mine_fargo:blaze_soul_stone"
+				type: "item"
+			}]
+			title: "狱灵魂石"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			description: ["击杀生物概率额外掉落经验"]
+			icon: "mine_fargo:death_soul_stone"
+			id: "5A78F22C3E437B43"
+			rewards: [{
+				id: "26F3FD6E7EE23DFB"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 生灵"
+			tasks: [{
+				id: "2E1E71976C3E5549"
+				item: "mine_fargo:death_soul_stone"
+				type: "item"
+			}]
+			title: "亡灵魂石"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			description: ["对节肢生物伤害增幅"]
+			icon: "mine_fargo:arthropod_soul_stone"
+			id: "6D369BBD0B646A1F"
+			rewards: [{
+				id: "358395D0AF42EDDF"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 生灵"
+			tasks: [{
+				id: "287AEC3DD0DE203F"
+				item: "mine_fargo:arthropod_soul_stone"
+				type: "item"
+			}]
+			title: "虫灵魂石"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			description: ["对动物伤害增幅"]
+			icon: "mine_fargo:animal_soul_stone"
+			id: "7E9DAD21C7CB454A"
+			rewards: [{
+				id: "6138D899EAE0B299"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 生灵"
+			tasks: [{
+				id: "6DF30E6ACF1EE65F"
+				item: "mine_fargo:animal_soul_stone"
+				type: "item"
+			}]
+			title: "生灵魂石"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			description: ["对水生生物伤害增幅，水下呼吸"]
+			icon: "mine_fargo:aquatic_soul_stone"
+			id: "0B1FE9CCD55DCFBB"
+			rewards: [{
+				id: "7462DF35B9D7DB04"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 生灵"
+			tasks: [{
+				id: "01E69809E2F6D6A5"
+				item: "mine_fargo:aquatic_soul_stone"
+				type: "item"
+			}]
+			title: "渊灵魂石"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			description: ["鞘翅滑翔加速"]
+			icon: "mine_fargo:wing_soul_stone"
+			id: "27A5B32C73E80F79"
+			rewards: [{
+				id: "2F3BC34F37BB48A8"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 生灵"
+			tasks: [{
+				id: "54BC13E5AF629F95"
+				item: "mine_fargo:wing_soul_stone"
+				type: "item"
+			}]
+			title: "翼灵魂石"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			description: ["收集全部7种超自然魂石后合成"]
+			icon: "mine_fargo:soul_of_supernatural"
+			id: "65D796C53FD029A0"
+			rewards: [{
+				id: "6723D9B2F151F89B"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "0F91EAED764AA4D9"
+				item: "mine_fargo:soul_of_supernatural"
+				type: "item"
+			}]
+			title: "超自然之魂"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			description: ["按键将附近实体传送回记录坐标"]
+			icon: "mine_fargo:anchor_soul_stone"
+			id: "7D77A276B17C3420"
+			rewards: [{
+				id: "22ADF63BA1241888"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "631C6AA0DBEC9009"
+				item: "mine_fargo:anchor_soul_stone"
+				type: "item"
+			}]
+			title: "锚定魂石"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			description: ["吸引物品和经验（可按键开关）"]
+			icon: "mine_fargo:magnet_soul_stone"
+			id: "477566CC8BD61B86"
+			rewards: [{
+				id: "1341B782C9DB586C"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "1064CAD54A9E1977"
+				item: "mine_fargo:magnet_soul_stone"
+				type: "item"
+			}]
+			title: "磁铁魂石"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			description: ["定时范围伤害"]
+			icon: "mine_fargo:hazard_soul_stone"
+			id: "49F8109D53F2A6A3"
+			rewards: [{
+				id: "635B4A8D649C48F6"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "422EAD04A76786F6"
+				item: "mine_fargo:hazard_soul_stone"
+				type: "item"
+			}]
+			title: "险恶魂石"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			description: ["濒死时保命并触发增益"]
+			icon: "mine_fargo:undying_soul_stone"
+			id: "37DDE246AE20AABC"
+			rewards: [{
+				id: "1FBFD5E7EA2B1863"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "197A861C1923C65A"
+				item: "mine_fargo:undying_soul_stone"
+				type: "item"
+			}]
+			title: "不死魂石"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: ["低血量触发伤害吸收"]
+			icon: "mine_fargo:enchanted_golden_apple_soul_stone"
+			id: "551E051254CE5E4E"
+			rewards: [{
+				id: "57889E25F2CF0118"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "7907D757EF70B578"
+				item: "mine_fargo:enchanted_golden_apple_soul_stone"
+				type: "item"
+			}]
+			title: "金苹果魂石"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			description: ["水中不沉，自动灭火"]
+			icon: "mine_fargo:the_sea_soul_stone"
+			id: "1E6F0BC3DCCBC22E"
+			rewards: [{
+				id: "23ACCC3099784AB7"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "5258938768C37AF0"
+				item: "mine_fargo:the_sea_soul_stone"
+				type: "item"
+			}]
+			title: "潮汐魂石"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			description: ["定时修复装备耐久"]
+			icon: "mine_fargo:mending_soul_stone"
+			id: "1B709195A40784F9"
+			rewards: [{
+				id: "783280A470097707"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "[魂石] 超自然"
+			tasks: [{
+				id: "2022F5215500179C"
+				item: "mine_fargo:mending_soul_stone"
+				type: "item"
+			}]
+			title: "修复魂石"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			description: ["合成四大中继魂石后合成伊始之魂——佩戴即视为穿戴所有魂石，并解锁飞行"]
+			icon: "mine_fargo:soul_of_inolia"
+			id: "305478C5417D220A"
+			rewards: [{
+				id: "1F6B3222F4B23A90"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "[魂石] 终局"
+			tasks: [{
+				id: "3912F06A4A0BED58"
+				item: "mine_fargo:soul_of_inolia"
+				type: "item"
+			}]
+			title: "伊始之魂"
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	title: "魂石图鉴"
+}

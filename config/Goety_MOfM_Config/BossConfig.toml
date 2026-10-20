@@ -1,0 +1,41 @@
+
+[bosses]
+
+	[bosses.ghiaccio]
+		#Base melee damage of Ghiaccio
+		#Range: 0.0 ~ 1.7976931348623157E308
+		melee_base_damage = 20.0
+		#Knockback resistance of Ghiaccio
+		#Range: 0.0 ~ 1.0
+		knockback_resistance = 0.75
+		#Armor value of Ghiaccio
+		#Range: 0.0 ~ 1.7976931348623157E308
+		armor = 12.0
+		#Frost barrier regeneration delay after taking fire damage (ticks)
+		#Range: > 0
+		frost_barrier_regen_delay_after_fire_damage = 100
+		#Maximum damage reduction granted by the frost barrier
+		#Range: 0.0 ~ 0.95
+		max_damage_reduction = 0.8
+		#Maximum health of Ghiaccio
+		#Range: > 1
+		health = 666
+		#Additional melee damage based on target maximum health
+		#Range: 0.0 ~ 1.0
+		melee_target_max_health_percent = 0.02
+		#Follow range of Ghiaccio
+		#Range: 1.0 ~ 1.7976931348623157E308
+		follow_range = 70.0
+		#Maximum frost barrier health of Ghiaccio
+		#Range: > 0
+		frost_barrier_max = 70
+		#Frost barrier regeneration per second
+		#Range: 0.0 ~ 1.7976931348623157E308
+		frost_barrier_regen = 1.0
+		#Armor toughness value of Ghiaccio
+		#Range: 0.0 ~ 1.7976931348623157E308
+		armor_toughness = 10.0
+		#Base movement speed of Ghiaccio
+		#Range: 0.0 ~ 1.7976931348623157E308
+		movement_speed = 0.25
+

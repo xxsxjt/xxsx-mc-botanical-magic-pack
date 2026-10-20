@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2D07514D0B0C3866"
+	group: "6AC426B8FA929F7F"
+	id: "2D07514D0B0C3866"
+	order_index: 2
+	quest_links: [{
+		id: "27B4A232A61481B2"
+		linked_quest: "443EA073B338A408"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["443EA073B338A408"]
+			description: ["看&e自然灵气之书&b@naturesaura"]
+			id: "2314E99EE80D5173"
+			rewards: [{
+				count: 8
+				id: "36B15F5467CDF36E"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			subtitle: "需求量很大，跟安山合金一样"
+			tasks: [{
+				id: "5C9AFC8A360A7DAC"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2314E99EE80D5173"]
+			description: [
+				"可以乱序摆放"
+				"可以骨粉催熟"
+				""
+				"金叶粉每次都会消耗"
+				""
+				"剩下的详见对应的书。"
+			]
+			id: "0160F7252476EA18"
+			tasks: [
+				{
+					count: 8L
+					id: "6F6B37E3B328B375"
+					item: { Count: 8, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4AEC15B0863EEF1B"
+					item: { Count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+				{
+					id: "16F38F2C3C156DAD"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+			]
+			title: "森林仪式"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0160F7252476EA18"]
+			description: ["如果没反应，可能环境没灵气了，做一个环境之眼吧"]
+			id: "1C9CE69C9D645942"
+			tasks: [{
+				id: "45F28E653150B7F7"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["443EA073B338A408"]
+			description: ["在左上角显示"]
+			id: "044B3206612E000D"
+			tasks: [{
+				id: "1AB9FA429975361F"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C9CE69C9D645942"]
+			description: ["放一个在内圈的黄金石砖上即可生效。"]
+			id: "77B9BFC00F55FDCF"
+			tasks: [
+				{
+					id: "1BCFF2BE890949AC"
+					item: "naturesaura:conversion_catalyst"
+					type: "item"
+				}
+				{
+					id: "11835CC94665E821"
+					item: "naturesaura:crushing_catalyst"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "自然灵气"
+}

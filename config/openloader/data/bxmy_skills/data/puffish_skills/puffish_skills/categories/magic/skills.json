@@ -1,0 +1,35 @@
+{
+  "mg_rt":  { "definition": "root_power",       "x": 0,    "y": 0,    "root": true },
+
+  "mg_sp1": { "definition": "spell_power_1",     "x": -160, "y": -80  },
+  "mg_mn1": { "definition": "max_mana_1",        "x": 0,    "y": -80  },
+  "mg_mr1": { "definition": "mana_regen_1",      "x": 160,  "y": -80  },
+
+  "mg_sp2": { "definition": "spell_power_2",     "x": -160, "y": -160 },
+  "mg_cd1": { "definition": "cooldown_1",        "x": 0,    "y": -160 },
+  "mg_cs1": { "definition": "cast_speed_1",      "x": 160,  "y": -160 },
+
+  "mg_sp3": { "definition": "spell_power_3",     "x": -160, "y": -240 },
+  "mg_mn2": { "definition": "max_mana_2",        "x": -80,  "y": -240 },
+  "mg_sr1": { "definition": "spell_resist_1",    "x": 80,   "y": -240 },
+  "mg_cd2": { "definition": "cooldown_2",        "x": 160,  "y": -240 },
+
+  "mg_sr2": { "definition": "spell_resist_2",    "x": 0,    "y": -320 },
+
+  "mg_fr1": { "definition": "fire_dmg_1",        "x": -160, "y": -400 },
+  "mg_co1": { "definition": "cold_dmg_1",        "x": -80,  "y": -400 },
+  "mg_li1": { "definition": "lightning_dmg_1",   "x": 80,   "y": -400 },
+  "mg_ho1": { "definition": "holy_dmg_1",        "x": 160,  "y": -400 },
+
+  "mg_fr2": { "definition": "fire_dmg_2",        "x": -160, "y": -480 },
+  "mg_co2": { "definition": "cold_dmg_2",        "x": -80,  "y": -480 },
+  "mg_li2": { "definition": "lightning_dmg_2",   "x": 80,   "y": -480 },
+  "mg_bl1": { "definition": "blood_dmg_1",       "x": 160,  "y": -480 },
+
+  "mg_en1": { "definition": "ender_dmg_1",       "x": -80,  "y": -560 },
+  "mg_su1": { "definition": "summon_dmg_1",      "x": 80,   "y": -560 },
+
+  "mg_su2": { "definition": "summon_dmg_2",      "x": 0,    "y": -640 },
+
+  "mg_mst": { "definition": "arcane_mastery",    "x": 0,    "y": -720 }
+}

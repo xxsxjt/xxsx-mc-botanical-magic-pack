@@ -1,0 +1,39 @@
+[
+  {
+    "playerName": "新的世界/xxsx",
+    "messages": [
+      {
+        "role": "system",
+        "content": "玩家\u003dxxsx 坐标\u003d-59.2 68.0 29.5"
+      },
+      {
+        "role": "user",
+        "content": "看看我的任务书"
+      },
+      {
+        "role": "assistant",
+        "content": "[KNOWLEDGE]ftbquests[/KNOWLEDGE]"
+      },
+      {
+        "role": "system",
+        "content": "玩家\u003dxxsx 坐标\u003d16.7 63.0 -246.3"
+      },
+      {
+        "role": "user",
+        "content": "清除我身上的负面状态"
+      },
+      {
+        "role": "assistant",
+        "content": "[CMD]/effect clear @s[/CMD]"
+      },
+      {
+        "role": "user",
+        "content": "继续"
+      },
+      {
+        "role": "assistant",
+        "content": "[KNOWLEDGE]ftbquests[/KNOWLEDGE]"
+      }
+    ]
+  }
+]

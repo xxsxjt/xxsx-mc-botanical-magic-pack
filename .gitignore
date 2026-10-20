@@ -1,0 +1,50 @@
+# ============================================================
+# 植物魔艺整合包 — 仓库根 = 实例目录
+# 部署方式：把本仓库内容镜像进实例的版本目录
+#   E:/_dx/_Games/MC/xxxxxx/.minecraft/versions/Botanical-Magic-Art/
+# 部署脚本：scripts/deploy.ps1
+# ============================================================
+
+# --- 运行时不入库 ---
+/mods/
+/logs/
+/backups/
+/exports/
+/.cache/
+/.mejs/
+/.vscode/
+/modernfix/
+/XaeroWaypoints_BACKUP*/
+/local/
+/TrashSlotSaveState.json
+/modernfix/
+/enigmatic_persistence.dat
+/observable_announce
+/options.txt
+/rhino.local.properties
+/Botanical-Magic-Art.jar
+/Botanical-Magic-Art.json
+/Botanical-Magic-Art-natives/
+/PCL/
+
+# --- KubeJS 自动生成 / 开发工具产物 ---
+/kubejs/probe/
+/kubejs/exported/
+/logs/kubejs/
+
+# --- 任务书的编辑器自动备份（仓库里已有 backups/ 快照）---
+/config/ftbquests/quests_backup/
+/config/ftbquests/quests_backup_*/
+
+# --- 客户端本地：Yes Steve Model 的模型缓存很大且与玩法无关 ---
+/config/yes_steve_model/
+
+# --- 系统与编辑器噪声 ---
+Thumbs.db
+desktop.ini
+.DS_Store
+*.tmp
+*.bak
+*.bak-*
+/config/inventoryprofilesnext/*/
+/config/Blueprint.cfg

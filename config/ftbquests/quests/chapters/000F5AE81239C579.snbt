@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "000F5AE81239C579"
+	group: "47E5E5631C3D3E0A"
+	icon: "minecraft:dragon_egg"
+	id: "000F5AE81239C579"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["所有目标已达成，挑战终局的时刻到了！"]
+			icon: "minecraft:nether_star"
+			id: "0DAB99E40BAC8622"
+			tasks: [{
+				id: "40A8C8E5610008E2"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "终焉之路"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["击败三种上古巨龙，铸就龙钢"]
+			icon: "iceandfire:dragonsteel_fire_ingot"
+			id: "2FD387CD27C8180E"
+			tasks: [{
+				id: "45E6B20B35098802"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			title: "挑战群龙"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["搭建跨维度存储网络"]
+			icon: "beyonddimensions:net_ae_storage_cell"
+			id: "25C130225BF388A8"
+			tasks: [{
+				id: "6565A081256FAC2E"
+				item: "beyonddimensions:net_ae_storage_cell"
+				type: "item"
+			}]
+			title: "超越维度"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["击败所有维度的Boss"]
+			icon: "minecraft:filled_map"
+			id: "2BC498001E717177"
+			tasks: [{
+				id: "677BFEB217638732"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			title: "全图鉴达成"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "终焉"
+}

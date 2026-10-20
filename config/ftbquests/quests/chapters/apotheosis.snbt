@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "6AC426B8FA929F7F"
+	icon: "apotheosis:reforging_table"
+	id: "70DA2CB89203AD09"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["书架升级，提升附魔等级上限"]
+			icon: "apotheosis:stoneshelf"
+			id: "1A34C48D9796089B"
+			rewards: [{
+				count: 4
+				id: "0C9E0DC84A964292"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "667AAEA807CC18B5"
+					item: "apotheosis:stoneshelf"
+					type: "item"
+				}
+				{
+					id: "5778A625DE4FE6DC"
+					item: "apotheosis:seashelf"
+					type: "item"
+				}
+			]
+			title: "附魔改造"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A34C48D9796089B"]
+			description: ["地狱/末地书架，进一步突破附魔上限"]
+			icon: "apotheosis:hellshelf"
+			id: "439AA006649B9377"
+			tasks: [
+				{
+					id: "2991CF1D755CEC73"
+					item: "apotheosis:hellshelf"
+					type: "item"
+				}
+				{
+					id: "72D8AF4A0792DBC8"
+					item: "apotheosis:endshelf"
+					type: "item"
+				}
+			]
+			title: "异域书架"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["439AA006649B9377"]
+			description: ["汇聚所有书架之力，极致附魔"]
+			icon: "apotheosis:library"
+			id: "548F592D73D828DF"
+			tasks: [
+				{
+					id: "3BC32C23EA374F6E"
+					item: "apotheosis:library"
+					type: "item"
+				}
+				{
+					id: "7D1B5D7EA72EADF1"
+					item: "apotheosis:ender_library"
+					type: "item"
+				}
+			]
+			title: "附魔图书馆"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["增强台+增强印记，提升词缀属性"]
+			icon: "apotheosis:augmenting_table"
+			id: "6B97E2224D875027"
+			rewards: [{
+				count: 2
+				id: "1506E7C6D81DEC72"
+				item: "apotheosis:sigil_of_enhancement"
+				type: "item"
+			}]
+			tasks: [{
+				id: "182AF94ADD340111"
+				item: "apotheosis:augmenting_table"
+				type: "item"
+			}]
+			title: "增强台"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			description: ["神化怪物会掉落词缀装备，稀有度越高越强"]
+			icon: "apotheosis:simple_reforging_table"
+			id: "09987C26898961FC"
+			tasks: [{
+				id: "62FB6C39D51D9CF4"
+				item: "apotheosis:simple_reforging_table"
+				type: "item"
+			}]
+			title: "词缀装备"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["使用重生印记和稀有度材料重铸词缀"]
+			icon: "apotheosis:reforging_table"
+			id: "3A79FC506392C927"
+			tasks: [
+				{
+					id: "029128699AC10165"
+					item: "apotheosis:reforging_table"
+					type: "item"
+				}
+				{
+					id: "4CE05598115061C7"
+					item: "apotheosis:sigil_of_rebirth"
+					type: "item"
+				}
+				{
+					id: "03FFC6B9D8211D81"
+					item: "ancientreforging:ancient_reforging_table"
+					type: "item"
+				}
+			]
+			title: "进阶重铸"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["从回收台拆解词缀装备获得"]
+			icon: "apotheosis:uncommon_material"
+			id: "61CA81A07AC73B9B"
+			tasks: [
+				{
+					id: "74494C4F8CC1D81B"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+				{
+					id: "0A88A924E03642F4"
+					item: "apotheosis:rare_material"
+					type: "item"
+				}
+				{
+					id: "54549C3FDA8BBD94"
+					item: "apotheosis:epic_material"
+					type: "item"
+				}
+				{
+					id: "7234660B148BDD7C"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+				{
+					id: "1592AB76A405A66B"
+					item: "apotheosis:ancient_material"
+					type: "item"
+				}
+			]
+			title: "稀有度材料"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			description: ["回收不需要的词缀装备，获取稀有度材料"]
+			icon: "apotheosis:salvaging_table"
+			id: "432359C77A50CB25"
+			tasks: [{
+				id: "681F91745094E146"
+				item: "apotheosis:salvaging_table"
+				type: "item"
+			}]
+			title: "装备回收"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: ["切割和升级宝石，镶嵌到装备上获取额外属性"]
+			icon: "apotheosis:gem_cutting_table"
+			id: "1724C14FB04ED600"
+			tasks: [{
+				id: "3D6A9E9594DDC4BE"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "宝石切割"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1724C14FB04ED600"]
+			description: ["宝石粉和熔宝石板岩是加工宝石的基础材料"]
+			icon: "apotheosis:gem_dust"
+			id: "5545640399AFD2C6"
+			tasks: [
+				{
+					id: "1B68ADA71A233F71"
+					item: "apotheosis:gem_dust"
+					type: "item"
+				}
+				{
+					id: "15F67D1000248875"
+					item: "apotheosis:gem_fused_slate"
+					type: "item"
+				}
+			]
+			title: "宝石材料"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			description: ["开孔印记增加装备宝石槽位，摘取印记回收宝石"]
+			icon: "apotheosis:sigil_of_socketing"
+			id: "111110EE8F6AB11A"
+			tasks: [
+				{
+					id: "5C3248E99D43A959"
+					item: "apotheosis:sigil_of_socketing"
+					type: "item"
+				}
+				{
+					id: "1936052E6D820E13"
+					item: "apotheosis:sigil_of_withdrawal"
+					type: "item"
+				}
+			]
+			title: "开孔与摘取"
+			x: 4.0d
+			y: -4.0d
+		}
+	]
+	title: "神化"
+}

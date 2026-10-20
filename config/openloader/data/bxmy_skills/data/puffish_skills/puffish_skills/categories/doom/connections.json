@@ -1,0 +1,80 @@
+{
+  "normal": {
+    "bidirectional": [
+      ["do_s1",  "do_s2"],
+
+      ["do_s1",  "do_a1"],
+      ["do_a1",  "do_a2"],
+      ["do_a2",  "do_a3"],
+      ["do_a3",  "do_a4"],
+      ["do_a4",  "do_a5"],
+
+      ["do_a3",  "do_md1"],
+      ["do_md1", "do_md2"],
+      ["do_md2", "do_md3"],
+      ["do_md3", "do_rd1"],
+      ["do_rd1", "do_bs1"],
+
+      ["do_s1",  "do_sd1"],
+      ["do_sd1", "do_sd2"],
+      ["do_sd2", "do_cb"],
+
+      ["do_s1",  "do_sp1"],
+      ["do_sp1", "do_sp2"],
+
+      ["do_s2",  "do_ls1"],
+      ["do_ls1", "do_ls2"],
+      ["do_ls2", "do_ls3"],
+
+      ["do_s2",  "do_h1"],
+      ["do_h1",  "do_h2"],
+      ["do_h2",  "do_h3"],
+
+      ["do_s2",  "do_at1"],
+      ["do_at1", "do_at2"],
+
+      ["do_s2",  "do_dr1"],
+      ["do_dr1", "do_dr2"],
+
+      ["do_h2",  "do_mr1"],
+      ["do_mr1", "do_mr2"],
+
+      ["do_h3",  "do_ar1"],
+      ["do_ar1", "do_ar2"],
+      ["do_ar2", "do_tg"],
+
+      ["do_h3",  "do_as1"],
+      ["do_as1", "do_as2"],
+
+      ["do_ar2", "do_ap1"],
+      ["do_ap1", "do_ap2"],
+
+      ["do_a5",  "do_sp2"],
+      ["do_cb",  "do_sp2"],
+      ["do_ls3", "do_sp2"],
+      ["do_at2", "do_sp2"],
+      ["do_dr2", "do_sp2"],
+      ["do_mr2", "do_sp2"],
+      ["do_tg",  "do_sp2"],
+      ["do_as2", "do_sp2"],
+      ["do_ap2", "do_sp2"],
+      ["do_bs1", "do_sp2"],
+
+      ["do_sp2", "do_nr1"],
+      ["do_nr1", "do_nr2"],
+      ["do_sp2", "do_st1"],
+      ["do_st1", "do_st2"],
+      ["do_sp2", "do_kb1"],
+      ["do_kb1", "do_kb2"],
+      ["do_sp2", "do_dg"],
+
+      ["do_nr2", "do_lk1"],
+      ["do_st2", "do_lk1"],
+      ["do_kb2", "do_lk1"],
+      ["do_dg",  "do_lk1"],
+
+      ["do_lk1", "do_lk2"],
+      ["do_lk2", "do_ms"]
+    ]
+  }
+}

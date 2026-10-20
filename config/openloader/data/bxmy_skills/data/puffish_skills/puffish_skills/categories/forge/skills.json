@@ -1,0 +1,33 @@
+{
+  "fg_rt":  { "definition": "root_craft",       "x": 0,    "y": 0,    "root": true },
+
+  "fg_ms1": { "definition": "mine_spd_1",       "x": -160, "y": -80  },
+  "fg_ft1": { "definition": "fortune_1",        "x": 0,    "y": -80  },
+  "fg_xp1": { "definition": "xp_boost_1",       "x": 160,  "y": -80  },
+
+  "fg_ms2": { "definition": "mine_spd_2",       "x": -160, "y": -160 },
+  "fg_ps1": { "definition": "pick_spd_1",       "x": -80,  "y": -160 },
+  "fg_ft2": { "definition": "fortune_2",        "x": 80,   "y": -160 },
+  "fg_xp2": { "definition": "xp_boost_2",       "x": 160,  "y": -160 },
+
+  "fg_ms3": { "definition": "mine_spd_3",       "x": -160, "y": -240 },
+  "fg_as1": { "definition": "axe_spd_1",        "x": -80,  "y": -240 },
+  "fg_ss1": { "definition": "shovel_spd_1",     "x": 80,   "y": -240 },
+  "fg_dr1": { "definition": "draw_spd_1",       "x": 160,  "y": -240 },
+
+  "fg_xp3": { "definition": "xp_boost_3",       "x": 0,    "y": -320 },
+
+  "fg_lk1": { "definition": "luck_1",           "x": -160, "y": -400 },
+  "fg_st1": { "definition": "stamina_1",        "x": -80,  "y": -400 },
+  "fg_ar1": { "definition": "armor_1",          "x": 80,   "y": -400 },
+  "fg_cs1": { "definition": "consuming_spd_1",  "x": 160,  "y": -400 },
+
+  "fg_ac1": { "definition": "apothic_craft_1",  "x": -80,  "y": -480 },
+  "fg_at1": { "definition": "attack_spd_1",     "x": 80,   "y": -480 },
+
+  "fg_ac2": { "definition": "apothic_craft_2",  "x": -160, "y": -560 },
+  "fg_rd1": { "definition": "ranged_dmg_1",     "x": 0,    "y": -560 },
+  "fg_ac3": { "definition": "apothic_craft_3",  "x": 160,  "y": -560 },
+
+  "fg_mst": { "definition": "forge_master",     "x": 0,    "y": -640 }
+}

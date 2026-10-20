@@ -1,0 +1,2271 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "summoner_path"
+	group: "4953534641544853"
+	hide_quest_until_deps_complete: true
+	icon: "irons_spellbooks:conjurers_talisman"
+	id: "224F9C621DB8796A"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "269A1B940E8F970C"
+			invisible: true
+			rewards: [
+				{
+					command: "/spellranks set @p summoner 4"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "30B2BE882F2E4358"
+					silent: true
+					title: "召唤师之道四阶"
+					type: "command"
+				}
+				{
+					id: "2C146A9576235D6D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F8C281D30C583A1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "003EE67D52F79D9C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "欢迎来到召唤师之道"
+			tasks: [{
+				icon: "irons_spellbooks:conjurers_talisman"
+				id: "2B40C3EA6ED11D76"
+				title: "召唤师"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["269A1B940E8F970C"]
+			id: "000053554D4D5234"
+			rewards: [
+				{
+					command: "/spellranks set @p summoner 3"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "64827697F0C99ED6"
+					silent: true
+					title: "召唤师之道三阶"
+					type: "command"
+				}
+				{
+					id: "42BA6D081EF1D51D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26BFDD694C1C4F8A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "565C44B941906BCB"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53554D4D52340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "召唤师之道精通四阶"
+			tasks: [
+				{
+					id: "53554D4D52340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通四阶"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5234"]
+			id: "000053554D4D5233"
+			rewards: [
+				{
+					command: "/spellranks set @p summoner 2"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "61EAB65187996738"
+					silent: true
+					title: "召唤师之道二阶"
+					type: "command"
+				}
+				{
+					id: "557898032CFEFD0C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CC594ABA9BD46E2"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4071D2F866BA35F8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_ender_chest"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "769FC0D07D1E12E5"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53554D4D52330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_polar_bear"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53554D4D52330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_swords"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53554D4D52330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_vex"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53554D4D52330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "53554D4D52330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "召唤师之道精通三阶"
+			tasks: [
+				{
+					id: "53554D4D52330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通三阶"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5233"]
+			id: "000053554D4D5232"
+			rewards: [
+				{
+					command: "/spellranks set @p summoner 1"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "06652B346E5B5C3F"
+					silent: true
+					title: "召唤师之道一阶"
+					type: "command"
+				}
+				{
+					id: "5C18C66C92307A58"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "401706AA1D83D14D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A7FD7125D98A1D8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D546989C6B31253"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_polar_bear"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DE9CAA342059D7C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_swords"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A1E00475DD3246D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_vex"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BA192922D8330F4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E62E501565D9B3A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33A3C8B27AC63B9A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "召唤师之道精通二阶"
+			tasks: [
+				{
+					id: "53554D4D52320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_ender_chest"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_polar_bear"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_swords"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_vex"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通二阶"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5232"]
+			id: "000053554D4D5231"
+			rewards: [
+				{
+					command: "/spellranks set @p summoner 0"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "5664CD5FEBF1A2F3"
+					silent: true
+					title: "召唤师之道零阶"
+					type: "command"
+				}
+				{
+					id: "306983CC1FB67C7D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "ias_spellbooks:snack_attack"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79BFCFB5F2564BDE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F067CB8C933FD71"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64E2C8D19D327A9A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3089FD4A3A61AADC"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_polar_bear"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36B79713EED9BBE3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_swords"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28C041EA139D13E6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_vex"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38FCD9EF760388E0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:conjure_void_tomes"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "201A4BCD8A183AEF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F83B7F2C86033A8"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:eternal_sentinel"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5037D6993E16819A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:ignited_onslaught"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "462CE41163632E54"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:mechanized_predator"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03DF0546962318F0"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15156814A3D454F7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:primal_pack"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A83BAFC109A3092"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:summon_desert_dwellers"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4913A67C5183A866"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "召唤师之道精通一阶"
+			tasks: [
+				{
+					id: "53554D4D52310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "ias_spellbooks:snack_attack"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_polar_bear"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_swords"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_vex"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:conjure_void_tomes"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:eternal_sentinel"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:ignited_onslaught"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:magnetron_deployment"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:mechanized_predator"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:primal_pack"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:summon_desert_dwellers"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52310017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通一阶"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000053554D4D5231"]
+			id: "000053554D4D5230"
+			subtitle: "召唤师之道精通零阶"
+			tasks: [
+				{
+					id: "53554D4D52300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "ias_spellbooks:snack_attack"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "ias_spellbooks:venomous_reborn"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_horse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_polar_bear"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_swords"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:summon_vex"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:axe_of_the_doomed"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:call_forth_the_dead_king"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:conjure_void_tomes"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:cursed_revenants"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:echo_of_the_abyss"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:eternal_sentinel"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:herald_of_acropolis"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:ignited_onslaught"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300017"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:mechanized_predator"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300018"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300019"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:primal_pack"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300020"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:primordial_steed"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300021"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:sticky_steed_summon"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300022"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:summon_desert_dwellers"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300023"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:sword_of_the_ancients"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300024"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:the_forgotten_beast"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "53554D4D52300025"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通零阶"
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+	title: "召唤师之道"
+}

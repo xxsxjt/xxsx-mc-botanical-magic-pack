@@ -1,0 +1,11 @@
+{
+  "unlocked_by_default": true,
+  "title": "增强",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "irons_spellbooks:iron_spell_book"
+    }
+  },
+  "background": "spellranks:textures/gui/advancements/backgrounds/enhancement.png"
+}

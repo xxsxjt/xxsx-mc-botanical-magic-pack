@@ -1,0 +1,236 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "boon_initiate"
+	group: "4953534641544853"
+	icon: "irons_spellbooks:cinder_essence"
+	id: "344EA3BFE018A1C4"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			icon: "irons_spellbooks:cinder_essence"
+			id: "1FFB22E4AD177152"
+			max_completable_dependents: 1
+			subtitle: "赐福道途是由四大法域之外的力量带入世间的稀有魔法形态。与十条真道不同，它们无法通过法师核心或法师药水获得。赐福道途需要通过献上特定物品来获得——用未知的力量进行交换。你同一时间只能追随一条赐福道途，但你可以通过改变献祭物品来转换阵营。现在，去探索世界，找到每条道途的力量源泉。提示：当前整合包启用的赐福道途为召唤师、深渊和机术；深渊与机术需要灾变：法术书。地术与音律需要额外附属模组，本整合包未启用，相关章节已隐藏。"
+			tasks: [{
+				id: "3627339BF7306BDB"
+				title: "赐福入门"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "irons_spellbooks:conjurers_talisman"
+			id: "36892208C0DA8621"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 269A1B940E8F970C"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "2FDFA1B2A05A7BB2"
+					silent: true
+					title: "引入召唤师"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 269A1B940E8F970C"
+					elevate_perms: true
+					icon: "irons_spellbooks:conjurers_talisman"
+					id: "1DF8B690223EE079"
+					silent: true
+					title: "前往召唤师"
+					type: "command"
+				}
+			]
+			subtitle: "献上此物，你便属于召唤师之道"
+			tasks: [
+				{
+					id: "2B08031842BC47B9"
+					item: "irons_spellbooks:conjurers_talisman"
+					title: "寻找召唤师"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DC986B478E62252"
+					item: "irons_spellbooks:conjurers_talisman"
+					type: "item"
+				}
+			]
+			title: "召唤师之道"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "cataclysm:crystallized_coral"
+			id: "79BFCA02C75D358E"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 53A9BC40066846D3"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "78BBB77119AF5A19"
+					silent: true
+					title: "引入深渊"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 2A835E2FBB9495F9"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "70F125874B2A8395"
+					silent: true
+					title: "前往深渊"
+					type: "command"
+				}
+			]
+			subtitle: "献上珊瑚长矛，你便属于深渊之道。"
+			tasks: [
+				{
+					id: "54BD1F1CCE0D2346"
+					item: {
+						Count: 1
+						id: "cataclysm:coral_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "寻找深渊"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2AB5E8D3C52B7D4E"
+					item: {
+						Count: 1
+						id: "cataclysm:coral_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "深渊之道"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1FFB22E4AD177152"]
+			icon: "minecraft:redstone"
+			id: "185FB8F5B7EF97E8"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 2E253251B57912D0"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "7128918278B5C924"
+					silent: true
+					title: "引入机术"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 7E923DC8A40D5DA3"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "7E06AA8801746820"
+					silent: true
+					title: "前往机术"
+					type: "command"
+				}
+			]
+			subtitle: "献上守卫护手，你便属于机术之道。"
+			tasks: [
+				{
+					id: "51911059FE55FBA3"
+					item: "cataclysm:gauntlet_of_guard"
+					title: "寻找机术"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "36CCE3E43D1B4457"
+					item: "cataclysm:gauntlet_of_guard"
+					type: "item"
+				}
+			]
+			title: "机术之道"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "2C648A5860C6B46C"
+			optional: true
+			rewards: [
+				{
+					command: "/spellranks reset @p abyssal"
+					elevate_perms: true
+					icon: "cataclysm:crystallized_coral"
+					id: "109C342BE1881A29"
+					silent: true
+					title: "重置深渊之道"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p technomancy"
+					elevate_perms: true
+					icon: "minecraft:redstone"
+					id: "505E262B21153270"
+					silent: true
+					title: "重置机术之道"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 1FFB22E4AD177152"
+					elevate_perms: true
+					icon: "irons_spellbooks:cinder_essence"
+					id: "76AA99853323230F"
+					silent: true
+					title: "前往赐福入门"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424f4f504154"
+					elevate_perms: true
+					icon: "irons_spellbooks:cinder_essence"
+					id: "7D25C1857B2C467C"
+					silent: true
+					title: "重置赐福路径"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 344EA3BFE018A1C4"
+					elevate_perms: true
+					icon: "irons_spellbooks:cinder_essence"
+					id: "5917E8BE8F86FC8C"
+					silent: true
+					title: "重置赐福入门"
+					type: "command"
+				}
+			]
+			subtitle: "切断你与赐福道途的联系。为你选择的新道途准备好献祭物品。"
+			tasks: [{
+				id: "23AB517329558D11"
+				title: "重置赐福"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "赐福入门"
+}

@@ -1,0 +1,2677 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "blood_path"
+	group: "4953534641544853"
+	hide_quest_until_deps_complete: true
+	icon: "irons_spellbooks:blood_vial"
+	id: "0000424C4F504154"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "0000424C4F4F5249"
+			invisible: true
+			subtitle: "欢迎来到鲜血之道"
+			tasks: [{
+				icon: "irons_spellbooks:blood_vial"
+				id: "5216B7FB5753836F"
+				title: "鲜血"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F4F5249"]
+			id: "0000424C4F435234"
+			rewards: [
+				{
+					id: "424C4F4352340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得血脉精的力量"
+			tasks: [{
+				icon: "spellranks:rank_4_mage_potion_veinling"
+				id: "424C4F4352343031"
+				title: "四阶法师药水 - 血脉精"
+				type: "custom"
+			}]
+			title: "四阶 - 血脉精"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F435234"]
+			id: "0000424C4F4D5234"
+			subtitle: "证明你是真正的血脉精"
+			tasks: [
+				{
+					id: "424C4F4D52340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通四阶"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F4D5234"]
+			id: "0000424C4F435233"
+			rewards: [
+				{
+					id: "424C4F4352330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得猩红贤者的力量"
+			tasks: [{
+				icon: "spellranks:rank_3_mage_potion_crimson_sage"
+				id: "424C4F4352333031"
+				title: "三阶法师药水 - 猩红贤者"
+				type: "custom"
+			}]
+			title: "三阶 - 猩红贤者"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F435233"]
+			id: "0000424C4F4D5233"
+			subtitle: "证明你是真正的猩红贤者"
+			tasks: [
+				{
+					id: "424C4F4D52330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通三阶"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F4D5233"]
+			id: "0000424C4F435232"
+			rewards: [
+				{
+					id: "424C4F4352320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heartstop"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352320012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得吸血者的力量"
+			tasks: [{
+				icon: "spellranks:rank_2_mage_potion_leecher"
+				id: "424C4F4352323031"
+				title: "二阶法师药水 - 吸血者"
+				type: "custom"
+			}]
+			title: "二阶 - 吸血者"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F435232"]
+			id: "0000424C4F4D5232"
+			subtitle: "证明你是真正的吸血者"
+			tasks: [
+				{
+					id: "424C4F4D52320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heartstop"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52320012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通二阶"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F4D5232"]
+			id: "0000424C4F435231"
+			rewards: [
+				{
+					id: "424C4F4352310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heartstop"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "畅饮并唤醒血肉统帅"
+			tasks: [{
+				icon: "spellranks:rank_1_mage_potion_flesh_commander"
+				id: "424C4F4352313031"
+				title: "一阶法师药水 - 血肉统帅"
+				type: "custom"
+			}]
+			title: "一阶 - 血肉统帅"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F435231"]
+			id: "0000424C4F4D5231"
+			subtitle: "化身血肉统帅的力量"
+			tasks: [
+				{
+					id: "424C4F4D52310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "ias_spellbooks:spirits_chosen"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heartstop"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52310014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通一阶"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F4D5231"]
+			id: "0000424C4F435230"
+			rewards: [
+				{
+					id: "424C4F4352300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "ias_spellbooks:spirits_chosen"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heartstop"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:eek"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "424C4F4352300015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "吞噬并超越为大出血"
+			tasks: [{
+				icon: "spellranks:rank_0_mage_potion_hemorrhage"
+				id: "424C4F4352303031"
+				title: "零阶法师药水 - 大出血"
+				type: "custom"
+			}]
+			title: "零阶 - 大出血"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F435230"]
+			id: "0000424C4F4D5230"
+			max_completable_dependents: 3
+			subtitle: "You are the Hemorrhage, the embodiment of the Blood Path"
+			tasks: [
+				{
+					id: "424C4F4D52300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "ias_spellbooks:spirits_chosen"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:acupuncture"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_needles"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_slash"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:devour"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heartstop"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:raise_dead"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ray_of_siphoning"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sacrifice"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wither_skull"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:blood_howl"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:call_forth_the_dead_king"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:eek"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nocturnal_swarm"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "424C4F4D52300016"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:vigor_siphon"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通零阶"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000424C4F4D5230"]
+			hide_dependency_lines: true
+			icon: "minecraft:poisonous_potato"
+			id: "0000424C4F4E4154"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004E41544F5249"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "21F9E4A921F4A849"
+					silent: true
+					title: "引入自然"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004E41544F5249"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "572DB58DCDCB4E05"
+					silent: true
+					title: "前往自然"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004649524E4154"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "6ECAC9EDCDCFB47C"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 6C98480E5F111618"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "0F02F0CDD9D76971"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "由此，你也属于自然之道，你的力量已足够强大，可以驾驭生机法域中的其他道途"
+			tasks: [{
+				id: "424C4F4E41543031"
+				title: "自然之道"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000424C4F4D5230"]
+			hide_dependency_lines: true
+			icon: "minecraft:blaze_rod"
+			id: "0000424C4F464952"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004649524F5249"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "2E417720E0619EF5"
+					silent: true
+					title: "引入火焰"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004649524F5249"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "36CE6CA0AE156703"
+					silent: true
+					title: "前往火焰"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 00004E4154464952"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "2D20B18A8DA04B4A"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 7404CC5270F86BB9"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "68EEBEC826EEB84E"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "由此，你也属于火焰之道，你的力量已足够强大，可以驾驭生机法域中的其他道途"
+			tasks: [{
+				id: "424C4F4649523031"
+				title: "火焰之道"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0000424C4F4D5230"
+				"00004E41544D5230"
+				"00004649524D5230"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:echo_shard"
+			id: "0000424C4F434F52"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "6FC7250C4D5EAB18"
+					silent: true
+					title: "引入腐化"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p blood"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "035BEA9FCB8E743E"
+					silent: true
+					title: "腐化鲜血"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "1FFCD96EF9AB7B03"
+					silent: true
+					title: "前往腐化"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F4F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "5F595613C0F1A924"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F435234"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "3F520E5385F88CAB"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F4D5234"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "719418C88F37DFB8"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F435233"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "45ECBD61EF133597"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F4D5233"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "39DBDC36C52FBA41"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F435232"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "6AE9DFD59E657B1F"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F4D5232"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "67831A56F2E1F08F"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F435231"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "0EA84BF34ADA9DF0"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F4D5231"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "646B8A72366EFBE7"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F435230"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "4A51BB9B2C9DD79A"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000424C4F4D5230"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "01AF8E5BB3A6818F"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "选择此项将腐化你体内的鲜血之道，将其替换为深渊之道的力量。此选择不可逆转。"
+			tasks: [{
+				id: "2DFD05840AC2D0EC"
+				title: "腐化"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000424C4F4D5230"
+				"00004E41544D5230"
+				"00004649524D5230"
+			]
+			hide_dependency_lines: true
+			id: "3306D0B8E29BE239"
+			rewards: [
+				{
+					command: "/spellranks reset @p nature"
+					elevate_perms: true
+					icon: "minecraft:poisonous_potato"
+					id: "40489F27FDEA677D"
+					silent: true
+					title: "重置自然之道"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p fire"
+					elevate_perms: true
+					icon: "minecraft:blaze_rod"
+					id: "40FC71A6C17CC1FC"
+					silent: true
+					title: "重置火焰之道"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p blood"
+					elevate_perms: true
+					icon: "irons_spellbooks:blood_vial"
+					id: "212C05B001866F37"
+					silent: true
+					title: "重置鲜血之道"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 096D64C94341C27A"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "19A3AA4755F58134"
+					silent: true
+					title: "重置入门"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0875A0E9D59F5332"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "2D9F86D821936595"
+					silent: true
+					title: "前往入门"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000564954444F4D"
+					elevate_perms: true
+					icon: "spellranks:vitalis_materials"
+					id: "11C76E9E1D331B8F"
+					silent: true
+					title: "重置生机法域"
+					type: "command"
+				}
+			]
+			subtitle: "你已聚集了常人难以想象的魔法力量，足以掌握罕见的重生之术。若你选择重新开始，你将释放体内所有的魔法——纯净的与腐化的无一例外——回归凡人之身，自由地重新选择任何道途。"
+			tasks: [{
+				id: "1AF76EBDA6DFDFE0"
+				title: "重置"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "鲜血之道"
+}

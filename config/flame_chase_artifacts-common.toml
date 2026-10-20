@@ -1,0 +1,306 @@
+
+[curios_get]
+	#如我所书是否使用原版获取方式
+	book_get = true
+	#「火萤IV型」是否使用原版获取方式
+	firefly_get = true
+	#「无」是否使用原版获取方式
+	acheron_get = true
+	#门径是否使用原版获取方式
+	passage_get = true
+	#律法是否使用原版获取方式
+	law_get = true
+	#死亡是否使用原版获取方式
+	time_get = true
+	#死亡获取血量阈值
+	#Range: 0.0 ~ 2.147483648E9
+	time_get_number = 240.0
+	#死亡是否使用原版获取方式
+	death_get = true
+	#死亡获取血量阈值
+	#Range: 0.0 ~ 2.147483648E9
+	death_get_number = 0.2
+	#纷争是否使用原版获取方式
+	strife_get = true
+	#纷争获取阈值
+	#Range: 0.0 ~ 2.147483648E9
+	strife_get_number = 0.9
+	#诡计是否使用原版获取方式
+	trickery_get = true
+	#诡计获取抢夺等级
+	#Range: 0.0 ~ 2.147483648E9
+	trickery_get_number = 3.0
+	#理性是否使用原版获取方式
+	reason_get = true
+	#理性获取经验等级
+	#Range: 0.0 ~ 2.147483648E9
+	reason_get_number = 75.0
+	#负世是否使用原版获取方式
+	worldbearing_get = true
+	#浪漫是否使用原版获取方式
+	romance_get = true
+	#海洋是否使用原版获取方式
+	ocean_get = true
+	#海洋获取debuff数量
+	#Range: 0.0 ~ 2.147483648E9
+	ocean_get_number = 4.0
+	#大地是否使用原版获取方式
+	earth_get = true
+	#天空是否使用原版获取方式
+	sky_get = true
+	#天空获取高度
+	#Range: -640.0 ~ 2.147483648E9
+	sky_get_y = 300.0
+	#天空获取回血比例
+	#Range: 0.0 ~ 2.147483648E9
+	sky_get_number = 0.2
+
+[curse]
+	#本模组饰品是否无视下界亚波伦封印
+	over_revelation = true
+	#天空减疗数额
+	#Range: 0.0 ~ 2.147483648E9
+	skyCurse = 0.75
+	#死亡百分比内置冷却
+	#Range: 0.0 ~ 2.147483648E9
+	death_curios_cooldown = 1.0
+	#大地增防数额
+	#Range: 0.0 ~ 2.147483648E9
+	earthCurse = 1.25
+	#海洋延时数额
+	#Range: 0.0 ~ 2.147483648E9
+	oceanCurse = 0.5
+	#浪漫无敌数额
+	#Range: 0.0 ~ 2.147483648E9
+	romanceCurse = 1.5
+	#负世灼烧数额
+	#Range: 0.0 ~ 2.147483648E9
+	worldbearingCurse = 2.0
+	#理性经验数额
+	#Range: 0.0 ~ 2.147483648E9
+	reasonCurse = 0.75
+	#诡计时长数额
+	#Range: 0.0 ~ 2.147483648E9
+	trickeryCurse = 0.5
+	#纷争减防数额
+	#Range: 0.0 ~ 2.147483648E9
+	strifeCurse = 0.5
+	#死亡禁用开关
+	deathCurse = true
+	#岁月无敌数额
+	#Range: 0.0 ~ 2.147483648E9
+	timeCurse = 0.75
+	#律法减伤数额
+	#Range: 0.0 ~ 2.147483648E9
+	lawCurse = 0.5
+	#门径血量数额
+	#Range: 0.0 ~ 2.147483648E9
+	passageCurse = 0.20000000298023224
+
+[blessing]
+	#天空加疗数额
+	#Range: 0.0 ~ 2.147483648E9
+	skyBlessing = 1.5
+	#大地穿防数额
+	#Range: 0.0 ~ 2.147483648E9
+	earthBlessing = 0.75
+	#海洋延时数额
+	#Range: 0.0 ~ 2.147483648E9
+	oceanBlessing = 0.5
+	#浪漫无敌数额
+	#Range: 0.0 ~ 2.147483648E9
+	romanceBlessing = 0.75
+	#负世灼烧数额
+	#Range: 0.0 ~ 2.147483648E9
+	worldbearingBlessing = 0.5
+	#理性经验数额
+	#Range: 0.0 ~ 2.147483648E9
+	reasonBlessing = 2.0
+	#诡计时长数额
+	#Range: 0.0 ~ 2.147483648E9
+	trickeryBlessing = 0.5
+	#纷争加防数额
+	#Range: 0.0 ~ 2.147483648E9
+	strifeBlessing = 1.25
+	#死亡冷却数额
+	#Range: 0.0 ~ 2.147483648E9
+	deathBlessing = 300.0
+	#岁月无敌数额
+	#Range: 0.0 ~ 2.147483648E9
+	timeBlessing = 1.25
+	#律法增伤数额
+	#Range: 0.0 ~ 2.147483648E9
+	lawBlessing = 1.25
+	#门径限伤数额
+	#Range: 0.0 ~ 2.147483648E9
+	passageBlessing = 0.6000000238418579
+
+[curios]
+	#天空饰品
+	#Range: 0.0 ~ 2.147483648E9
+	skyCuriosNumber = 0.019999999552965164
+	#天空饰品
+	#Range: 3.0 ~ 2.147483648E9
+	skyCuriosRange = 15.0
+	#大地饰品
+	#Range: 0.0 ~ 2.147483648E9
+	earthCurios = 0.10000000149011612
+	#海洋饰品
+	#Range: 1.0 ~ 2.147483648E9
+	oceanCurios = 10.0
+	#浪漫饰品
+	#Range: 3.0 ~ 2.147483648E9
+	romanceCurios = 25.0
+	#浪漫饰品属性
+	#Range: 0.0 ~ 2.147483648E9
+	romanceCuriosNumber = 0.07500000298023224
+	#负世饰品
+	#Range: 0.0 ~ 2.147483648E9
+	worldbearingCurios = 0.10000000149011612
+	#理性饰品
+	#Range: 0.0 ~ 2.147483648E9
+	reasonCuriosFortune = 1.0
+	#理性饰品
+	#Range: 0.0 ~ 2.147483648E9
+	reasonCuriosLooting = 1.0
+	#诡计饰品
+	#Range: 1.0 ~ 2.147483648E9
+	trickeryCurios = 1.0
+	#纷争饰品
+	#Range: 0.0 ~ 2.147483648E9
+	strifeCurios = 0.30000001192092896
+	#死亡饰品
+	#Range: 0.0 ~ 2.147483648E9
+	deathCurios = 0.004999999888241291
+	#岁月饰品
+	#Range: 0.0 ~ 2.147483648E9
+	timeCurios = 0.25
+	#律法饰品
+	#Range: 0.0 ~ 2.147483648E9
+	lawCurios = 0.30000001192092896
+	#门径饰品
+	#Range: 0.0 ~ 2.147483648E9
+	passageCurios = 25.0
+
+[ego]
+	#真我有源减伤
+	#Range: 0.0 ~ 2.147483648E9
+	egoCuriosHasSourseDamageDown = 0.30000001192092896
+	#真我无源减伤
+	#Range: 0.0 ~ 2.147483648E9
+	egoCuriosNoSourseDamage = 0.5
+	#真我范围
+	#Range: 3.0 ~ 2.147483648E9
+	egoCuriosRange = 15.0
+	#真我增伤
+	#Range: 0.0 ~ 2.147483648E9
+	egoCuriosAttack = 0.5
+
+[ego_curios]
+	#天空饰品
+	#Range: 3.0 ~ 2.147483648E9
+	skyEgoCurios = 15.0
+	#天空饰品等级
+	#Range: 1.0 ~ 2.147483648E9
+	skyEgoCuriosRegenerationLevel = 1.0
+	#天空饰品等级
+	#Range: 1.0 ~ 2.147483648E9
+	skyEgoCuriosSpeedLevel = 1.0
+	#大地饰品
+	#Range: 3.0 ~ 2.147483648E9
+	earthEgoCurios = 15.0
+	#大地饰品等级
+	#Range: 1.0 ~ 2.147483648E9
+	earthEgoCuriosPowerLevel = 1.0
+	#大地饰品等级
+	#Range: 1.0 ~ 2.147483648E9
+	earthEgoCuriosReLevel = 1.0
+	#海洋饰品
+	#Range: 0.0 ~ 2.147483648E9
+	oceanEgoCurios = 0.10000000149011612
+	#浪漫饰品最高状态等级
+	#Range: 0.0 ~ 2.147483648E9
+	romanceEgoCuriosNumber = 5.0
+	#浪漫饰品最高状态时间
+	#Range: 0.0 ~ 2.147483648E9
+	romanceEgoCuriosTime = 10.0
+	#负世饰品
+	#Range: 0.0 ~ 2.147483648E9
+	worldbearingEgoCurios = 1.0
+	#理性饰品
+	#Range: 0.0 ~ 2.147483648E9
+	reasonEgoCurios = 10.0
+	#理性饰品是否启用宝藏
+	reasonEgoCuriosTreasure = false
+	#诡计饰品
+	#Range: 0.0 ~ 2.147483648E9
+	trickeryEgoCurios = 0.5
+	#纷争饰品
+	#Range: 0.0 ~ 2.147483648E9
+	strifeEgoCurios = 0.4000000059604645
+	#死亡饰品
+	#Range: 0.0 ~ 2.147483648E9
+	deathEgoCurios = 240.0
+	#岁月饰品
+	#Range: 0.0 ~ 2.147483648E9
+	timeEgoCurios = 0.25
+	#律法饰品
+	#Range: 0.0 ~ 2.147483648E9
+	lawEgoCurios = 0.5
+	#门径饰品
+	#Range: 0.0 ~ 2.147483648E9
+	passageEgoCurios = 0.20000000298023224
+
+[over_curse]
+	#天空减疗数额
+	#Range: 0.0 ~ 2.147483648E9
+	skyOverCurse = 0.25
+	#大地穿防数额
+	#Range: 0.0 ~ 2.147483648E9
+	earthOverCurse = 0.25
+	#海洋加时数额
+	#Range: 0.0 ~ 2.147483648E9
+	oceanOverCurse = 1.0
+	#浪漫削免数额
+	#Range: 0.0 ~ 2.147483648E9
+	romanceOverCurse = 0.5
+	#负世灼烧数额
+	#Range: 0.0 ~ 2.147483648E9
+	worldbearingOverCurse = 4.0
+	#理性经验数额
+	#Range: 0.0 ~ 2.147483648E9
+	reasonOverCurse = 3.0
+	#诡计加时数额
+	#Range: 0.0 ~ 2.147483648E9
+	trickeryOverCurse = 1.0
+	#纷争减防数额
+	#Range: 0.0 ~ 2.147483648E9
+	strifeOverCurse = 0.25
+	#死亡冷却数额
+	#Range: 0.0 ~ 2.147483648E9
+	deathOverCurse = 300.0
+	#岁月减免数额
+	#Range: 0.0 ~ 2.147483648E9
+	timeOverCurse = 0.5
+	#律法增伤数额
+	#Range: 0.0 ~ 2.147483648E9
+	lawOverCurse = 1.75
+	#门径提伤数额
+	#Range: 0.0 ~ 2.147483648E9
+	passageOverCurse = 0.4000000059604645
+	#侵蚀等级
+	#Range: 0.0 ~ 2.147483648E9
+	ironTombLevel = 10.0
+	#侵蚀自我减伤
+	#Range: 0.0 ~ 2.147483648E9
+	ironTombDamageDown = 0.05000000074505806
+	#侵蚀受伤提升
+	#Range: 0.0 ~ 2.147483648E9
+	ironTombDamageUp = 0.20000000298023224
+	#攻击提升恨意百分比
+	#Range: 0.0 ~ 2.147483648E9
+	ironTombHatred = 0.05000000074505806
+	#恨意增伤
+	#Range: 0.0 ~ 2.147483648E9
+	ironTombHatredDamage = 0.019999999552965164
+

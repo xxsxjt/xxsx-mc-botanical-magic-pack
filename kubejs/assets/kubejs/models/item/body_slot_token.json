@@ -1,0 +1,6 @@
+﻿{
+    "textures":  {
+                     "layer0":  "kubejs:item/body_slot_token"
+                 },
+    "parent":  "item/generated"
+}

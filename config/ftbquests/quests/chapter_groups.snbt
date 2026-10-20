@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "6AC426B8FA929F7F", title: "发展" }
+		{ id: "02425CA86B834E06", title: "探索" }
+		{ id: "47E5E5631C3D3E0A", title: "终局" }
+		{ id: "4953534641544853", title: "法术修炼" }
+	]
+}

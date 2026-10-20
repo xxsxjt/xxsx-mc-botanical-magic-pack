@@ -1,0 +1,2634 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "holy_path"
+	group: "4953534641544853"
+	hide_quest_until_deps_complete: true
+	icon: "irons_spellbooks:divine_pearl"
+	id: "0000484F4C504154"
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "0000484F4C4F5249"
+			invisible: true
+			subtitle: "欢迎来到神圣之道"
+			tasks: [{
+				icon: "irons_spellbooks:divine_pearl"
+				id: "0F20C5EB54DF03EA"
+				title: "神圣"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C4F5249"]
+			id: "0000484F4C435234"
+			rewards: [
+				{
+					id: "484F4C4352340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352340005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352340006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352340007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得守望者的力量"
+			tasks: [{
+				icon: "spellranks:rank_4_mage_potion_vigilist"
+				id: "484F4C4352343031"
+				title: "四阶法师药水 - 守望者"
+				type: "custom"
+			}]
+			title: "四阶 - 守望者"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C435234"]
+			id: "0000484F4C4D5234"
+			subtitle: "证明你是真正的守望者"
+			tasks: [
+				{
+					id: "484F4C4D52340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52340005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52340006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52340007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通四阶"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C4D5234"]
+			id: "0000484F4C435233"
+			rewards: [
+				{
+					id: "484F4C4352330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得光明使者的力量"
+			tasks: [{
+				icon: "spellranks:rank_3_mage_potion_lightbearer"
+				id: "484F4C4352333031"
+				title: "三阶法师药水 - 光明使者"
+				type: "custom"
+			}]
+			title: "三阶 - 光明使者"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C435233"]
+			id: "0000484F4C4D5233"
+			subtitle: "证明你是真正的光明使者"
+			tasks: [
+				{
+					id: "484F4C4D52330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通三阶"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C4D5233"]
+			id: "0000484F4C435232"
+			rewards: [
+				{
+					id: "484F4C4352320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:greater_heal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得神圣巫师的力量"
+			tasks: [{
+				icon: "spellranks:rank_2_mage_potion_sanctified_sorcerer"
+				id: "484F4C4352323031"
+				title: "二阶法师药水 - 神圣巫师"
+				type: "custom"
+			}]
+			title: "二阶 - 神圣巫师"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C435232"]
+			id: "0000484F4C4D5232"
+			subtitle: "证明你是真正的神圣巫师"
+			tasks: [
+				{
+					id: "484F4C4D52320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:greater_heal"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通二阶"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C4D5232"]
+			id: "0000484F4C435231"
+			rewards: [
+				{
+					id: "484F4C4352310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:cleanse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:haste"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "畅饮并唤醒永恒之手"
+			tasks: [{
+				icon: "spellranks:rank_1_mage_potion_hand_of_eternity"
+				id: "484F4C4352313031"
+				title: "一阶法师药水 - 永恒之手"
+				type: "custom"
+			}]
+			title: "一阶 - 永恒之手"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C435231"]
+			id: "0000484F4C4D5231"
+			subtitle: "化身永恒之手的力量"
+			tasks: [
+				{
+					id: "484F4C4D52310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:cleanse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:haste"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:summon_desert_dwellers"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通一阶"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C4D5231"]
+			id: "0000484F4C435230"
+			rewards: [
+				{
+					id: "484F4C4352300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:angel_wing"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:haste"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484F4C4352300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:summon_desert_dwellers"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "吞噬并超越为光晕"
+			tasks: [{
+				icon: "spellranks:rank_0_mage_potion_halo"
+				id: "484F4C4352303031"
+				title: "零阶法师药水 - 光晕"
+				type: "custom"
+			}]
+			title: "零阶 - 光晕"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C435230"]
+			id: "0000484F4C4D5230"
+			max_completable_dependents: 3
+			subtitle: "You are the Halo, the embodiment of the Holy Path"
+			tasks: [
+				{
+					id: "484F4C4D52300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:angel_wing"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:blessing_of_life"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:divine_smite"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:fortify"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:guiding_bolt"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:haste"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:heal"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:sunbeam"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:wisp"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:nullflare"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:summon_desert_dwellers"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "484F4C4D52300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:sword_of_the_ancients"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通零阶"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000484F4C4D5230"]
+			hide_dependency_lines: true
+			icon: "minecraft:emerald"
+			id: "0000484F4C45564F"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 000045564F4F5249"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "0886490BBA65C63B"
+					silent: true
+					title: "引入召唤"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 000045564F4F5249"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "1C70644991239B24"
+					silent: true
+					title: "前往召唤"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000454E4445564F"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "6C8CFC98A58985EF"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 7AE8A23C94C4B333"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "2807EEFF185CA7B1"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "由此，你也属于召唤之道，你的力量已足够强大，可以驾驭法则法域中的其他道途"
+			tasks: [{
+				id: "484F4C45564F3031"
+				title: "召唤之道"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000484F4C4D5230"]
+			hide_dependency_lines: true
+			icon: "minecraft:ender_pearl"
+			id: "0000484F4C454E44"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000454E444F5249"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "5027C363B7A4B3F8"
+					silent: true
+					title: "引入末影"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000454E444F5249"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "0633F7740F896DC0"
+					silent: true
+					title: "前往末影"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 000045564F454E44"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "409D558D9DBBD1D8"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 01981DD0CD828738"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "2DDFB001986D5CFE"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "由此，你也属于末影之道，你的力量已足够强大，可以驾驭法则法域中的其他道途"
+			tasks: [{
+				id: "484F4C454E443031"
+				title: "末影之道"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0000484F4C4D5230"
+				"000045564F4D5230"
+				"0000454E444D5230"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:echo_shard"
+			id: "0000484F4C434F52"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "5256F85D3A8EB261"
+					silent: true
+					title: "引入腐化"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p holy"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "3215EE28871D933A"
+					silent: true
+					title: "腐化神圣"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "0AB7EF20D77209C0"
+					silent: true
+					title: "前往腐化"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C4F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "2D408C91030EB61D"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C435234"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "05ECFE403376D04F"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C4D5234"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "66E7D1EF2E6584BE"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C435233"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "72C1FFA5A6475720"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C4D5233"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "23F3C612BA23198C"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C435232"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "164A6014E0D36B28"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C4D5232"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "0A7A1E2DF773130E"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C435231"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "0736D4CA36186708"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C4D5231"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "595E1DBCEB0A418B"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C435230"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "25CB5C4FD02660F5"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000484F4C4D5230"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "4895F780C2085918"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "选择此项将腐化你体内的神圣之道，将其替换为深渊之道的力量。此选择不可逆转。"
+			tasks: [{
+				id: "693757767C7E409C"
+				title: "腐化"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0000484F4C4D5230"
+				"000045564F4D5230"
+				"0000454E444D5230"
+			]
+			hide_dependency_lines: true
+			id: "2B3F64EA32A21373"
+			rewards: [
+				{
+					command: "/spellranks reset @p evocation"
+					elevate_perms: true
+					icon: "minecraft:emerald"
+					id: "3ADC4EA9CAEFC9C2"
+					silent: true
+					title: "重置召唤之道"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p ender"
+					elevate_perms: true
+					icon: "minecraft:ender_pearl"
+					id: "7FC18E7916B46CAE"
+					silent: true
+					title: "重置末影之道"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p holy"
+					elevate_perms: true
+					icon: "irons_spellbooks:divine_pearl"
+					id: "0ED499876D59DA4B"
+					silent: true
+					title: "重置神圣之道"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 096D64C94341C27A"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "001BF34E39B29C28"
+					silent: true
+					title: "重置入门"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0875A0E9D59F5332"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "2C2A2BB22E85D4A7"
+					silent: true
+					title: "前往入门"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 0000505241444F4D"
+					elevate_perms: true
+					icon: "spellranks:praxis_materials"
+					id: "3478B548412121D4"
+					silent: true
+					title: "重置法则法域"
+					type: "command"
+				}
+			]
+			subtitle: "你已聚集了常人难以想象的魔法力量，足以掌握罕见的重生之术。若你选择重新开始，你将释放体内所有的魔法——纯净的与腐化的无一例外——回归凡人之身，自由地重新选择任何道途。"
+			tasks: [{
+				id: "1A8854870210E5C6"
+				title: "重置"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "神圣之道"
+}

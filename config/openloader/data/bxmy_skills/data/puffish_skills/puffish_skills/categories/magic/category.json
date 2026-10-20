@@ -1,0 +1,13 @@
+{
+  "unlocked_by_default": true,
+  "title": "魔艺",
+  "description": "使用魔法力量获取经验",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "ars_nouveau:novice_spell_book"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/adventure.png",
+  "starting_points": 0
+}

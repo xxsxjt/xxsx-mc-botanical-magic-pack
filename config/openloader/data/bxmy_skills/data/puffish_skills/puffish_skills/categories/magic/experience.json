@@ -1,0 +1,26 @@
+{
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "level * 30 + 50"
+    }
+  },
+  "level_limit": 40,
+  "sources": [
+    {
+      "type": "puffish_skills:deal_damage",
+      "data": {
+        "variables": {
+          "damage_dealt": {
+            "operations": [
+              { "type": "get_dealt_damage" }
+            ]
+          }
+        },
+        "experience": [
+          { "expression": "damage_dealt * 1.5" }
+        ]
+      }
+    }
+  ]
+}

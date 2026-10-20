@@ -1,0 +1,2806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "lightning_path"
+	group: "4953534641544853"
+	hide_quest_until_deps_complete: true
+	icon: "irons_spellbooks:lightning_bottle"
+	id: "00004C4947504154"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "00004C49474F5249"
+			invisible: true
+			subtitle: "欢迎来到闪电之道"
+			tasks: [{
+				icon: "irons_spellbooks:lightning_bottle"
+				id: "313629AE03E957D7"
+				title: "闪电"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C49474F5249"]
+			id: "00004C4947435234"
+			rewards: [
+				{
+					id: "4C49474352340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352340005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352340006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得火花使的力量"
+			tasks: [{
+				icon: "spellranks:rank_4_mage_potion_sparker"
+				id: "4C49474352343031"
+				title: "四阶法师药水 - 火花使"
+				type: "custom"
+			}]
+			title: "四阶 - 火花使"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C4947435234"]
+			id: "00004C49474D5234"
+			subtitle: "证明你是真正的火花使"
+			tasks: [
+				{
+					id: "4C49474D52340001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52340002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52340003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52340004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52340005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52340006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通四阶"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C49474D5234"]
+			id: "00004C4947435233"
+			rewards: [
+				{
+					id: "4C49474352330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:death_laser"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得雷电狂的力量"
+			tasks: [{
+				icon: "spellranks:rank_3_mage_potion_electromaniac"
+				id: "4C49474352333031"
+				title: "三阶法师药水 - 雷电狂"
+				type: "custom"
+			}]
+			title: "三阶 - 雷电狂"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C4947435233"]
+			id: "00004C49474D5233"
+			subtitle: "证明你是真正的雷电狂"
+			tasks: [
+				{
+					id: "4C49474D52330001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:death_laser"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52330009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通三阶"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C49474D5233"]
+			id: "00004C4947435232"
+			rewards: [
+				{
+					id: "4C49474352320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ascension"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:thunderstorm"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352320011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "饮用此法师药水，获得风暴塑形者的力量"
+			tasks: [{
+				icon: "spellranks:rank_2_mage_potion_storm_sculptor"
+				id: "4C49474352323031"
+				title: "二阶法师药水 - 风暴塑形者"
+				type: "custom"
+			}]
+			title: "二阶 - 风暴塑形者"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C4947435232"]
+			id: "00004C49474D5232"
+			subtitle: "证明你是真正的风暴塑形者"
+			tasks: [
+				{
+					id: "4C49474D52320001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ascension"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:thunderstorm"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52320011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通二阶"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C49474D5232"]
+			id: "00004C4947435231"
+			rewards: [
+				{
+					id: "4C49474352310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ascension"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_bolt"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:thunderstorm"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:death_laser"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "畅饮并唤醒雷暴"
+			tasks: [{
+				icon: "spellranks:rank_1_mage_potion_thunder_tyrant"
+				id: "4C49474352313031"
+				title: "一阶法师药水 - 雷暴"
+				type: "custom"
+			}]
+			title: "一阶 - 雷暴"
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C4947435231"]
+			id: "00004C49474D5231"
+			subtitle: "化身雷暴的力量"
+			tasks: [
+				{
+					id: "4C49474D52310001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ascension"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_bolt"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:thunderstorm"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:death_laser"
+									index: 0
+									level: 2
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:magnetron_deployment"
+									index: 0
+									level: 1
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:mechanized_predator"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52310015"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通一阶"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C49474D5231"]
+			id: "00004C4947435230"
+			rewards: [
+				{
+					id: "4C49474352300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ascension"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_bolt"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 9
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:thunderstorm"
+									index: 0
+									level: 7
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:death_laser"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:mechanized_predator"
+									index: 0
+									level: 4
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C49474352300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "吞噬并超越为暴风"
+			tasks: [{
+				icon: "spellranks:rank_0_mage_potion_tempest"
+				id: "4C49474352303031"
+				title: "零阶法师药水 - 暴风"
+				type: "custom"
+			}]
+			title: "零阶 - 暴风"
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C4947435230"]
+			id: "00004C49474D5230"
+			max_completable_dependents: 3
+			subtitle: "You are the Tempest, the embodiment of the Lightning Path"
+			tasks: [
+				{
+					id: "4C49474D52300001"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ascension"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300002"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:ball_lightning"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300003"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:chain_lightning"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300004"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:charge"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300005"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:electrocute"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300006"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_bolt"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300007"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:lightning_lance"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300008"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:shockwave"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300009"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:thunderstorm"
+									index: 0
+									level: 8
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300010"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:volt_strike"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300011"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:death_laser"
+									index: 0
+									level: 3
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300012"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:em_pulse"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300013"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:mechanized_predator"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "4C49474D52300014"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "traveloptics:rapid_laser"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "精通零阶"
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004C49474D5230"]
+			hide_dependency_lines: true
+			icon: "irons_spellbooks:frozen_bone"
+			id: "00004C4947494345"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004943454F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "4DDC4C79D65C3042"
+					silent: true
+					title: "引入冰霜"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004943454F5249"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "14E746D70A51EED9"
+					silent: true
+					title: "前往冰霜"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000415155494345"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "727069EA2F7CE032"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 1AC5EB73CF269F8B"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "29E36FCBB62B251E"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "由此，你也属于冰霜之道，你的力量已足够强大，可以驾驭风暴法域中的其他道途"
+			tasks: [{
+				id: "4C49474943453031"
+				title: "冰霜之道"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00004C49474D5230"]
+			hide_dependency_lines: true
+			icon: "alexscaves:pearl"
+			id: "00004C4947415155"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 00004151554F5249"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "1A2C08C6C7825EE4"
+					silent: true
+					title: "引入流水"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 00004151554F5249"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "4757B3B37FC13411"
+					silent: true
+					title: "前往流水"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0000494345415155"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "61B964067CD1532C"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p complete 0972F7256E3AE05B"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "25B8DEA8CDCCAE97"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "由此，你也属于流水之道，你的力量已足够强大，可以驾驭风暴法域中的其他道途"
+			tasks: [{
+				id: "4C49474151553031"
+				title: "流水之道"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"00004C49474D5230"
+				"00004943454D5230"
+				"00004151554D5230"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:echo_shard"
+			id: "00004C4947434F52"
+			rewards: [
+				{
+					command: "/ftbquests change_progress @p complete 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "62559A49F89BC837"
+					silent: true
+					title: "引入腐化"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p lightning"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "4CD3EE75C8C9C64B"
+					silent: true
+					title: "腐化闪电"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0000454C444F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "7C9D02791EC4B78A"
+					silent: true
+					title: "前往腐化"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C49474F5249"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "7229C4E87442DAD8"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C4947435234"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "6B6A51C28972FB62"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C49474D5234"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "2ED1B026FF1D37A2"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C4947435233"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "068016255A667093"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C49474D5233"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "6745AD7CB16633B4"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C4947435232"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "7A38271AC0FF9F57"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C49474D5232"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "494C1EEBD775D488"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C4947435231"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "03D6C16F9DD37FD4"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C49474D5231"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "10A24673A3F8A162"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C4947435230"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "38CF08326A037357"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004C49474D5230"
+					elevate_perms: true
+					icon: "minecraft:echo_shard"
+					id: "68E0C4C0589C94F8"
+					silent: true
+					title: "移除冗余"
+					type: "command"
+				}
+			]
+			subtitle: "选择此项将腐化你体内的闪电之道，将其替换为深渊之道的力量。此选择不可逆转。"
+			tasks: [{
+				id: "5A637B55BE7CB99B"
+				title: "腐化"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"00004C49474D5230"
+				"00004943454D5230"
+				"00004151554D5230"
+			]
+			hide_dependency_lines: true
+			id: "77D6C564893F27EF"
+			rewards: [
+				{
+					command: "/spellranks reset @p ice"
+					elevate_perms: true
+					icon: "irons_spellbooks:frozen_bone"
+					id: "15CB0AAC711E507A"
+					silent: true
+					title: "重置冰霜之道"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p lightning"
+					elevate_perms: true
+					icon: "irons_spellbooks:lightning_bottle"
+					id: "274ED5D47A2052C7"
+					silent: true
+					title: "重置闪电之道"
+					type: "command"
+				}
+				{
+					command: "/spellranks reset @p aqua"
+					elevate_perms: true
+					icon: "alexscaves:pearl"
+					id: "70FE651199DF4913"
+					silent: true
+					title: "重置流水之道"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 096D64C94341C27A"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "58448C6B52556A44"
+					silent: true
+					title: "重置入门"
+					type: "command"
+				}
+				{
+					command: "/ftbquests open_book 0875A0E9D59F5332"
+					elevate_perms: true
+					icon: "irons_spellbooks:arcane_essence"
+					id: "5393E7B6370CF95E"
+					silent: true
+					title: "前往入门"
+					type: "command"
+				}
+				{
+					command: "/ftbquests change_progress @p reset 00004D4145444F4D"
+					elevate_perms: true
+					icon: "spellranks:maelstrom_materials"
+					id: "58293FEB9D98AC3A"
+					silent: true
+					title: "重置风暴法域"
+					type: "command"
+				}
+			]
+			subtitle: "你已聚集了常人难以想象的魔法力量，足以掌握罕见的重生之术。若你选择重新开始，你将释放体内所有的魔法——纯净的与腐化的无一例外——回归凡人之身，自由地重新选择任何道途。"
+			tasks: [{
+				id: "2020212F318D1FEE"
+				title: "重置"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+	]
+	title: "闪电之道"
+}

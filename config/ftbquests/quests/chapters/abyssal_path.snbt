@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "abyssal_path"
+	group: "4953534641544853"
+	hide_quest_until_deps_complete: true
+	icon: "cataclysm:crystallized_coral"
+	id: "0C033501891AEE7A"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			disable_toast: true
+			id: "2A835E2FBB9495F9"
+			invisible: true
+			rewards: [{
+				command: "/spellranks set @p abyssal 3"
+				elevate_perms: true
+				icon: "cataclysm:crystallized_coral"
+				id: "48E2FA51F789DC2A"
+				silent: true
+				title: "深渊之道三阶"
+				type: "command"
+			}]
+			subtitle: "欢迎来到深渊之道"
+			tasks: [{
+				icon: "cataclysm:crystallized_coral"
+				id: "53A9BC40066846D3"
+				title: "深渊"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A835E2FBB9495F9"]
+			id: "00004142594D5233"
+			rewards: [{
+				command: "/spellranks set @p abyssal 2"
+				elevate_perms: true
+				icon: "cataclysm:crystallized_coral"
+				id: "1FF4B6A6B9FE088D"
+				silent: true
+				title: "深渊之道二阶"
+				type: "command"
+			}]
+			subtitle: "深渊之道精通三阶"
+			title: "精通三阶"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004142594D5233"]
+			id: "00004142594D5232"
+			rewards: [{
+				command: "/spellranks set @p abyssal 1"
+				elevate_perms: true
+				icon: "cataclysm:crystallized_coral"
+				id: "062CE66877A00BE5"
+				silent: true
+				title: "深渊之道一阶"
+				type: "command"
+			}]
+			subtitle: "深渊之道精通二阶"
+			title: "精通二阶"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004142594D5232"]
+			id: "00004142594D5231"
+			rewards: [{
+				command: "/spellranks set @p abyssal 0"
+				elevate_perms: true
+				icon: "cataclysm:crystallized_coral"
+				id: "2C21B5CE2BD31B4A"
+				silent: true
+				title: "深渊之道零阶"
+				type: "command"
+			}]
+			subtitle: "深渊之道精通一阶"
+			title: "精通一阶"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00004142594D5231"]
+			id: "00004142594D5230"
+			subtitle: "深渊之道精通零阶"
+			title: "精通零阶"
+			x: 8.0d
+			y: 0.0d
+		}
+	]
+	title: "深渊之道"
+}

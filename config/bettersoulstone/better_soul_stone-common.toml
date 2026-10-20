@@ -1,0 +1,29 @@
+
+[AttributesSoulStone]
+	#[CN] 属性黑名单。在此列表中的属性不会被属性之魂强化。
+	#[EN] Attribute Blacklist. Attributes in this list will not be enhanced by the Abilities Soul Stone.
+	#
+	#Example: ["minecraft:generic.movement_speed", "forge:entity_gravity"]
+	#
+	attributeBlacklist = []
+	#[CN] 是否显示属性之魂的详细属性加成数值。
+	#[EN] Whether to show the detailed attribute bonus values of the Attributes Soul Stone.
+	#
+	showAttributeTooltip = false
+
+[DestructionSoulStone]
+	#[CN] 真实毁灭模式：毁灭之魂现在会摧毁所有低级饰品，而非低级魂石。
+	#[EN] True Destruction Mode: The Destruction Soul Stone will now destroy all low-tier curios instead of just low-tier soul stones.
+	#
+	trueDestructionMode = false
+
+[GeneralSettings]
+	#[CN] 拥魂生物头衔文本的语言键(Translation Key)或直接文本。
+	#[EN] The translation key or direct text for the soul holder entities.
+	#
+	awakenedTitleKey = "tooltip.better_soul_stone.awakened_title"
+	#[CN] 是否显示拥有魂石的生物/玩家头顶的觉醒标题。
+	#[EN] Whether to show the awakened title above the head of entities/players holding soul stones.
+	#
+	showAwakenedTitle = true
+

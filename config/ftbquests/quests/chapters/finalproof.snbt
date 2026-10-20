@@ -1,0 +1,80 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "finalproof"
+	group: "47E5E5631C3D3E0A"
+	icon: "minecraft:dragon_head"
+	id: "4BCBD76542FAEC43"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["完成所有挑战，成为最强冒险者！"]
+			icon: "minecraft:nether_star"
+			id: "5709163605A6A31D"
+			tasks: [{
+				id: "64BA97D944543841"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "终焉之证"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5709163605A6A31D"]
+			description: ["击败所有维度的每一个Boss"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "236FC68C737832B4"
+			tasks: [{
+				id: "403B64277D2D3929"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			title: "全Boss制霸"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5709163605A6A31D"]
+			description: ["完成所有永恒之门挑战"]
+			icon: "gateways:gate_pearl"
+			id: "722823AC5A376AE2"
+			tasks: [{
+				id: "4FFAE2B66E988317"
+				item: "gateways:gate_pearl"
+				type: "item"
+			}]
+			title: "永恒征服"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5709163605A6A31D"]
+			description: ["获得证明你实力的终极奖励"]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4157FBB8AB3DBE23"
+			tasks: [{
+				id: "333F1C8F4C89C1F9"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "终焉证明"
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "终焉之证"
+}

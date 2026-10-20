@@ -1,0 +1,195 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: ""
+	icon: "ae2:drive"
+	id: "6349FA38558372F3"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["制作基础背包，26格随身存储"]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "3AE50C2F6A22C6B3"
+			rewards: [{
+				count: 4
+				id: "0491CA7FDC723D68"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00FA5F939CB28AA6"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "基础背包"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["铁→金→钻石背包，容量递增"]
+			icon: "sophisticatedbackpacks:iron_backpack"
+			id: "4CA917889CC164C1"
+			tasks: [{
+				id: "55FCF2A54DA91A9B"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			title: "进阶背包"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["集成工作台/熔炉/压缩器"]
+			icon: "sophisticatedbackpacks:crafting_upgrade"
+			id: "3D7D29A451E5BA7C"
+			tasks: [
+				{
+					id: "16996C17BFFE1573"
+					item: "sophisticatedbackpacks:crafting_upgrade"
+					type: "item"
+				}
+				{
+					id: "78EC193E9A97D40A"
+					item: "sophisticatedbackpacks:smelting_upgrade"
+					type: "item"
+				}
+				{
+					id: "654387E9410B4036"
+					item: "sophisticatedbackpacks:compacting_upgrade"
+					type: "item"
+				}
+			]
+			title: "背包功能升级"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: ["AE2基础材料，晶体催生器或陨石获取"]
+			icon: "ae2:certus_quartz_crystal"
+			id: "08ED6192581BE6DD"
+			rewards: [{
+				count: 8
+				id: "4BB27E6C6F71AC64"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6239A2846E489627"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "赛特斯石英"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08ED6192581BE6DD"]
+			description: ["压印机制造处理器"]
+			icon: "ae2:inscriber"
+			id: "014E1C2ED7BA59B7"
+			tasks: [{
+				id: "1F109BFB436BC5DA"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			title: "压印与处理器"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["014E1C2ED7BA59B7"]
+			description: ["驱动器+终端+存储元件，搭建ME网络"]
+			icon: "ae2:drive"
+			id: "502B30E8952335C4"
+			optional: true
+			tasks: [
+				{
+					id: "1A59495C1106C1D1"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "71E13E868D56C9FF"
+					item: "ae2:terminal"
+					type: "item"
+				}
+				{
+					id: "152F035061B8DA48"
+					item: "ae2:item_storage_cell_4k"
+					type: "item"
+				}
+				{
+					id: "24107B0780C7A87E"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			title: "ME存储网络"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["502B30E8952335C4"]
+			description: ["合成CPU+分子装配室+样板提供器，实现全自动合成"]
+			icon: "ae2:crafting_unit"
+			id: "50B90EA3B053D5E3"
+			tasks: [
+				{
+					id: "008B1794BEC9BC88"
+					item: "ae2:crafting_unit"
+					type: "item"
+				}
+				{
+					id: "4EC3005AFE42618B"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "158D127087BFC295"
+					item: "ae2:pattern_provider"
+					type: "item"
+				}
+			]
+			title: "自动化合成"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			description: ["跨维度访问ME网络"]
+			icon: "beyonddimensions:net_terminal_block"
+			id: "5071B87C37095066"
+			tasks: [{
+				id: "12F5CD9A2E847084"
+				item: "beyonddimensions:net_terminal_block"
+				type: "item"
+			}]
+			title: "跨维度访问"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5071B87C37095066"]
+			description: ["无线手持终端，真正的存储自由"]
+			icon: "beyonddimensions:net_terminal_item"
+			id: "4210B44342269C9B"
+			tasks: [
+				{
+					id: "2082115CCBC00A9E"
+					item: "beyonddimensions:net_terminal_item"
+					type: "item"
+				}
+				{
+					id: "16949CAF84CAE357"
+					item: "beyonddimensions:net_creater"
+					type: "item"
+				}
+			]
+			title: "无线全域"
+			x: 2.0d
+			y: -4.0d
+		}
+	]
+	title: "仓储"
+}
