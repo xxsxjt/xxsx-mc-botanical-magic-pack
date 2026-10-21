@@ -29,7 +29,7 @@
 		},
 		{
 			dependencies: ["7A3F000000000000"]
-		description: ["击败远古守卫者"]
+			description: ["击败远古守卫者"]
 			icon: "minecraft:prismarine_shard"
 			id: "37070EFF7DBBC7E9"
 			rewards: [{
@@ -52,7 +52,7 @@
 		},
 		{
 			dependencies: ["37070EFF7DBBC7E9"]
-		description: ["击败米诺菇"]
+			description: ["击败米诺菇"]
 			icon: "twilightforest:meef_stroganoff"
 			id: "49FE1EE987477900"
 			rewards: [
@@ -94,7 +94,7 @@
 		},
 		{
 			dependencies: ["49FE1EE987477900"]
-		description: ["击败雪怪首领"]
+			description: ["击败雪怪首领"]
 			icon: "twilightforest:alpha_yeti_fur"
 			id: "7839F3D95866EBBF"
 			rewards: [{
@@ -117,7 +117,7 @@
 		},
 		{
 			dependencies: ["7839F3D95866EBBF"]
-		description: ["击败铁锻骑士"]
+			description: ["击败铁锻骑士"]
 			icon: "mowziesmobs:wrought_axe"
 			id: "7EF4E04C52CCCD8C"
 			rewards: [{
@@ -140,7 +140,7 @@
 		},
 		{
 			dependencies: ["7EF4E04C52CCCD8C"]
-		description: ["击败遗忘守卫者"]
+			description: ["击败遗忘守卫者"]
 			icon: "undergarden:forgotten_nugget"
 			id: "6F7E4ED53FEB88CD"
 			rewards: [{
@@ -163,7 +163,7 @@
 		},
 		{
 			dependencies: ["6F7E4ED53FEB88CD"]
-		description: ["击败燃烧亡魂"]
+			description: ["击败燃烧亡魂"]
 			icon: "cataclysm:burning_ashes"
 			id: "7EFCF5A0C061D515"
 			rewards: [{
@@ -186,7 +186,7 @@
 		},
 		{
 			dependencies: ["7EFCF5A0C061D515"]
-		description: ["击败远古残骸"]
+			description: ["击败远古残骸"]
 			icon: "cataclysm:remnant_skull"
 			id: "1BB5BDD6D47AD926"
 			rewards: [{
@@ -209,7 +209,7 @@
 		},
 		{
 			dependencies: ["1BB5BDD6D47AD926"]
-		description: ["击败紫水晶蟹"]
+			description: ["击败紫水晶蟹"]
 			icon: "cataclysm:amethyst_crab_shell"
 			id: "4DFAB79988C7EE1D"
 			rewards: [{
@@ -232,7 +232,7 @@
 		},
 		{
 			dependencies: ["4DFAB79988C7EE1D"]
-		description: ["击败科博角斗士"]
+			description: ["击败科博角斗士"]
 			icon: "cataclysm:kobolediator_skull"
 			id: "3F4A374F13584665"
 			rewards: [{
@@ -255,7 +255,7 @@
 		},
 		{
 			dependencies: ["3F4A374F13584665"]
-		description: ["击败瓦吉特"]
+			description: ["击败瓦吉特"]
 			icon: "cataclysm:ancient_metal_ingot"
 			id: "3352B427D7F664DC"
 			rewards: [{
@@ -278,7 +278,7 @@
 		},
 		{
 			dependencies: ["7EFCF5A0C061D515"]
-		description: ["击败娜迦"]
+			description: ["击败娜迦"]
 			icon: "twilightforest:naga_scale"
 			id: "6C995F6BC7E2B17B"
 			rewards: [{
@@ -301,7 +301,7 @@
 		},
 		{
 			dependencies: ["6C995F6BC7E2B17B"]
-		description: ["击败巫妖"]
+			description: ["击败巫妖"]
 			icon: {
 				Count: 1
 				id: "twilightforest:twilight_scepter"
@@ -348,7 +348,7 @@
 		},
 		{
 			dependencies: ["5C889900675E4CA0"]
-		description: ["击败幻影骑士"]
+			description: ["击败幻影骑士"]
 			icon: "twilightforest:knight_phantom_trophy"
 			id: "5AA1D5843ED7910F"
 			rewards: [{
@@ -371,7 +371,7 @@
 		},
 		{
 			dependencies: ["5AA1D5843ED7910F"]
-		description: ["击败霜喉"]
+			description: ["击败霜喉"]
 			icon: {
 				Count: 1
 				id: "mowziesmobs:ice_crystal"
@@ -412,7 +412,7 @@
 		},
 		{
 			dependencies: ["5D5E73E2335B0E13"]
-		description: ["击败孵化之母"]
+			description: ["击败孵化之母"]
 			icon: "goety:spider_egg"
 			id: "5583EB00A17FFF17"
 			rewards: [{
@@ -435,7 +435,7 @@
 		},
 		{
 			dependencies: ["5583EB00A17FFF17"]
-		description: ["击败尸鬼"]
+			description: ["击败尸鬼"]
 			icon: "goety:shadow_essence"
 			id: "75FBAF7DFF33C329"
 			rewards: [{
@@ -458,7 +458,7 @@
 		},
 		{
 			dependencies: ["75FBAF7DFF33C329"]
-		description: ["击败骷髅领主"]
+			description: ["击败骷髅领主"]
 			icon: "minecraft:skeleton_skull"
 			id: "25312C3823D4EE90"
 			rewards: [{
@@ -481,7 +481,7 @@
 		},
 		{
 			dependencies: ["25312C3823D4EE90"]
-		description: ["击败骨领主"]
+			description: ["击败骨领主"]
 			icon: "goety:treasure_pouch"
 			id: "7D016D873A0E6C72"
 			rewards: [{
@@ -504,7 +504,7 @@
 		},
 		{
 			dependencies: ["7D016D873A0E6C72"]
-		description: ["击败野性Boss"]
+			description: ["击败野性Boss"]
 			icon: "ars_nouveau:wilden_horn"
 			id: "33A23B880BCF07B3"
 			rewards: [{
@@ -527,7 +527,7 @@
 		},
 		{
 			dependencies: ["33A23B880BCF07B3"]
-		description: ["击败末影傀儡"]
+			description: ["击败末影傀儡"]
 			icon: "cataclysm:void_core"
 			id: "58795A72437060CF"
 			rewards: [{
@@ -550,7 +550,7 @@
 		},
 		{
 			dependencies: ["58795A72437060CF"]
-		description: ["击败末影守卫"]
+			description: ["击败末影守卫"]
 			icon: "cataclysm:gauntlet_of_guard"
 			id: "44156EAFE4CE8BA3"
 			rewards: [{
@@ -573,7 +573,7 @@
 		},
 		{
 			dependencies: ["75FBAF7DFF33C329"]
-		description: ["击败九头蛇"]
+			description: ["击败九头蛇"]
 			icon: "twilightforest:fiery_blood"
 			id: "0829842EA87B5B72"
 			rewards: [{
@@ -596,7 +596,7 @@
 		},
 		{
 			dependencies: ["0829842EA87B5B72"]
-		description: ["击败暮色恶魂"]
+			description: ["击败暮色恶魂"]
 			icon: "twilightforest:fiery_tears"
 			id: "06A819003E0BC70D"
 			rewards: [{
@@ -619,7 +619,7 @@
 		},
 		{
 			dependencies: ["06A819003E0BC70D"]
-		description: ["击败冰雪女王"]
+			description: ["击败冰雪女王"]
 			icon: {
 				Count: 1
 				id: "twilightforest:triple_bow"
@@ -666,7 +666,7 @@
 		},
 		{
 			dependencies: ["7A4DF912B7051CBE"]
-		description: ["击败乌姆武蒂"]
+			description: ["击败乌姆武蒂"]
 			icon: "mowziesmobs:sol_visage"
 			id: "43F9CAC7CDA728A9"
 			rewards: [{
@@ -689,7 +689,7 @@
 		},
 		{
 			dependencies: ["43F9CAC7CDA728A9"]
-		description: ["击败盖亚守护者"]
+			description: ["击败盖亚守护者"]
 			icon: "botania:mana_pearl"
 			id: "2D0E08581011A056"
 			rewards: [{
@@ -712,7 +712,7 @@
 		},
 		{
 			dependencies: ["2D0E08581011A056"]
-		description: ["击败凋灵死灵法师"]
+			description: ["击败凋灵死灵法师"]
 			icon: "goety:withered_manuscript"
 			id: "59053E79C3FF01D6"
 			rewards: [{
@@ -735,7 +735,7 @@
 		},
 		{
 			dependencies: ["59053E79C3FF01D6"]
-		description: ["击败使徒"]
+			description: ["击败使徒"]
 			icon: "goety:music_disc_apostle"
 			id: "403D54AF139B5942"
 			rewards: [{
@@ -758,7 +758,7 @@
 		},
 		{
 			dependencies: ["403D54AF139B5942"]
-		description: ["击败维齐尔"]
+			description: ["击败维齐尔"]
 			icon: "goety:music_disc_vizier"
 			id: "59434EF6B0A2FD60"
 			rewards: [{
@@ -781,7 +781,7 @@
 		},
 		{
 			dependencies: ["59434EF6B0A2FD60"]
-		description: ["击败伊格尼斯"]
+			description: ["击败伊格尼斯"]
 			icon: "cataclysm:ignitium_ingot"
 			id: "0F7DC710690728A4"
 			rewards: [{
@@ -804,7 +804,7 @@
 		},
 		{
 			dependencies: ["0F7DC710690728A4"]
-		description: ["击败下界合金怪物"]
+			description: ["击败下界合金怪物"]
 			icon: {
 				Count: 1
 				id: "cataclysm:infernal_forge"
@@ -845,7 +845,7 @@
 		},
 		{
 			dependencies: ["4EA30ED9FAB38C4E"]
-		description: ["击败珊瑚傀儡"]
+			description: ["击败珊瑚傀儡"]
 			icon: "cataclysm:crystallized_coral_fragments"
 			id: "6865530174B7946C"
 			rewards: [{
@@ -868,7 +868,7 @@
 		},
 		{
 			dependencies: ["6865530174B7946C"]
-		description: ["击败先兆者"]
+			description: ["击败先兆者"]
 			icon: "cataclysm:witherite_block"
 			id: "6E1A177A8AD6814B"
 			rewards: [{
@@ -891,7 +891,7 @@
 		},
 		{
 			dependencies: ["6E1A177A8AD6814B"]
-		description: ["击败老巫婆"]
+			description: ["击败老巫婆"]
 			icon: "goety:treasure_pouch"
 			id: "238A0A95CF70691E"
 			rewards: [{
@@ -914,7 +914,7 @@
 		},
 		{
 			dependencies: ["238A0A95CF70691E"]
-		description: ["击败部长"]
+			description: ["击败部长"]
 			icon: "minecraft:emerald"
 			id: "0D86A5029DC5A22E"
 			rewards: [{
@@ -937,7 +937,7 @@
 		},
 		{
 			dependencies: ["0D86A5029DC5A22E"]
-		description: ["击败末影使者"]
+			description: ["击败末影使者"]
 			icon: "goety:void_echo"
 			id: "5F12E4A747304110"
 			rewards: [{
@@ -960,7 +960,7 @@
 		},
 		{
 			dependencies: ["5F12E4A747304110"]
-		description: ["击败敌对红石怪物"]
+			description: ["击败敌对红石怪物"]
 			icon: "minecraft:redstone_block"
 			id: "3FB0DBDCC7323126"
 			rewards: [{
@@ -983,7 +983,7 @@
 		},
 		{
 			dependencies: ["3FB0DBDCC7323126"]
-		description: ["击败末影守护者"]
+			description: ["击败末影守护者"]
 			icon: "goety:void_echo"
 			id: "65753059230A75ED"
 			rewards: [{
@@ -1006,7 +1006,7 @@
 		},
 		{
 			dependencies: ["65753059230A75ED"]
-		description: ["击败敌对红石傀儡"]
+			description: ["击败敌对红石傀儡"]
 			icon: "minecraft:diamond"
 			id: "6395FEC57A1AB617"
 			rewards: [{
@@ -1029,7 +1029,7 @@
 		},
 		{
 			dependencies: ["6395FEC57A1AB617"]
-		description: ["击败亡者之王"]
+			description: ["击败亡者之王"]
 			icon: "irons_spellbooks:necronomicon_spell_book"
 			id: "3841B4F20AADBA72"
 			rewards: [{
@@ -1052,7 +1052,7 @@
 		},
 		{
 			dependencies: ["3841B4F20AADBA72"]
-		description: ["击败火焰Boss"]
+			description: ["击败火焰Boss"]
 			icon: "irons_spellbooks:cinder_essence"
 			id: "2366574F1E5C2883"
 			rewards: [
@@ -1087,7 +1087,7 @@
 		},
 		{
 			dependencies: ["2366574F1E5C2883"]
-		description: ["击败阿普特冈格"]
+			description: ["击败阿普特冈格"]
 			icon: "cataclysm:strange_key"
 			id: "7C9BC6C4AACC090C"
 			rewards: [{
@@ -1110,7 +1110,7 @@
 		},
 		{
 			dependencies: ["7C9BC6C4AACC090C"]
-		description: ["击败珊瑚巨兽"]
+			description: ["击败珊瑚巨兽"]
 			icon: "cataclysm:coral_chunk"
 			id: "7AB12E56689FF232"
 			rewards: [{
@@ -1133,7 +1133,7 @@
 		},
 		{
 			dependencies: ["7AB12E56689FF232"]
-		description: ["击败潜行者"]
+			description: ["击败潜行者"]
 			icon: "minecraft:iron_ingot"
 			id: "7CEA321B5A5C7064"
 			rewards: [{
@@ -1156,7 +1156,7 @@
 		},
 		{
 			dependencies: ["7CEA321B5A5C7064"]
-		description: ["击败克劳迪安"]
+			description: ["击败克劳迪安"]
 			icon: "cataclysm:chitin_claw"
 			id: "61BFB5C8E1E029CB"
 			rewards: [{
@@ -1179,7 +1179,7 @@
 		},
 		{
 			dependencies: ["61BFB5C8E1E029CB"]
-		description: ["击败希波坎图斯"]
+			description: ["击败希波坎图斯"]
 			icon: "cataclysm:lacrima"
 			id: "35A559655700CB30"
 			rewards: [{
@@ -1202,7 +1202,7 @@
 		},
 		{
 			dependencies: ["35A559655700CB30"]
-		description: ["击败异端"]
+			description: ["击败异端"]
 			icon: "goety:treasure_pouch"
 			id: "781836682749A8F7"
 			rewards: [{
@@ -1225,7 +1225,7 @@
 		},
 		{
 			dependencies: ["781836682749A8F7"]
-		description: ["击败腐败蜘蛛"]
+			description: ["击败腐败蜘蛛"]
 			icon: "illageandspillage:bag_of_horrors"
 			id: "6BC5502A0F1ED6FB"
 			rewards: [{
@@ -1248,7 +1248,7 @@
 		},
 		{
 			dependencies: ["6BC5502A0F1ED6FB"]
-		description: ["击败怪人"]
+			description: ["击败怪人"]
 			icon: "illageandspillage:bag_of_horrors"
 			id: "3AF2851BD018F509"
 			rewards: [{
@@ -1271,7 +1271,7 @@
 		},
 		{
 			dependencies: ["3AF2851BD018F509"]
-		description: ["击败魔法师"]
+			description: ["击败魔法师"]
 			icon: "illageandspillage:totem_of_banishment"
 			id: "138789257E4B5821"
 			rewards: [{
@@ -1294,7 +1294,7 @@
 		},
 		{
 			dependencies: ["138789257E4B5821"]
-		description: ["击败灵魂感应师"]
+			description: ["击败灵魂感应师"]
 			icon: {
 				Count: 1
 				id: "illageandspillage:spellbound_book"
@@ -1328,7 +1328,7 @@
 		},
 		{
 			dependencies: ["3FB0DBDCC7323126"]
-		description: ["击败末影龙"]
+			description: ["击败末影龙"]
 			icon: "minecraft:dragon_egg"
 			id: "1530DAE2031AECDE"
 			rewards: [
@@ -1363,7 +1363,7 @@
 		},
 		{
 			dependencies: ["1530DAE2031AECDE"]
-		description: ["击败凋灵"]
+			description: ["击败凋灵"]
 			icon: "minecraft:nether_star"
 			id: "305138FA9086CD97"
 			rewards: [{
@@ -1386,7 +1386,7 @@
 		},
 		{
 			dependencies: ["305138FA9086CD97"]
-		description: ["击败监守者"]
+			description: ["击败监守者"]
 			icon: "minecraft:sculk_catalyst"
 			id: "1A3C398B3F15E0E3"
 			rewards: [{
@@ -1409,7 +1409,7 @@
 		},
 		{
 			dependencies: ["1A3C398B3F15E0E3"]
-		description: ["击败盖亚传承"]
+			description: ["击败盖亚传承"]
 			icon: "botania:terrasteel_ingot"
 			id: "51EB6A81EE5D0BAF"
 			rewards: [{
@@ -1432,7 +1432,7 @@
 		},
 		{
 			dependencies: ["51EB6A81EE5D0BAF"]
-		description: ["击败高原Boss"]
+			description: ["击败高原Boss"]
 			icon: "twilightforest:magic_map_focus"
 			id: "7C4968C021644E96"
 			rewards: [{
@@ -1455,7 +1455,7 @@
 		},
 		{
 			dependencies: ["7C4968C021644E96"]
-		description: ["击败诅咒者"]
+			description: ["击败诅咒者"]
 			icon: "cataclysm:cursium_ingot"
 			id: "217CA3542AA67E21"
 			rewards: [{
@@ -1478,7 +1478,7 @@
 		},
 		{
 			dependencies: ["217CA3542AA67E21"]
-		description: ["击败斯库拉"]
+			description: ["击败斯库拉"]
 			icon: "cataclysm:essence_of_the_storm"
 			id: "03404FB3FFF18BC0"
 			rewards: [{
@@ -1501,7 +1501,7 @@
 		},
 		{
 			dependencies: ["03404FB3FFF18BC0"]
-		description: ["击败利维坦"]
+			description: ["击败利维坦"]
 			icon: "cataclysm:tidal_claws"
 			id: "511B1D4B4233F042"
 			rewards: [{
@@ -1524,7 +1524,7 @@
 		},
 		{
 			dependencies: ["511B1D4B4233F042"]
-		description: ["击败盖亚三世"]
+			description: ["击败盖亚三世"]
 			icon: "extrabotany:pandoras_box"
 			id: "31765E0946BA60DF"
 			rewards: [{
@@ -1547,7 +1547,7 @@
 		},
 		{
 			dependencies: ["31765E0946BA60DF"]
-		description: ["击败亚玻伦"]
+			description: ["击败亚玻伦"]
 			icon: "minecraft:nether_star"
 			id: "1BFE44218D1E3A09"
 			rewards: [{
@@ -1570,7 +1570,7 @@
 		},
 		{
 			dependencies: ["1BFE44218D1E3A09"]
-		description: ["击败堡垒守卫"]
+			description: ["击败堡垒守卫"]
 			icon: "irons_spellbooks:cinder_essence"
 			id: "0F1EAFF1652CA91D"
 			rewards: [{
@@ -1593,7 +1593,7 @@
 		},
 		{
 			dependencies: ["0F1EAFF1652CA91D"]
-		description: ["击败震怒的死者之王"]
+			description: ["击败震怒的死者之王"]
 			icon: "irons_spellbooks:legendary_ink"
 			id: "1C2660EF4137F402"
 			rewards: [{
@@ -1616,7 +1616,7 @@
 		},
 		{
 			dependencies: ["1C2660EF4137F402"]
-		description: ["击败夜巡者"]
+			description: ["击败夜巡者"]
 			icon: "traveloptics:stellothorn"
 			id: "3D297BD162F9E899"
 			rewards: [{
@@ -1639,7 +1639,7 @@
 		},
 		{
 			dependencies: ["3D297BD162F9E899"]
-		description: ["击败暝煌龙"]
+			description: ["击败暝煌龙"]
 			icon: "alexscaves:tectonic_shard"
 			id: "7C64C448F262E040"
 			rewards: [{
